@@ -1,0 +1,2 @@
+size,label,step,k,seed,pass_rate,passed,total,runtime_sec
+1b,final_lora,10000,5,0,26.4591,68,257,6443.7

@@ -1,0 +1,4 @@
+model,k,seed,decoding,temperature,pass_rate,passed,total,runtime_sec
+magic_1b_pt_v2,1,0,greedy,0.0,6.2257,16,257,3615.4
+magic_1b_pt_v2,5,0,sample,0.8,22.5681,58,257,16592.9
+magic_1b_pt_v2,5,1,sample,0.8,21.4008,55,257,16210.1

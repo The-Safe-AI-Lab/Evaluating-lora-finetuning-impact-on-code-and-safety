@@ -1,0 +1,4 @@
+model,k,seed,decoding,temperature,pass_rate,passed,total,runtime_sec
+base_4b_pt,1,0,greedy,0.0,20.6226,53,257,3590.7
+base_4b_pt,5,0,sample,0.8,61.0895,157,257,12840.3
+base_4b_pt,5,1,sample,0.8,60.7004,156,257,12876.7

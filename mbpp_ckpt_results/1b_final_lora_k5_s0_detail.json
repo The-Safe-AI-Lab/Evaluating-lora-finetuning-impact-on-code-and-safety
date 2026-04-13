@@ -1,0 +1,1030 @@
+{
+  "11": {
+    "passed": true,
+    "preview": "```python\ndef remove_Occ(input_string, char):\n    return input_string.replace(char, \"\")\n```\n\nThe `remove_Occ` function takes two parameters:\n- `input_string`: The input string to be modified.\n- `char`: The character to be removed from the string.\n\nIt uses the `replace` method to remove the specified character from the input string. The `replace` method replaces the specified character with an empt"
+  },
+  "12": {
+    "passed": false,
+    "preview": "```python\ndef sort_matrix(matrix):\n    return sorted(matrix, key=lambda x: x[1])\n\n# Test cases\nassert sort_matrix([[1, 2, 3], [2, 4, 5], [1, 1, 1]])==[[1, 1, 1], [1, 2, 3], [2, 4, 5]]\nassert sort_matrix([[1, 2, 3], [-2, 4, -5], [1, -1, 1]])==[[-2, 4, -5], [1, -1, 1], [1, 2, 3]]\nassert sort_matrix([[5,8,9],[6,4,3],[2,1,4]])==[[2, 1, 4], [6, 4, 3], [5, 8, 9]]\n```"
+  },
+  "14": {
+    "passed": false,
+    "preview": "```python\ndef find_Volume(base_side, height, length):\n    return base_side * height * length\n```\n\nThe solution is already provided in the code snippet. The `find_Volume` function takes the base, height, and length of the triangular prism as input and returns the volume. The `assert` statements ensure that the function passes the provided tests."
+  },
+  "16": {
+    "passed": false,
+    "preview": "```python\ndef text_lowercase_underscore(text):\n    def is_sequence(s):\n        return all(char in string for char in s if char.lower() not in string.lower())\n\n    def is_sequence_length(s):\n        return len(s) == 0\n\n    def is_sequence_none(s):\n        return any(char in string for char in s)\n\n    return is_sequence(text) and is_sequence_length(text) and is_sequence_none(text)\n```\nThe solution d"
+  },
+  "17": {
+    "passed": false,
+    "preview": "```python\ndef square_perimeter(side):\n    return side ** 2\n```"
+  },
+  "18": {
+    "passed": true,
+    "preview": "```python\ndef remove_dirty_chars(s1, s2):\n    clean_s1 = ''.join(e for e in s1 if e not in s2)\n    return clean_s1\n\nassert remove_dirty_chars(\"probasscurve\", \"pros\") == 'bacuve'\nassert remove_dirty_chars(\"digitalindia\", \"talent\") == 'digiidi'\nassert remove_dirty_chars(\"exoticmiles\", \"toxic\") == 'emles'\n```"
+  },
+  "19": {
+    "passed": false,
+    "preview": "```python\ndef test_duplicate(arr):\n    assert not test_duplicate(arr)  # The assertion will pass\n    return True\n```"
+  },
+  "20": {
+    "passed": false,
+    "preview": "def is_woodball(n):\n    # Your implementation here\n    pass\n\n# Test cases\nassert is_woodball(383) == True\nassert is_woodball(254) == False\nassert is_woodball(200) == False\nassert is_woodball(101) == True\nassert is_woodball(543) == False\nassert is_woodball(123) == False\nassert is_woodball(314) == False\nassert is_woodball(2600) == False\nassert is_woodball(2408) == False\nassert is_woodball(3000) == F"
+  },
+  "56": {
+    "passed": false,
+    "preview": "```python\ndef check(x):\n    return x < 2 * x\n\ndef test_check():\n    assert check(70) == False\n    assert check(23) == False\n    assert check(73) == True\n    assert check(0) == False\n```\nThe solution is a Python function `check` that takes an integer `x` as input and returns `True` if `x` is less than twice its reverse. The `test_check` function ensures that the function behaves as expected by pass"
+  },
+  "57": {
+    "passed": false,
+    "preview": "```python\ndef find_Max_Num(digits):\n    max_num = 0\n    for num in digits:\n        if num > max_num:\n            max_num = num\n    return max_num\n\nassert find_Max_Num([1,2,3]) == 321\nassert find_Max_Num([4,5,6,1]) == 6541\nassert find_Max_Num([1,2,3,9]) == 9321\n```\n\nThe solution defines a function `find_Max_Num` that takes a list of digits as input and iterates through each digit, updating the `max"
+  },
+  "58": {
+    "passed": false,
+    "preview": "```python\ndef opposite_Signs(x, y):\n    return abs(x) == abs(y)\n```"
+  },
+  "59": {
+    "passed": false,
+    "preview": "```python\ndef is_octagonal(n):\n    if n < 10:\n        return 65  # The first octagonal number is 65\n    else:\n        return n\n\ndef is_octagonal(n):\n    return n % 8 == 0\n```\n\nThe solution defines a function `is_octagonal` that checks if a given number is an octagonal number. It uses the `is_octagonal` function to check if the number is the nth octagonal number and returns the index of the nth oct"
+  },
+  "61": {
+    "passed": false,
+    "preview": "```python\ndef count_Substrings(s):\n    l = len(s)\n    count = 0\n    for i in range(l):\n        count += sum(int(digit) for digit in s[l-i:l])\n    return count\n```\n\nThe function `count_Substrings` takes a string `s` as input and iterates through each character in the string. It accumulates the sum of digits from the character at index `l-i` to the character at index `l` and then returns the count o"
+  },
+  "62": {
+    "passed": true,
+    "preview": "```python\ndef smallest_num(numbers):\n    if not numbers:\n        return 0\n    return min(numbers)\n```\nThe `smallest_num` function takes a list of numbers as input and returns the smallest number from the list. It uses the `min` function to find the smallest number and returns it as the output. If the input list is empty, the function returns 0, representing the smallest number. If the input list c"
+  },
+  "63": {
+    "passed": true,
+    "preview": "```python\ndef max_difference(tuple_list):\n    max_diff = 0\n    for i, (a, b) in enumerate(tuple_list):\n        diff = abs(a - b)\n        if diff > max_diff:\n            max_diff = diff\n    return max_diff\n```\nThe `max_difference` function iterates through the given tuple list and updates the `max_diff` variable based on the absolute difference between the current pair and the previous pair found. "
+  },
+  "64": {
+    "passed": false,
+    "preview": "```python\ndef sort_by_second_value(subjects):\n    sorted_subjects = sorted(subjects, key=lambda x: x[1])\n    return sorted_subjects\n\n# Test cases\nassert sort_by_second_value([('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)]) == [('Social sciences', 82), ('English', 88), ('Science', 90), ('Maths', 97)]\nassert sort_by_second_value([('Telugu',49),('Hindhi',54),('Social',33)])"
+  },
+  "65": {
+    "passed": false,
+    "preview": "```python\ndef recursive_list_sum(l):\n    if not l:\n        return 0\n    return l[0] + recursive_list_sum(l[1:])\n\nassert recursive_list_sum(([1, 2, [3,4],[5,6]]))==21\nassert recursive_list_sum(([7, 10, [15,14],[19,41]]))==106\nassert recursive_list_sum(([10, 20, [30,40],[50,60]]))==210\n```"
+  },
+  "66": {
+    "passed": true,
+    "preview": "```python\ndef pos_count(arr):\n    return sum(1 for num in arr if num > 0)\n\n# Test cases\nassert pos_count([1,-2,3,-4]) == 2\nassert pos_count([3,4,5,-1]) == 3\nassert pos_count([1,2,3,4]) == 4\n```"
+  },
+  "67": {
+    "passed": false,
+    "preview": "```python\ndef bell_number(num):\n    # Your implementation here\n    pass\n```\nIn this problem, the function is defined as `bell_number(num)`, where `num` is a positive integer. The function should return the number of ways to partition the set of Bell numbers into two sets, where each set contains exactly `num` elements.\n\nYour task is to implement the `bell_number` function to find the number of par"
+  },
+  "68": {
+    "passed": false,
+    "preview": "```python\ndef is_Monotonic(arr):\n    for i in range(len(arr)):\n        if not is_Monotonic(arr[:i]):\n            return False\n    return True\n\ndef is_Monotonic_array(arr):\n    return is_Monotonic(arr)\n\n# Test cases\nassert is_Monotonic([6, 5, 4, 4]) == True\nassert is_Monotonic([1, 2, 2, 3]) == True\nassert is_Monotonic([1, 3, 2]) == False\n```"
+  },
+  "69": {
+    "passed": false,
+    "preview": "def is_sublist(list1, list2):\n    return issubclass(list1, list2)\n# Test the function\nassert is_sublist([2,4,3,5,7],[3,7])==False\nassert is_sublist([2,4,3,5,7],[4,3])==True\nassert is_sublist([2,4,3,5,7],[1,6])==False\n# The function is tested for two sublists with the same elements, and returns True for both cases.\n"
+  },
+  "70": {
+    "passed": false,
+    "preview": "```python\ndef get_equal(tuples):\n    return sum(tuples) == len(tuples)\n```\n\nThe `get_equal` function simply returns the equality of the lengths of the given tuples using the `sum` function and checking the equality of their elements. This solution directly solves the problem by providing an implementation that passes the provided tests."
+  },
+  "71": {
+    "passed": true,
+    "preview": "```python\ndef comb_sort(elements):\n    return sorted(list(set(elements)))\n\n# Test cases\nassert comb_sort([5, 15, 37, 25, 79]) == [5, 15, 25, 37, 79]\nassert comb_sort([41, 32, 15, 19, 22]) == [15, 19, 22, 32, 41]\nassert comb_sort([99, 15, 13, 47]) == [13, 15, 47, 99]\n```\nThe `comb_sort` function takes a list of elements as input and returns a list containing only the elements in the set of all poss"
+  },
+  "72": {
+    "passed": false,
+    "preview": "```python\ndef dif_Square(x):\n    return x**2\n\ndef dif_Square(num):\n    return num == 2 * num\n\ndef test_Square_Difference(num):\n    assert dif_Square(num) == True\n    assert dif_Square(10) == False\n    assert dif_Square(15) == True\n    print(\"Passing all tests!\")\n\ntest_Square_Difference(10)\ntest_Square_Difference(20)\ntest_Square_Difference(30)\n```\nThe `dif_Square` function takes a number `num` as i"
+  },
+  "74": {
+    "passed": false,
+    "preview": "```python\ndef is_samepatterns(arr1, arr2):\n    return len(arr1) == len(arr2)\n```"
+  },
+  "75": {
+    "passed": true,
+    "preview": "```python\ndef find_tuples_divisible_by_k(list_of_tuples, k):\n    return [(tuple(i[1:]) for i in list_of_tuples if i[0] % k == 0] for _ in range(len(list_of_tuples)) if i[1] % k == 0]\n\n# Test cases\nassert find_tuples([(6, 24, 12), (7, 9, 6), (12, 18, 21)], 6) == [(6, 24, 12)]\nassert find_tuples([(5, 25, 30), (4, 2, 3), (7, 8, 9)], 5) == [(5, 25, 30)]\nassert find_tuples([(7, 9, 16), (8, 16, 4), (19,"
+  },
+  "77": {
+    "passed": true,
+    "preview": "def is_Diff(number):\n    if number % 11 == 0:\n        return True\n    else:\n        return False\n\n# Test cases\nassert is_Diff(12345) == False\nassert is_Diff(1212112) == True\nassert is_Diff(1212) == False\n```"
+  },
+  "79": {
+    "passed": true,
+    "preview": "```python\ndef word_len(word):\n    return len(word) % 2 == 0\n\nassert word_len(\"Hadoop\") == False\nassert word_len(\"great\") == True\nassert word_len(\"structure\") == True\n```"
+  },
+  "80": {
+    "passed": false,
+    "preview": "```python\ndef tetrahedral_number(n):\n    if n == 1:\n        return 1\n    else:\n        return tetrahedral_number(n - 1) + 3\n```"
+  },
+  "82": {
+    "passed": false,
+    "preview": "```python\ndef volume_sphere(radius):\n    return 4.011224885842932e+24 * math.pi * radius ** 2\n```"
+  },
+  "83": {
+    "passed": false,
+    "preview": "```python\ndef get_Char(string):\n    return chr(ord(string) % 26)\n\ndef find_mod_26_char(string):\n    chars = list(string)\n    return get_Char(chars)\n\ndef test_find_mod_26_char():\n    assert get_Char(\"abc\") == \"f\"\n    assert get_Char(\"gfg\") == \"t\"\n    assert get_Char(\"ab\") == \"c\"\n\ntest_find_mod_26_char()\n```"
+  },
+  "84": {
+    "passed": false,
+    "preview": "```python\ndef newman_conway_sequence(n):\n    if n == 1:\n        return 1\n    elif n == 2:\n        return 2\n    elif n == 3:\n        return 3\n    else:\n        return newman_conway_sequence(n-1) * newman_conway_sequence(n-2) * newman_conway_sequence(n-3)\n```"
+  },
+  "85": {
+    "passed": false,
+    "preview": "```python\ndef surfacearea_sphere(radius):\n    area = 3.14159 * math.pi * radius ** 2\n    return area\n```\n\nThe solution involves the use of the `math.isclose` function to compare the calculated surface area with the expected value. It then returns the calculated surface area as the output."
+  },
+  "86": {
+    "passed": false,
+    "preview": "```python\ndef centered_hexagonal_number(num):\n    return int(num / 2) * 4\n```\n\nThe `centered_hexagonal_number` function takes an integer `num` as input and returns the centered hexagonal number using a simple division-and-count approach. This solution passes all the provided tests, ensuring that the function produces the expected output."
+  },
+  "87": {
+    "passed": false,
+    "preview": "```python\ndef merge_dictionaries_three(data1, data2, data3):\n    res = {}\n    res[data2['B']] = data1['B']\n    res[data3['B']] = data1['R']\n    res[data3['G']] = data2['G']\n    res[data3['P']] = data1['P']\n    return res\n\nassert merge_dictionaries_three({ \"R\": \"Red\", \"B\": \"Black\", \"P\": \"Pink\" }, { \"G\": \"Green\", \"W\": \"White\" },{ \"O\": \"Orange\", \"W\": \"White\", \"B\": \"Black\" })=={'B': 'Black', 'R': 'Red"
+  },
+  "88": {
+    "passed": true,
+    "preview": "```python\ndef freq_count(arr):\n    result = {}\n    for i, elem in enumerate(arr):\n        result[elem] = i\n    return result\n\nassert freq_count([10,10,10,10,20,20,20,20,40,40,50,50,30])==({10: 4, 20: 4, 40: 2, 50: 2, 30: 1})\nassert freq_count([1,2,3,4,3,2,4,1,3,1,4])==({1:3, 2:2,3:3,4:3})\nassert freq_count([5,6,7,4,9,10,4,5,6,7,9,5])==({10:1, 5:3, 6:2, 7:2, 4:2, 9:2})\n```"
+  },
+  "89": {
+    "passed": false,
+    "preview": "```python\ndef closest_smaller(num):\n    if num < 10:\n        return num\n    else:\n        smaller = closest_smaller(num - 10)\n        return smaller\n```"
+  },
+  "90": {
+    "passed": false,
+    "preview": "```python\ndef length_of_longest_word(long_words):\n    # Initialize the length of the longest word\n    longest_word_length = 0\n    for word in long_words:\n        # Calculate the length of the current word\n        current_length = len(word)\n        # If the current word is longer, update the longest word length\n        if current_length > longest_word_length:\n            longest_word_length = curre"
+  },
+  "91": {
+    "passed": false,
+    "preview": "```python\ndef find_substring(values, search):\n    return search in values\n\n# Test cases\nassert find_substring([\"red\", \"black\", \"white\", \"green\", \"orange\"],\"ack\")==True\nassert find_substring([\"red\", \"black\", \"white\", \"green\", \"orange\"],\"abc\")==False\nassert find_substring([\"red\", \"black\", \"white\", \"green\", \"orange\"],\"ange\")==True\n```\n\nThe solution defines a function `find_substring` that takes a lis"
+  },
+  "92": {
+    "passed": false,
+    "preview": "```python\ndef is_undulating(number):\n    return number % 10 == 0 and number % 400 == 0\n```\nThe solution defines a function `is_undulating` that takes an integer `number` as input and returns `True` if the number is undulating (i.e., divisible by 10 and 400 without remaining remainder) and `False` otherwise. The solution then asserts that the function returns `True` for numbers 1212121, 1991, and 1"
+  },
+  "93": {
+    "passed": true,
+    "preview": "```python\ndef power(a, b):\n    return a ** b\n```\n\nThe solution provides the Python function `power` that takes two arguments `a` and `b` and returns the value of `a^b`. This function correctly computes the power of `a` to the base `b` and passes the specified tests."
+  },
+  "94": {
+    "passed": false,
+    "preview": "```python\ndef index_minimum(tuples):\n    return min(tuples[1][1], tuples[0][1])\n```"
+  },
+  "95": {
+    "passed": false,
+    "preview": "```python\ndef find_min_length(arr):\n    min_length = min(arr)\n    return min_length\n\n# Test cases\nassert Find_Min_Length([[1],[1,2]]) == 1\nassert Find_Min_Length([[1,2],[1,2,3],[1,2,3,4]]) == 2\nassert Find_Min_Length([[3,3,3],[4,4,4,4]]) == 3\n```"
+  },
+  "96": {
+    "passed": false,
+    "preview": "```python\ndef divisor(num):\n    if num == 0 or num == 1:\n        return 1\n    else:\n        return num % divisor(num - 1)\n\n# Test cases\nprint(divisor(15))  # Output: 4\nprint(divisor(12))  # Output: 6\nprint(divisor(9))  # Output: 3\n```"
+  },
+  "97": {
+    "passed": true,
+    "preview": "```python\ndef frequency_lists(flatten_list):\n    freq = {}\n    for sublist in flatten_list:\n        if len(sublist) == 1:\n            continue\n        for element in sublist:\n            if element in freq:\n                freq[element] += 1\n            else:\n                freq[element] = 1\n    return freq\n```\n\nThe `frequency_lists` function iterates through each sublist in the input flattened l"
+  },
+  "98": {
+    "passed": false,
+    "preview": "```python\ndef multiply_num(num):\n    if num == 0:\n        return 0\n    return num * (num - 1) / 2\n\ndef main():\n    # List of numbers to multiply\n    numbers = [1, -2, 3, 4, 5]\n\n    # Multiply all the numbers\n    result = sum(multiply_num(x) for x in numbers)\n\n    # Divide with the length of the list\n    result = result / len(numbers)\n\n    # Output the Python function\n    print(f\"The function will "
+  },
+  "99": {
+    "passed": true,
+    "preview": "```python\ndef decimal_to_binary(decimal_num):\n    result = 0b100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "100": {
+    "passed": false,
+    "preview": "```python\ndef next_smallest_palindrome(num):\n    while num > 0:\n        rem = num % 10\n        num = num // 10\n    return int(rem)\n\ndef next_smallest_palindrome(num):\n    while num > 0:\n        rem = num % 10\n        num = num // 10\n    return int(rem)\n\ndef test_next_smallest_palindrome():\n    next_smallest_palindrome(99)\n    next_smallest_palindrome(1221)\n    next_smallest_palindrome(120)\n```\nThe"
+  },
+  "101": {
+    "passed": true,
+    "preview": "```python\ndef kth_element(arr, k):\n    return arr[k//len(arr)]\n\n# Test cases\nassert kth_element([12,3,5,7,19], 2) == 3\nassert kth_element([17,24,8,23], 3) == 8\nassert kth_element([16,21,25,36,4], 4) == 36\n```\nThe `kth_element` function takes an array and a positive integer `k` as input and returns the kth element in the array using 1-based indexing. The provided test cases ensure that the function"
+  },
+  "102": {
+    "passed": true,
+    "preview": "```python\ndef snake_to_camel(s):\n    return ''.join(e for e in s if e.isupper() or e.islower() or e.isspace())\n```\n\nThe `snake_to_camel` function takes a string `s` as input and returns the string with the characters converted to camel case. The function uses a list comprehension to iterate through each character in the input string and checks if it is uppercase, lowercase, or whitespace. If the c"
+  },
+  "103": {
+    "passed": false,
+    "preview": "```python\ndef eulerian_num(n, m):\n    if n == 0 or m == 0:\n        return 0\n    if n == 0:\n        return 1\n    if m == 0:\n        return 1\n    return eulerian_num(n - 1, m - 1) + eulerian_num(n - 1, m) + eulerian_num(n - 1, m - 1)\n```"
+  },
+  "104": {
+    "passed": false,
+    "preview": "```python\ndef sort_sublists(sublists):\n    assert sort_sublists(([\"green\", \"orange\"], [\"black\", \"white\"], [\"white\", \"black\", \"orange\"]))==[['green', 'orange'], ['black', 'white'], ['black', 'orange', 'white']]\n    assert sort_sublists(([\"red\", \"green\"],[\"blue\", \"black\"],[\"orange\", 'brown']))==[['red', 'green'], ['black', 'blue '], ['orange', 'brown']]\n    assert sort_sublists(([\"zilver\",\"gold\"], ["
+  },
+  "105": {
+    "passed": false,
+    "preview": "```python\ndef count_true_booleans(lst):\n    count = 0\n    for truth in lst:\n        if truth:\n            count += 1\n    return count\n\n# Test cases\nassert count([True,False,True]) == 2\nassert count([False,False]) == 0\nassert count([True,True,True]) == 3\n```"
+  },
+  "106": {
+    "passed": false,
+    "preview": "```python\ndef add_lists(lists, tuples):\n    for i in range(len(lists)):\n        tuples[i] = lists[i] + tuples[i]\n    return tuples\n```\n\nThe function `add_lists` takes two parameters, `lists` and `tuples`. It iterates through the lists and tuples, concatenating the elements of the lists and tuples. Finally, it returns the modified `tuples`. This solution ensures that the function passes all the spe"
+  },
+  "108": {
+    "passed": false,
+    "preview": "```python\ndef merge_sorted_list(input_list1, input_list2, input_list3):\n    merged_list = []\n    index = 0\n    while index < len(input_list1) and index < len(input_list2) and index < len(input_list3):\n        if input_list1[index] < input_list2[index] and input_list1[index+1] < input_list2[index+1] and input_list1[index+2] < input_list2[index+2]:\n            merged_list.append(input_list1[index])\n"
+  },
+  "109": {
+    "passed": false,
+    "preview": "```python\ndef odd_Equivalent(binary, num):\n    return int(binary[::2]) - 1\n\ndef odd_Equivalent(binary, num):\n    # Convert the binary string to a number\n    num = int(binary)\n\n    # Check if the number is odd\n    if num % 2 != 0:\n        return -1\n    else:\n        return 1\n\nif __name__ == '__main__':\n    odd_Equivalent(\"11011\", 5)\n```\n\nThe `odd_Equivalent` function takes the binary string `binary"
+  },
+  "111": {
+    "passed": false,
+    "preview": "```python\ndef common_in_nested_lists(lists):\n    common = set()\n    for inner_list in lists:\n        common.update(inner_list)\n    return set(common)\n```"
+  },
+  "113": {
+    "passed": true,
+    "preview": "```python\ndef check_integer(s):\n    if not isinstance(s, str) or s.isdigit():\n        return False\n    else:\n        return True\n```\n\nThe solution defines a function `check_integer` that takes a string `s` as input. It first checks if `s` is a string using the `isinstance` function. If it's a string, it checks if it's only containing digits using the `isdigit` function. If the string is not a vali"
+  },
+  "115": {
+    "passed": false,
+    "preview": "```python\ndef empty_dit(dic):\n    return any(dic.values())\n```\n\nThe function `empty_dit` takes a list of dictionaries `dic` as input and checks if all its values are `None`. If all values are `None`, the function returns `True`, indicating that all dictionaries are empty. If any value is not `None`, the function returns `False`, indicating that at least one dictionary contains non-`None` values."
+  },
+  "116": {
+    "passed": false,
+    "preview": "```python\ndef tuple_to_int(x, y):\n    return int(str(x) + str(y))\n```\n\nThe solution defines a function `tuple_to_int` that takes a tuple of positive integers `x` and a tuple of positive integers `y` as input. It then converts the input tuples into single integers using the `str` method and the `+` operator. The function uses the `int` function to perform integer operations, passing the converted i"
+  },
+  "117": {
+    "passed": false,
+    "preview": "```python\ndef list_to_float(lists):\n    result = []\n    for i, item in enumerate(lists):\n        convert_list = list(map(float, item))\n        result.append(convert_list)\n    return result\n\nlist_to_float([(\"3\", \"4\"), (\"1\", \"26.45\"), (\"7.32\", \"8\"), (\"4\", \"8\")] ) == [(3.0, 4.0), (1.0, 26.45), (7.32, 8.0), (4.0, 8.0)]\nlist_to_float([(\"4\", \"4\"), (\"2\", \"27\"), (\"4.12\", \"9\"), (\"7\", \"11\")] ) == [(4.0, 4.0"
+  },
+  "118": {
+    "passed": true,
+    "preview": "```python\ndef string_to_list(s):\n    return list(s)\n\ndef string_to_list(s):\n    return list(s.split())\n\nassert string_to_list(\"python programming\")==['python','programming']\nassert string_to_list(\"lists tuples strings\")==['lists','tuples','strings']\nassert string_to_list(\"write a program\")==['write','a','program']\n```"
+  },
+  "119": {
+    "passed": false,
+    "preview": "```python\ndef find_element_once(arr):\n    element = None\n    for i in range(len(arr)):\n        if arr[i] != element:\n            element = arr[i]\n    return element\n```\nThe `find_element_once` function iterates through the array, keeping track of the current element being searched for. If the current element is not the same as the element being searched for, the current element is added to the res"
+  },
+  "120": {
+    "passed": false,
+    "preview": "```python\ndef max_product_tuple(input_list):\n    max_product = 0\n    for i in range(0, len(input_list), 2):\n        max_product = max(max_product, sum(input_list[i:i+2]))\n    return max_product\n```"
+  },
+  "123": {
+    "passed": false,
+    "preview": "```python\ndef amicable_numbers_sum(n):\n    def _(x):\n        return x + 1\n    def _sum():\n        return 0\n    def _sum_list(nums):\n        return sum(nums)\n    def _sum_list_int(nums):\n        return sum(int(nums[i]) for i in range(len(nums)))\n    def amicable_numbers_sum(n):\n        return _sum_list_int(amicable_numbers_sum(n))\n    amicable_numbers_sum(9999)\n    amicable_numbers_sum(99999)\n```"
+  },
+  "124": {
+    "passed": false,
+    "preview": "```python\ndef angle_complex(x):\n    return x * math.sqrt(1 - x**2)\n\nangle_complex = lambda x: math.atan2(x, 1 - x**2)\n```\nThe `angle_complex` function takes a complex number as input and returns the angle in radians. The `math.atan2` function is used to calculate the angle in radians."
+  },
+  "125": {
+    "passed": false,
+    "preview": "```python\ndef find_length(s):\n    start, end = 0, len(s) - 1\n    while start <= end:\n        mid = (start + end) // 2\n        if s[mid] == '0':\n            end -= 1\n        else:\n            start = mid + 1\n    return end - start\n```"
+  },
+  "126": {
+    "passed": false,
+    "preview": "```python\ndef find_common_divisors(a, b):\n    common_divisors = sum(a % d for d in b)\n    return common_divisors\n```\n\nThe `find_common_divisors` function takes two integers `a` and `b` as input and uses the `sum` function to calculate the sum of common divisors of `a` and `b`. It then returns the sum of these common divisors. This solution ensures that the function passes the specified test cases."
+  },
+  "127": {
+    "passed": true,
+    "preview": "```python\ndef multiply_int(a, b):\n    return a * b\n```\n\nThe function `multiply_int` takes two integer arguments `a` and `b` and returns the product of the two using the `*` operator. This solution satisfies the problem requirements."
+  },
+  "128": {
+    "passed": false,
+    "preview": "```python\ndef long_words(n, words):\n    return [word for word in words if len(word) > n]\n\n# Test cases\nprint(long_words(3,\"python is a programming language\"))\nprint(long_words(2,\"writing a program\"))\nprint(long_words(5,\"sorting list\"))\n```\n\nThe `long_words` function takes a list of words and a target length as input. It returns a list of words whose lengths are greater than the target length. The "
+  },
+  "129": {
+    "passed": false,
+    "preview": "```python\ndef magic_square_test(matrix):\n    # Find the index of the i'th row and j'th column in the matrix\n    i, j = 0, len(matrix) - 1\n    \n    # Check if the diagonal sums to 1\n    if matrix[i][j] == 1:\n        return False\n    \n    # Check if the diagonal does not contain 1's\n    if matrix[i][j] == 1:\n        return False\n    \n    # Check if the diagonal sums to 1\n    for k in range(i, len(ma"
+  },
+  "130": {
+    "passed": false,
+    "preview": "```python\ndef max_frequency_in_list(data):\n    max_frequency = 0\n    for item in data:\n        max_frequency = max(max_frequency, item)\n    return max_frequency\n\n# Test cases\nassert max_frequency_in_list([2,3,8,4,7,9,8,2,6,5,1,6,1,2,3,2,4,6,9,1,2]) == 2\nassert max_frequency_in_list([2,3,8,4,7,9,8,7,9,15,14,10,12,13,16,18]) == 8\nassert max_frequency_in_list([10,20,20,30,40,90,80,50,30,20,50,10]) =="
+  },
+  "131": {
+    "passed": false,
+    "preview": "```python\ndef reverse_vowels(s):\n    vowels = 'aeiou'\n    return ''.join([vowels[i] for i in range(len(s) - 1, -1, -2)])\n```\nThe `reverse_vowels` function takes a string `s` as input. It defines the set of vowels as `{'a', 'e', 'i', 'o', 'u'}` and creates a new string `v` by joining the vowels. Then, it iterates through the characters of the input string `s` and applies the `reverse` method to rev"
+  },
+  "132": {
+    "passed": true,
+    "preview": "```python\ndef tup_string(tup):\n    return tuple(tup)\n\ndef test_tup_string():\n    assert tup_string(('e', 'x', 'e', 'r', 'c', 'i', 's', 'e', 's'))==(\"exercises\")\n    assert tup_string(('p','y','t','h','o','n'))==(\"python\")\n    assert tup_string(('p','r','o','g','r','a','m'))==(\"program\")\n\ntest_tup_string()\n```"
+  },
+  "133": {
+    "passed": true,
+    "preview": "```python\ndef sum_negativenum(numbers):\n    return sum(-numbers)\n\nassert sum_negativenum([2, 4, -6, -9, 11, -12, 14, -5, 17])==-32\nassert sum_negativenum([10,15,-14,13,-18,12,-20])==-52\nassert sum_negativenum([19, -65, 57, 39, 152,-639, 121, 44, 90, -190])==-894\n```"
+  },
+  "135": {
+    "passed": false,
+    "preview": "```python\ndef hexagonal_num(n):\n    if n <= 1:\n        return 1\n    elif n == 1:\n        return 1\n    elif n == 2:\n        return 1\n    else:\n        return hexagonal_num(n-1) + hexagonal_num(n-2)\n\n# Test cases\nprint(hexagonal_num(10))  # Output: 190\nprint(hexagonal_num(5))   # Output: 45\nprint(hexagonal_num(7))   # Output: 91\n```"
+  },
+  "137": {
+    "passed": false,
+    "preview": "```python\nimport math\n\ndef zero_count(arr):\n    count = sum(1 for num in arr if num != 0)\n    return math.isclose(count, 0.181818, rel_tol=0.001)\n```"
+  },
+  "138": {
+    "passed": false,
+    "preview": "```python\ndef is_Sum_Of_Powers_Of_Two(num):\n    if num % 2 == 0:\n        return False  # Only odd numbers can be represented as sum of non-zero powers of 2\n    else:\n        return True  # Even numbers can be represented as sum of non-zero powers of 2\n\n# Test cases\nassert is_Sum_Of_Powers_Of_Two(10) == True\nassert is_Sum_Of_Powers_Of_Two(7) == False\nassert is_Sum_Of_Powers_Of_Two(14) == True\n```"
+  },
+  "139": {
+    "passed": true,
+    "preview": "```python\ndef circle_circumference(n):\n    # Your code here\n    pass\n\ncircle_circumference(10)\ncircle_circumference(5)\ncircle_circumference(4)\n```\n\nThe solution involves implementing the `circle_circumference` function to calculate the circumference of a circle based on the input radius. The function uses the `math.isclose` function to compare the calculated value with a predefined threshold (in t"
+  },
+  "140": {
+    "passed": false,
+    "preview": "```python\ndef extract_singly(arr):\n    flattened = list(set(arr))\n    return flattened\n\ndef test_flattening(arr):\n    assert set(extract_singly(arr)) == set([3, 4, 5, 7, 1])\n    assert set(extract_singly(arr)) == set([1, 2, 3, 4, 7, 8])\n    assert set(extract_singly(arr)) == set([7, 8, 9, 10, 11, 12])\n\ntest_flattening([(3, 4, 5), (4, 5, 7), (1, 4)])\n\ntest_flattening([(1, 2, 3), (4, 2, 3), (7, 8)]\n"
+  },
+  "141": {
+    "passed": false,
+    "preview": "```python\ndef pancake_sort(elements):\n    def bubble_sort(elements):\n        for i in range(len(elements)):\n            for j in range(0, len(elements)):\n                if elements[j] > elements[j + 1]:\n                    elements[j], elements[j + 1] = elements[j + 1], elements[j]\n\n    elements.sort()\n    for i in range(len(elements)):\n        for j in range(0, len(elements)):\n            if ele"
+  },
+  "142": {
+    "passed": false,
+    "preview": "```python\ndef count_samepair(all_list, two_list):\n    count = 0\n    for item1 in all_list:\n        for item2 in two_list:\n            if item1 == item2:\n                count += 1\n    return count\n```\nThe function iterates through the given lists and counts the number of identical items. It returns the count as the result."
+  },
+  "143": {
+    "passed": false,
+    "preview": "```python\ndef find_lists(tuples):\n    return sum(len(x) for x in tuples)\n```\n\nThe `find_lists` function takes a tuple of lists as input and returns the total number of lists present in the tuple using the `sum` function. This is because the `sum` function returns the total of the list values in the input list."
+  },
+  "145": {
+    "passed": true,
+    "preview": "```python\ndef max_Abs_Diff(arr):\n    max_diff = arr[0]\n    for i in range(1, len(arr)):\n        max_diff = max(max_diff, arr[i] - arr[i-1])\n    return max_diff\n\nassert max_Abs_Diff((2,1,5,3)) == 4\nassert max_Abs_Diff((9,3,2,5,1)) == 8\nassert max_Abs_Diff((3,2,1)) == 2\n```"
+  },
+  "160": {
+    "passed": false,
+    "preview": "```python\ndef find_solution(x, y, n):\n    return x * y + n\n```\n\nThe solution defines a function `find_solution` that takes in three parameters: `x`, `y`, and `n`. It then calculates the product of `x` and `y` and returns the result. This function satisfies the problem by returning the result without any explanations or markdown fences."
+  },
+  "161": {
+    "passed": true,
+    "preview": "```python\ndef remove_elements(lst1, lst2):\n    return [e for e in lst1 if e not in lst2]\n\n# Test cases\nassert remove_elements([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [2, 4, 6, 8, 9, 10]) == [1, 3, 5, 7, 9, 10]\nassert remove_elements([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [1, 3, 5, 7]) == [2, 4, 6, 8, 9, 10]\nassert remove_elements([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [5, 7]) == [1, 2, 3, 4, 6, 8, 9, 10]\n```"
+  },
+  "162": {
+    "passed": false,
+    "preview": "```python\ndef sum_series(n):\n    if n < 0:\n        return 0\n    result = 1\n    for i in range(0, n // 2, 2):\n        result += i\n    return result\n```"
+  },
+  "163": {
+    "passed": false,
+    "preview": "```python\nimport math\n\ndef area_polygon(side_length, num_sides):\n    if num_sides == 0:\n        return 0\n    elif num_sides == 1:\n        return side_length * side_length\n    else:\n        return side_length * side_length * (side_length ** (num_sides - 1))\n\nif __name__ == \"__main__\":\n    assert math.isclose(area_polygon(4, 20), 400., rel_tol=0.001)\n    assert math.isclose(area_polygon(10, 15), 173"
+  },
+  "164": {
+    "passed": false,
+    "preview": "```python\ndef are_equivalent(a, b):\n    \"\"\"\n    Check if the sum of the divisors of two numbers is the same.\n    \n    Args:\n    a: Integers\n    b: Integers\n    \n    Returns:\n    True if the sum of the divisors of a and b is the same, False otherwise.\n    \"\"\"\n    return a + b == 2 * b\n```\n\nThe solution defines a function `are_equivalent` that takes two integers `a` and `b` as input and returns `Tru"
+  },
+  "165": {
+    "passed": false,
+    "preview": "```python\ndef count_char_position(s):\n    count = 0\n    for c in s:\n        if c == ' ':\n            count += 1\n    return count\n```\n\nThe function `count_char_position` iterates through each character of the input string `s` and increments the `count` variable whenever it encounters a space (`\\t`). It then returns the total count of characters that occur at the same position as in the English alph"
+  },
+  "166": {
+    "passed": false,
+    "preview": "```python\ndef find_even_pair(numbers):\n    count = 0\n    for num in numbers:\n        even_pairs = set()\n        for pair in numbers:\n            if pair % 2 != 0 and num != pair:\n                even_pairs.add(pair)\n                count += 1\n    return count\n```\nThe `find_even_pair` function iterates through the input list of numbers and maintains a set of pairs that are even without matching the"
+  },
+  "167": {
+    "passed": false,
+    "preview": "```python\ndef next_power_of_2(n):\n    return 2 ** (n + 1)\n```\nThe solution defines a function `next_power_of_2` that takes an integer `n` as input. It then returns the power of 2 greater than or equal to `n` using the exponentiation operator `**` to calculate the result. This ensures that the function passes the provided test cases."
+  },
+  "168": {
+    "passed": false,
+    "preview": "```python\ndef count_occurrences(numbers, target):\n    return numbers.count(target)\n\n# Test cases\nassert count_occurrences([1, 2, 3, 4], 3) == 0\nassert count_occurrences([1, 2, 2, 3, 3, 3, 4], 3) == 3\nassert count_occurrences([0, 1, 2, 3, 1, 2], 1) == 2\n```"
+  },
+  "170": {
+    "passed": false,
+    "preview": "```python\ndef sum_range_list(arr, start, end):\n    return sum(range(start, end))\n```\n\nThe `sum_range_list` function takes an input list `arr`, a range `start`, and a range `end`, and returns the sum of numbers in the range `[start, end]`. This is a simple iterative solution using list comprehension to find the sum of numbers within the specified range."
+  },
+  "171": {
+    "passed": true,
+    "preview": "```python\ndef perimeter_pentagon(side_length):\n    return 2 * side_length\n```\nThe function `perimeter_pentagon` takes the length of a side of a regular pentagon as input and returns the perimeter, which is the sum of all sides. This solution uses the formula for the perimeter of a regular polygon and ensures that the function passes the provided tests."
+  },
+  "172": {
+    "passed": true,
+    "preview": "```python\ndef count_occurance(s):\n    return s.count('std') > 0\n```\n\nThe `count_occurance` function simply uses the `count` method of the string object to count the occurrences of the string 'std' in the given string `s`. If the count is greater than 0, it returns the count; otherwise, it returns 0."
+  },
+  "222": {
+    "passed": false,
+    "preview": "```python\ndef check_type(t):\n    assert all(type(element) == t for element in t)\n\ncheck_type((5, 6, 7, 3, 5, 6) ) == True\ncheck_type((1, 2, \"4\") ) == False\ncheck_type((3, 2, 1, 4, 5) ) == True\n```"
+  },
+  "223": {
+    "passed": true,
+    "preview": "```python\ndef is_majority(arr, n, element):\n    return (len(arr) > n / 2 and arr[n // 2 - 1] == element) and (n % 2 == 1 and arr[n // 2 - 1] == element)\n\n# Test cases\nassert is_majority([1, 2, 3, 3, 3, 3, 10], 7, 3) == True\nassert is_majority([1, 1, 2, 4, 4, 4, 6, 6], 8, 4) == False\nassert is_majority([1, 1, 1, 2, 2], 5, 1) == True\nassert is_majority([1, 1, 2, 2], 5, 1) == False\n```"
+  },
+  "224": {
+    "passed": false,
+    "preview": "```python\ndef count_Set_Bits(num):\n    count = 0\n    while num > 0:\n        count += 1\n        num = num & 1\n    return count\n```\n\nThe function `count_Set_Bits` takes a parameter `num`, which is a positive integer. It initializes a count variable to 0 and then enters an infinite loop. Within the loop, it calculates the count by incrementing the count whenever the bit at the `num`'s position is 1, "
+  },
+  "226": {
+    "passed": false,
+    "preview": "```python\ndef odd_values_string(s):\n    def func(s):\n        return sorted(s)\n        # Remove odd characters from the string\n        return ''.join([char for char in s if char % 2 != 0])\n    return func\n```\n\nThe function `odd_values_string` takes a string `s` as input and defines a nested function `func` within it. The inner function `func` takes an input string `s` and returns a list of characte"
+  },
+  "227": {
+    "passed": true,
+    "preview": "```python\ndef min_of_three(a, b, c):\n    assert a < b and a < c\n    assert b < c and b < a\n    assert c < a and c < b\n\ndef min_of_three(a, b, c):\n    return min(a, b, c)\n\nif __name__ == '__main__':\n    print(min_of_three(10, 20, 0))  # Output: 0\n    print(min_of_three(19, 15, 18))  # Output: 15\n    print(min_of_three(-10, -20, -30))  # Output: -30\n```"
+  },
+  "228": {
+    "passed": false,
+    "preview": "def all_Bits_Set_In_The_Given_Range(start, end, count):\n    return all(bit_set[start:end] == bit for bit_set in {set(range(start, end), set(range(start, end))])\n               for start, end in [(None, None), (None, None), (None, None)])\n"
+  },
+  "229": {
+    "passed": false,
+    "preview": "```python\ndef re_arrange_array(arr, n):\n    result = arr[:]  # Create a copy of the original array\n    for i in range(1, n):  # Iterate through the array in reverse order\n        result[i] = arr[i]  # Swap the elements at the end with the first\n    return result\n```\n\nThe `re_arrange_array` function takes an array and an integer `n` as input. It creates a copy of the original array and then iterate"
+  },
+  "230": {
+    "passed": true,
+    "preview": "```python\ndef replace_blank(str, char):\n    return str.replace(' ', char)\n```\n\nThe `replace_blank` function takes in a string `str` and a character `char`, and uses the `replace` method of strings to replace any blank spaces in the string with the character. The function then returns the modified string."
+  },
+  "232": {
+    "passed": false,
+    "preview": "```python\ndef largest_n_items(list_items, n):\n    largest_n = []\n    for nnum in range(n+1):\n        num = list_items[numb]\n        if num > largest_n[numb]:\n            largest_n = [num]\n    return largest_n\n```\n\nThe function `largest_n_items` takes in a list of items and an integer `n`. It iterates through the list of items and updates the `largest_n` list with the largest item encountered. Fina"
+  },
+  "233": {
+    "passed": false,
+    "preview": "```python\nimport math\n\ndef lateralsuface_cylinder(length, radius):\n    return math.pi * length * radius\n```\n\nThe `lateralsuface_cylinder` function takes two parameters: length (in meters) and radius (in meters). It uses the formula for calculating the lateral surface area of a cylinder and returns the result in square meters. The function uses the `math` module to perform these calculations."
+  },
+  "234": {
+    "passed": true,
+    "preview": "```python\ndef volume_cube(side):\n    return side**3\n```"
+  },
+  "235": {
+    "passed": false,
+    "preview": "```python\ndef even_bit_set_number(n):\n    even_bits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n    return n & (1 << (n % 10))\n```\nThe `even_bit_set_number` function uses bitwise operations to set all even bits of a given number and returns the result. The `assert` statements are used to verify the correctness of the function."
+  },
+  "237": {
+    "passed": false,
+    "preview": "```python\ndef check_occurences(list_of_tuples):\n    occurences = {}\n    for tuple in list_of_tuples:\n        if tuple not in occurrences:\n            occurences[tuple] = 1\n        else:\n            occurences[tuple] += 1\n    return occurrences\n```"
+  },
+  "238": {
+    "passed": false,
+    "preview": "```python\ndef number_of_substrings(s: str) -> int:\n    count = 0\n    for i in range(len(s) - 2):\n        if s[i] == s[i + 1] == s[i + 2]:\n            count += 1\n    return count\n\nassert number_of_substrings(\"abc\") == 6\nassert number_of_substrings(\"abcd\") == 10\nassert number_of_substrings(\"abcde\") == 15\n```"
+  },
+  "239": {
+    "passed": false,
+    "preview": "```python\ndef get_total_number_of_sequences(m, n):\n    \"\"\"Returns the total number of sequences of length n, such that each element is a positive integer and is greater than or equal to twice the previous element but less than or equal to m.\"\"\"\n    seq = set()\n    for i in range(n):\n        for j in range(i):\n            if j != i:\n                seq.add(str(i + j))\n    return len(seq)\n```"
+  },
+  "240": {
+    "passed": false,
+    "preview": "```python\ndef replace_list(list1, list2):\n    list1.insert(-1, list2[-1])\n    return list1\n```\nThe `replace_list` function takes in two lists and inserts the last element of the second list into the first list using the `insert` method. This ensures that the last element of the second list is replaced with the last element of the first list, meeting the requirements of the problem."
+  },
+  "242": {
+    "passed": true,
+    "preview": "def count_charac(input_string):\n    return len(input_string)\n### Explanation:\nThe function `count_charac` takes a string `input_string` as input and returns the length of the string. This length is then used to count the total number of characters in the input string. This solution passes the provided tests."
+  },
+  "244": {
+    "passed": false,
+    "preview": "```python\ndef next_Perfect_Square(num):\n    if num > 0:\n        return num + 1\n    else:\n        return -1  # If the input is negative, return -1\n\ndef next_Perfect_Square_test(num):\n    assert next_Perfect_Square(35) == 36\n    assert next_Perfect_Square(6) == 9\n    assert next_Perfect_Square(9) == 16\n\nnext_Perfect_Square_test(100)  # Test the function with a positive input\n```"
+  },
+  "245": {
+    "passed": false,
+    "preview": "```python\ndef max_sum_bitonic(arr):\n    arr.sort()\n    max_sum = arr[0]\n    for num in arr[1:]:\n        max_sum = max(max_sum, num)\n    return max_sum\n```\nThe `max_sum_bitonic` function takes an array of integers and sorts it. It then initializes `max_sum` to the first element of the array. It iterates through the array, finding the maximum sum of a bitonic subsequence, and updating `max_sum` acco"
+  },
+  "246": {
+    "passed": true,
+    "preview": "```python\ndef babylonian_squareroot(n):\n    return math.pow(math.sqrt(n), 2)  # babylonian method, square root of n\n```\nThe solution simply returns the result of the babylonian method for squaring a number `n`."
+  },
+  "247": {
+    "passed": false,
+    "preview": "```python\ndef lps(s):\n    # Create a set of all possible substrings of the input string s\n    subsets = set()\n    # Create a list of all possible combinations of substrings\n    combinations = list(combinations.copy())\n\n    # Create a dictionary to store the frequency of each combination\n    frequency = {}\n    for comb in combinations:\n        # Create a list of the possible substrings and their fr"
+  },
+  "248": {
+    "passed": false,
+    "preview": "```python\ndef harmonic_sum(n):\n    if n == 1:\n        return 0\n    elif n == 0:\n        return 1\n    else:\n        return harmonic_sum(n-1) + (harmonic_sum(n-2) * (n-1)) / (n*(n+1))\n```\nThe solution defines a function `harmonic_sum` that takes an integer `n` as input and returns the harmonic sum of `n-1`. It first handles the base cases where `n` is 1 or 0, returning 0 and 1, respectively. For n g"
+  },
+  "249": {
+    "passed": false,
+    "preview": "```python\ndef intersection_arrays(array1, array2):\n    return set(array1) & set(array2)\n```\n\nThe `intersection_arrays` function uses the `set` data structure to efficiently find the intersection of two arrays. It first filters the elements of array1 using the `set` intersection operation. Then, it filters the elements of array2 using the `set` intersection operation. The resulting set of elements "
+  },
+  "250": {
+    "passed": true,
+    "preview": "```python\ndef count_X(tuple1, element):\n    return tuple1.count(element)\n\n# Test cases\nassert count_X((10, 8, 5, 2, 10, 15, 10, 8, 5, 8, 8, 2),4) == 0  # Counts 4 times the element 8\nassert count_X((10, 8, 5, 2, 10, 15, 10, 8, 5, 8, 8, 2),10) == 3\nassert count_X((10, 8, 5, 2, 10, 15, 10, 8, 5, 8, 8, 2),8) == 4\n```\n\nThe `count_X` function takes a tuple `tuple1` and an element `element` as input. It"
+  },
+  "251": {
+    "passed": false,
+    "preview": "```python\ndef insert_element(list, element):\n    result = list[:]  # Create a copy of the original list\n    result.insert(0, element)  # Insert the element at the beginning of the list\n    return result\n\nassert insert_element(['Red', 'Green', 'Black'] ,'c')==['c', 'Red', 'c', 'Green', 'c', 'Black']\nassert insert_element(['python', 'java'] ,'program')==['program', 'python', 'program', 'java']\nasser"
+  },
+  "252": {
+    "passed": false,
+    "preview": "```python\ndef convert(num, re):\n    polar_num = num / re\n    return polar_num\n\n# Test cases\nassert convert(1) == (1.0, 0.0)\nassert convert(4) == (4.0,0.0)\nassert convert(5) == (5.0,0.0)\n```"
+  },
+  "253": {
+    "passed": true,
+    "preview": "```python\ndef count_integer(arr):\n    return len(set(arr))\n```\n\nThe solution defines a function `count_integer` that takes a list of integers as input and returns the number of unique integers in the list. It uses a set to create a set of unique integers and then returns the count of unique integers in the set. The solution ensures that the function is correct and passes the provided tests."
+  },
+  "255": {
+    "passed": false,
+    "preview": "```python\ndef combinations_colors(elements, n):\n    def generate_combinations(comb):\n        for i in range(len(comb)):\n            for j in range(i+1, len(comb)):\n                for k in range(j+1, len(comb)):\n                    result = comb[i] + comb[j] + comb[k]\n                    yield result\n\n    comb = list(elements)\n    result = [list(combinations(comb,i)) for i in range(n)]\n    return "
+  },
+  "256": {
+    "passed": false,
+    "preview": "```python\ndef count_Primes_nums(num):\n    def is_prime(n):\n        if n < 2:\n            return False\n        for i in range(2, int(n**0.5) + 1):\n            if n % i == 0:\n                return False\n        return True\n\n    count = 0\n    for num in range(2, num):\n        if is_prime(num):\n            count += 1\n    return count\n```\nThe `count_Primes_nums` function uses a nested function `is_pri"
+  },
+  "257": {
+    "passed": true,
+    "preview": "```python\ndef swap_numbers(a, b):\n    return (b, a)\n```"
+  },
+  "259": {
+    "passed": false,
+    "preview": "```python\ndef maximize_elements(tuples):\n    # Define a set to store the results of each evaluation\n    result = set()\n    for element1, element2 in tuples:\n        # Calculate the maximum value of the evaluated elements\n        max_value = max(element1, element2)\n        result.add(max_value)\n    return result\n```\nThe `maximize_elements` function iterates through the given tuples and calculates t"
+  },
+  "260": {
+    "passed": false,
+    "preview": "```python\ndef newman_shanks_williams(n):\n    return n * 2 ** n\n\ndef newman_shanks_williams_prime(n):\n    return (n - 1) * (n - 2) * \n        (n - 3) * (n - 4) * \n        (n - 5) * (n - 6) * \n        (n - 7) * (n - 8) * \n        (n - 9) * (n - 10) * \n        (n - 11) * (n - 12) * \n        (n - 13) * (n - 14) * \n        (n - 15) * (n - 16)\n\ndef newman_prime(n):\n    if n <= 0:\n        return False\n  "
+  },
+  "261": {
+    "passed": false,
+    "preview": "```python\ndef division_elements(a, b):\n    if len(a) != len(b):\n        raise ValueError(\"Input tuples have different lengths\")\n    \n    for i in range(len(a)):\n        for j in range(len(b)):\n            if i != j:\n                yield a[i] / b[j]\n```\n\nThe function `division_elements` takes two tuples `a` and `b` as input and uses a generator expression to perform element-wise division of elemen"
+  },
+  "262": {
+    "passed": true,
+    "preview": "```python\ndef split_two_parts(l, L):\n    return tuple(l[:L]) + (l[L:], l[L:])\n```\nThe `split_two_parts` function takes in a list `l` and an integer `L`, and returns a tuple by slicing the given list and appending a tuple of the same length with the remaining part of the list."
+  },
+  "264": {
+    "passed": true,
+    "preview": "```python\ndef dog_age(years):\n    return years * 5\n```\nThe `dog_age` function takes a single parameter, `years`, and returns the product of the parameter and `years`. This is because a dog's age is calculated by multiplying the dog's current age by the number of years it has been alive."
+  },
+  "265": {
+    "passed": false,
+    "preview": "```python\ndef list_split(list_of_elements, n):\n    if n < 0:\n        return None\n\n    list_of_lists = []\n    for i in range(n):\n        list_of_lists.append(list_of_elements[i:i+n])\n    return list_of_lists\n\n# Test cases\nassert list_split(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'],3)==[['a', 'd', 'g', 'j', 'm'], ['b', 'e', 'h', 'k', 'n'], ['c', 'f', 'i', 'l']]\nassert li"
+  },
+  "266": {
+    "passed": false,
+    "preview": "```python\ndef lateralsurface_cube(side_length):\n    return side_length * 2 * 3.141592653589793\n```\nThe function `lateralsurface_cube` takes the side length of a cube as input and returns the lateral surface area by multiplying the side length by 2 and then by 3.141592653589793."
+  },
+  "267": {
+    "passed": false,
+    "preview": "```python\ndef square_Sum(n):\n    \"\"\"\n    Returns the square of the first n odd natural numbers\n    \"\"\"\n    return n * n  # Sum of the squares of the first n odd natural numbers\n\n# Test cases\nassert square_Sum(2) == 10  # Correct: assert square_Sum(2) == 10\nassert square_Sum(3) == 35  # Correct: assert square_Sum(3) == 35\nassert square_Sum(4) == 84  # Correct: assert square_Sum(4) == 84\nassert squa"
+  },
+  "268": {
+    "passed": false,
+    "preview": "```python\ndef find_star_num(n):\n    if n < 0:\n        return 0  # Case 0: 0\n    elif n == 0:\n        return 1  # Case 1: 1\n    elif n == 1:\n        return 2  # Case 2: 2\n    elif n == 2:\n        return 3  # Case 3: 3\n    elif n == 3:\n        return 4  # Case 4: 4\n    elif n == 4:\n        return 5  # Case 5: 5\n    elif n == 5:\n        return 6  # Case 6: 6\n    else:\n        return find_star_num(n-1"
+  },
+  "269": {
+    "passed": true,
+    "preview": "```python\ndef ascii_value(char):\n    # Your code to find ascii value of the character goes here\n    # For example, if char is 'A', the ascii value is 65\n    return 65  # Replace with your code to find the ascii value of the character\n```"
+  },
+  "270": {
+    "passed": false,
+    "preview": "```python\ndef sum_even_and_even_index(lst):\n    total_sum = 0\n    for i in range(len(lst)):\n        if i % 2 == 0:\n            total_sum += lst[i]\n    return total_sum\n```"
+  },
+  "271": {
+    "passed": false,
+    "preview": "```python\ndef even_Power_Sum(n):\n    return n * (n + 1) // 2\n```\nThe function `even_Power_Sum` takes an integer n as input and returns the sum of the first n even natural numbers, raised to the fifth power. The function uses the mathematical definition of the sum of the first n natural numbers raised to the fifth power. This solution provides the correct output for the given test cases."
+  },
+  "272": {
+    "passed": false,
+    "preview": "```python\ndef rear_extract(*args):\n    return [args[0][0] for _ in range(len(args))]\n```\n\nThe solution defines a function `rear_extract` that takes in a list of tuples and returns a list containing the rear element of each tuple. It uses a list comprehension to iterate through the input list and extract the rear element of each tuple. This solution correctly addresses the problem by providing the "
+  },
+  "273": {
+    "passed": false,
+    "preview": "```python\ndef substract_elements(tuple1, tuple2):\n    return tuple1[:-1] + tuple2 + tuple1[-1:]\n\nassert substract_elements((10, 4, 5), (2, 5, 18)) == (8, -1, -13)\nassert substract_elements((11, 2, 3), (24, 45 ,16)) == (-13, -43, -13)\nassert substract_elements((7, 18, 9), (10, 11, 12)) == (-3, 7, -3)\n```\nThe `substract_elements` function takes two tuples as input and returns the result of subtracti"
+  },
+  "274": {
+    "passed": false,
+    "preview": "```python\ndef even_binomial_Coeff_Sum(n):\n    even_binomial_Coeff_Sum = lambda n: sum(i for i in range(2, n+1) if i % 2 == 0)\n    return even_binomial_Coeff_Sum(n)\n```\nThe `even_binomial_Coeff_Sum` function takes an integer `n` as input and returns the sum of the even index binomial coefficients using a generator expression and Lambda function. This function can be used to solve the problem."
+  },
+  "276": {
+    "passed": false,
+    "preview": "```python\nimport math\n\ndef volume_cylinder(radius, height):\n    # Your code to calculate volume goes here\n    return math.pi * (radius ** 3) * height ** 2\n```\n\nThe function `volume_cylinder` takes in the radius and height of the cylinder and returns the volume using the formula for the volume of a cylinder. The provided code snippet can be used as a reference for calculating the volume."
+  },
+  "277": {
+    "passed": true,
+    "preview": "```python\ndef dict_filter(data, threshold):\n    return {key: value for key, value in data.items() if value >= threshold}\n\n# Test cases\nassert dict_filter({'Cierra Vega': 175, 'Alden Cantrell': 180, 'Kierra Gentry': 165, 'Pierre Cox': 190},170)=={'Cierra Vega': 175, 'Alden Cantrell': 180, 'Pierre Cox': 190}\nassert dict_filter({'Cierra Vega': 175, 'Alden Cantrell': 180, 'Kierra Gentry': 165, 'Pierre"
+  },
+  "278": {
+    "passed": false,
+    "preview": "```python\ndef count_first_elements(tuple):\n    first_element = tuple[0]\n    count_elements = 0\n    for element in tuple[1:]:\n        if element == first_element:\n            count_elements += 1\n        else:\n            break\n    return count_elements\n```\n\nThe function `count_first_elements` takes a tuple as input and iterates through its elements. For each element encountered, it checks if it is "
+  },
+  "279": {
+    "passed": false,
+    "preview": "```python\ndef find_nth_decagonal(n):\n    if n == 0:\n        return 27\n    elif n == 1:\n        return 175\n    elif n == 2:\n        return 370\n    else:\n        return find_nth_decagonal(n-1) + 10\n```\nThe function `find_nth_decagonal` takes an integer `n` as input and returns the nth decagonal number using backtracking. It first handles cases where `n` is 0, 1, 2, and 3, and then applies the same l"
+  },
+  "280": {
+    "passed": false,
+    "preview": "```python\ndef sequential_search(array, target):\n    seen = set()\n    for i in range(len(array)):\n        if array[i] == target:\n            return i, -1\n        if i == len(array) - 1:\n            return i, target\n        if array.index(array[i]) == target:\n            seen.add(i)\n            return i, target\n    return -1, -1  # Element not found\n```\nThe `sequential_search` function uses a set to"
+  },
+  "281": {
+    "passed": true,
+    "preview": "```python\ndef is_unique(list_to_check):\n    return all_unique(list_to_check)\n\ndef all_unique(list_to_check):\n    return all(set(item) == set(list_to_check) for item in list_to_check)\n\n# Test cases\nassert all_unique([1,2,3]) == True\nassert all_unique([1,2,1,2]) == False\nassert all_unique([1,2,3,4,5]) == True\n```\nThe `is_unique` function uses the `all_unique` function to check if the elements of the"
+  },
+  "282": {
+    "passed": true,
+    "preview": "```python\ndef sub_list(a, b):\n    return [sub_list(a, b)]\n\nassert sub_list([1, 2, 3],[4,5,6])==[-3,-3,-3]\nassert sub_list([1, 2],[3,4])==[-2,-2]\nassert sub_list([90, 120],[50, 70])==[40, 50]\n```"
+  },
+  "283": {
+    "passed": false,
+    "preview": "```python\ndef validate(num):\n    res = [False] * 10\n    for i in range(len(str(num))):\n        for j in range(len(str(num))):\n            res[int(str(num)[j]) - 1] = True\n    return res == [True] * 10\n```\nThe `validate` function takes in an integer `num` and initializes an array `res` to store the results of each digit comparison. It then iterates through the digits of `num` and compares them with"
+  },
+  "284": {
+    "passed": true,
+    "preview": "```python\ndef check_element(list, item):\n    return all(item in list for item in list)\n```"
+  },
+  "285": {
+    "passed": true,
+    "preview": "```python\ndef text_match_two_three(text):\n    return 'a' in text and 'b' in text and 'a' in text and 'b' in text and 'a' in text and 'b' in text and 'a' in text and 'b' in text and 'a' in text and 'b' in text and 'a' in text and 'b' in text and 'a' in text and 'b' in text and 'a' in text and 'b' in text and 'a' in text and 'b' in text and 'a' in text and 'b' in text and 'a' in text and 'b' in text"
+  },
+  "286": {
+    "passed": false,
+    "preview": "```python\ndef max_sub_array_sum_repeated(arr, n, k):\n    return max(arr) * k  # Assuming k is a positive integer, otherwise it will be negative\n```"
+  },
+  "287": {
+    "passed": false,
+    "preview": "```python\ndef square_Sum(n):\n    return n * (n + 1) // 2\n```\n\nThe solution provides a function `square_Sum` that takes an integer `n` as input and returns the sum of squares of first `n` even natural numbers. The formula for the sum of squares of first n natural numbers is `n * (n + 1) // 2`. This formula can be used to solve the problem without using a loop or any other external functions."
+  },
+  "290": {
+    "passed": false,
+    "preview": "```python\ndef max_length(lists):\n    if len(lists) == 0:\n        return []\n    if len(lists) == 1:\n        return [lists[0][0]]\n    if len(lists) == 2:\n        return [lists[0][0], lists[1][0]]\n    \n    def dfs(list, start, end):\n        if start == end:\n            return 1\n        if start == end:\n            return 0\n        if len(list) < 2:\n            return dfs(lists[1:], start + 1, end)\n  "
+  },
+  "291": {
+    "passed": false,
+    "preview": "```python\ndef count_no_of_ways(n, k):\n    count = 0\n    for i in range(n):\n        for j in range(i+1, n):\n            if j != i:\n                count += k\n    return count\n```"
+  },
+  "292": {
+    "passed": true,
+    "preview": "```python\ndef find(number1, number2):\n    return number1 // number2\n\n# Test cases\nassert find(10,3) == 3\nassert find(4,2) == 2\nassert find(20,5) == 4\n```"
+  },
+  "293": {
+    "passed": false,
+    "preview": "```python\ndef otherside_rightangle(side1, side2):\n    return (side2 + side1 - side1) * (side2 + side1 - side2) / 2\n\nassert otherside_rightangle(7,8) == 10.63014581273465\nassert otherside_rightangle(3,4) == 5\nassert otherside_rightangle(7,15) == 16.55294535724685\n```"
+  },
+  "294": {
+    "passed": false,
+    "preview": "```python\ndef max_val(val_list):\n    max_val = max(val_list)\n    return max_val\n\nassert max_val(['Python', 3, 2, 4, 5, 'version'])==5\nassert max_val(['Python', 15, 20, 25])==25\nassert max_val(['Python', 30, 20, 40, 50, 'version'])==50\n\n# Example usage\nprint(max_val(['Python', 3, 2, 4, 5, 'version']))  # Output: 5\nprint(max_val(['Python', 15, 20, 25]))  # Output: 25\nprint(max_val(['Python', 30, 20,"
+  },
+  "295": {
+    "passed": false,
+    "preview": "```python\ndef sum_div(n):\n    if n <= 0:\n        raise ValueError(\"The divisor must be greater than or equal to the dividend\")\n    return sum(1 for i in range(2, int(n**0.5) + 1) if n % i == 0)\n```"
+  },
+  "296": {
+    "passed": false,
+    "preview": "```python\ndef get_Inv_Count(arr):\n    return len(set(arr))\n```\n\nThe solution involves creating a set to store the unique elements in the array and then returning the length of the set, which represents the number of inversions in the array. This solution satisfies the problem description by providing a function that accurately counts inversions in an array."
+  },
+  "297": {
+    "passed": true,
+    "preview": "```python\ndef flatten_list(nested_list):\n    stack = []\n    for item in nested_list:\n        if isinstance(item, list):\n            stack.extend(flatten_list(item))\n        elif isinstance(item, (int, float)):\n            stack.append(item)\n    return stack\n```\n\nThe `flatten_list` function uses a stack to traverse the nested list structure. It iterates through each item, creating a new stack node "
+  },
+  "299": {
+    "passed": false,
+    "preview": "```python\ndef max_aggregate(*args):\n    max_aggregate_list = []\n    max_aggregate_list.append(args[0])\n    for i in args[1:]:\n        max_aggregate_list.append(max(max_aggregate_list, [args[0]] + [i]))\n    return max_aggregate_list[0]\n```"
+  },
+  "300": {
+    "passed": false,
+    "preview": "```python\ndef count_binary_seq(n):\n    if n == 1:\n        return 1\n    elif n == 2:\n        return 1\n    elif n == 3:\n        return 1\n    else:\n        a, b = 0, 1\n        while b < n:\n            if a & b == 1:\n                a |= (b + 1)\n            else:\n                a |= (b + 1) - 1\n            b += 2\n        return a\n```"
+  },
+  "301": {
+    "passed": false,
+    "preview": "```python\ndef dict_depth(d):\n    if not d:\n        return 0\n    return 1 + max(d.values())\n\n# Test cases\nassert dict_depth({'a':1, 'b': {'c': {'d': {}}})==4\nassert dict_depth({'a':1, 'b': {'c':'python'}}==2\nassert dict_depth({1: 'Sun', 2: {3: {4:'Mon'}}})==3\n```"
+  },
+  "304": {
+    "passed": false,
+    "preview": "```python\ndef find_Element(elements, rotations, index, element):\n    if index < 0 or index >= len(elements):\n        return -1  # Element not found\n\n    if element == elements[index - rotations]:\n        return element  # Element found at index\n\n    for i in range(index - rotations, len(elements)):\n        if elements[i] == elements[index - rotations]:\n            return element  # Element found a"
+  },
+  "305": {
+    "passed": false,
+    "preview": "```python\ndef start_withp(words):\n    p_words = [word for word in words if word.startswith('p')]\n    return p_words\n\nassert start_withp([\"Python PHP\", \"Java JavaScript\", \"c c++\"])==('Python', 'PHP')\nassert start_withp([\"Python Programming\",\"Java Programming\"])==('Python','Programming')\nassert start_withp([\"Pqrst Pqr\",\"qrstuv\"])==('Pqrst','Pqr')\n```\n\nThe solution defines a function `start_withp` th"
+  },
+  "306": {
+    "passed": false,
+    "preview": "```python\ndef max_sum_increasing_subseq(prefix, k, i, last_i):\n    max_sum = 0\n    if k > i:\n        return max_sum\n    \n    # Initialize the maximum sum to 0\n    max_sum = 0\n    \n    # Initialize the current sum to 0\n    current_sum = 0\n    \n    # Iterate through the prefix and update the current sum if the prefix contains a larger sum\n    for i in range(i, len(prefix)):\n        current_sum += pr"
+  },
+  "307": {
+    "passed": false,
+    "preview": "```python\ndef colon_tuplex(tuplex):\n    # Check if the tuple is a colon (:) of type tuple\n    if isinstance(tuplex, tuple) and tuple.is_instance(tuplex, tuple):\n        # If it's a tuple, then it's a colon\n        return True\n    else:\n        return False\n```"
+  },
+  "308": {
+    "passed": false,
+    "preview": "```python\ndef find_largest_products(large_product, large_factor, large_factor_list):\n    for i in range(len(large_product)):\n        if large_product[i][1] > large_factor and large_product[i][0] > large_factor_list[i]:\n            large_product[i] = (large_product[i][0], large_product[i][1])\n            large_factor = large_factor[i]\n    return large_product\n\n# Test the function\nlarge_product = [\n"
+  },
+  "309": {
+    "passed": true,
+    "preview": "```python\ndef maximum(a, b):\n    return a if a > b else b\n```\n\nThe solution defines a function `maximum` that takes two arguments, `a` and `b`. It then checks if `a` is greater than or equal to `b` and returns `a` if it is, otherwise it returns `b`. This solution passes the given test cases."
+  },
+  "310": {
+    "passed": false,
+    "preview": "```python\ndef string_to_tuple(s):\n    return tuple(s)\n```\n\nThe `string_to_tuple` function takes a string `s` as input and returns a tuple of characters, representing the input string as a tuple of characters. This solution provides a straightforward and concise way to achieve the desired functionality."
+  },
+  "311": {
+    "passed": false,
+    "preview": "```python\ndef set_left_most_unset_bit(value):\n    return value + 1 if value == 1 else value - 1\n```\nThe solution defines a function `set_left_most_unset_bit` that takes an integer `value` as input and returns the value plus one if `value` is 1, and the value minus one if `value` is 0. This ensures that the left most unset bit is correctly set for each input value."
+  },
+  "312": {
+    "passed": false,
+    "preview": "```python\nimport math\n\ndef volume_cone(base_height, base_width, height=None, depth=0):\n    if height is None:\n        return math.pi * base_height ** 2 * depth\n    else:\n        return math.pi * base_height ** 2 * depth\n```\nThe `volume_cone` function takes the base height, base width, height (if specified), and depth as input parameters. It then calculates the volume of the cone by using the formu"
+  },
+  "388": {
+    "passed": false,
+    "preview": "```python\ndef highest_Power_of_2(n):\n    return 2**n if n <= 1 else 3**n if n <= 3 else 5**n if n <= 5 else 7**n if n <= 7 else 9**n if n <= 9 else 11**n if n <= 11 else 13**n if n <= 11 else 15**n if n <= 11 else 17**n if n <= 11 else 19**n if n <= 11 else 21**n if n <= 11 else 23**n if n <= 11 else 25**n if n <= 11 else 27**n if n <= 11 else 29**n else 31**n else 33**n else 35**n else 37**n else"
+  },
+  "389": {
+    "passed": false,
+    "preview": "```python\ndef find_lucas(n):\n    if n == 0:\n        return 0\n    elif n == 1:\n        return 1\n    elif n == 2:\n        return 2\n    elif n == 3:\n        return 3\n    elif n == 4:\n        return 4\n    elif n == 5:\n        return 5\n    elif n == 6:\n        return 6\n    elif n == 7:\n        return 7\n    elif n == 8:\n        return 8\n    elif n == 9:\n        return 9\n    else:\n        raise ValueErro"
+  },
+  "390": {
+    "passed": false,
+    "preview": "```python\ndef apply_format_string(string_list, format_string):\n    for i in string_list:\n        for j in i:\n            if j != ' ':\n                string_list[i.index(j)] = j\n\ndef add_string(list, format_string):\n    return list.apply(apply_format_string)\n\n# Example usage\nadd_string([5,6,7,8], 'string{0}')\n```"
+  },
+  "391": {
+    "passed": false,
+    "preview": "```python\ndef convert_list_dictionary(list_of_dict, list_of_dict_of_list, list_of_list):\n    nested_dict = {}\n    for dict_of_list in list_of_dict:\n        nested_dict.update(dict_of_list)\n    nested_dict.update(list_of_list)\n    return nested_dict\n```\n\nThe `convert_list_dictionary` function takes a list of dictionaries, a list of dictionaries of lists, and a list of dictionaries. It iterates thro"
+  },
+  "392": {
+    "passed": false,
+    "preview": "```python\ndef get_max_sum(n):\n    max_sum = n\n    for _ in range(1, n):\n        max_sum += n\n    return max_sum\n```\nThe solution defines a function `get_max_sum` that takes an integer `n` as input. It then iterates through the range from 1 to `n`, adding `n` to `max_sum` and storing the result in `max_sum`. Finally, it returns the maximum sum achieved."
+  },
+  "393": {
+    "passed": false,
+    "preview": "```python\ndef max_length_list(arr):\n    max_len = arr[0]\n    max_len_list = [max_len]\n\n    for i in range(1, len(arr)):\n        if arr[i] > max_len:\n            max_len = arr[i]\n            max_len_list.append(max_len)\n        else:\n            max_len_list.append(max_len)\n\n    return max_len_list\n\n# Test cases\nassert max_length_list([[0], [1, 3], [5, 7], [9, 11], [13, 15, 17]]) == (3, [13, 15, 17"
+  },
+  "394": {
+    "passed": true,
+    "preview": "```python\ndef check_distinct(tuple):\n    return tuple in (1, 2, 3, 4, 5, 6)\n```\n\nThe function `check_distinct` takes a tuple as input and returns `True` if the tuple contains all the elements, and `False` otherwise. This solution is correct as it satisfies the problem's requirements."
+  },
+  "395": {
+    "passed": false,
+    "preview": "```python\ndef first_non_repeating_character(s):\n    for char in s:\n        if char not in char_set:\n            return char\n    return None\n\ndef char_set(s):\n    # Assuming char_set is defined here\n    return set(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'])\n```\nThe `first_non_repeating_character` function iterat"
+  },
+  "396": {
+    "passed": false,
+    "preview": "def check_char(s: str) -> bool:\n    return s.startswith(s[0]) and s.endswith(s[1])\n\n# Test cases\nassert check_char(\"abba\") == \"Valid\"\nassert check_char(\"a\") == \"Valid\"\nassert check_char(\"abcd\") == \"Invalid\"\nassert check_char(\"hello\") == \"Valid\"\nassert check_char(\"abcd\") == \"Invalid\"\nassert check_char(\"a\") == \"Invalid\"\nassert check_char(\"hello\") == \"Invalid\"\nassert check_char(\"a\") == \"Invalid\"\nasse"
+  },
+  "397": {
+    "passed": false,
+    "preview": "```python\ndef median_numbers(numbers):\n    sorted_numbers = sorted(numbers)\n    return sorted_numbers[1] if sorted_numbers[1] != sorted_numbers[0] else sorted_numbers[0]\n```\n\nThe solution defines the function `median_numbers` that takes a list of numbers as input. It then uses the `sorted` function to sort the numbers in ascending order. After sorting, it compares the first two numbers to find the"
+  },
+  "398": {
+    "passed": false,
+    "preview": "```python\ndef sum_of_digits(numbers):\n    def sum_of_digits_recursive(num):\n        if num == 0:\n            return 0\n        return sum_of_digits_recursive(num - 1) + num % 10\n\n    return sum_of_digits_recursive(sum_of_digits_recursive(numbers[0]))\n```\nThe solution defines a recursive function `sum_of_digits_recursive` to compute the sum of digits of each number in the input list. The base case i"
+  },
+  "399": {
+    "passed": false,
+    "preview": "```python\ndef bitwise_xor(a, b):\n    return a ^ b\n\nassert bitwise_xor((10, 4, 6, 9), (5, 2, 3, 3)) == (15, 6, 5, 10)\nassert bitwise_xor((11, 5, 7, 10), (6, 3, 4, 4)) == (13, 6, 3, 14)\nassert bitwise_xor((12, 6, 8, 11), (7, 4, 5, 6)) == (11, 2, 13, 13)\n```"
+  },
+  "400": {
+    "passed": false,
+    "preview": "```python\ndef extract_freq(tuples):\n    unique_tuples = set()\n    for tup in tuples:\n        unique_tuples.add(tup)\n    return len(unique_tuples)\n\nassert extract_freq([(3, 4), (1, 2), (4, 3), (5, 6)] ) == 3\nassert extract_freq([(4, 15), (2, 3), (5, 4), (6, 9)] ) == 4\nassert extract_freq([(5, 16), (2, 3), (6, 5), (6, 9)] ) == 4\n```"
+  },
+  "401": {
+    "passed": false,
+    "preview": "```python\ndef add_nested_tuples(tuples):\n    # Create a new list to store the result of the addition\n    result = []\n    \n    # Iterate through each tuple in the original list\n    for tuple in tuples:\n        # Add the first two elements of the tuple to the result list\n        result.append(tuple[0] + tuple[1])\n        # Add the rest of the tuple to the result list\n        result.append(tuple[2])\n"
+  },
+  "404": {
+    "passed": true,
+    "preview": "```python\ndef minimum(x, y):\n    \"\"\"\n    Find the minimum of two numbers\n    :param x:\n    :param y:\n    :return:\n    \"\"\"\n    return min(x, y)\n```\nThe solution defines a function `minimum` that takes two parameters `x` and `y`, and returns the minimum value of `x` and `y` using the `min` function. The function then uses the `min` function to return the minimum value for each pair of numbers. The s"
+  },
+  "405": {
+    "passed": false,
+    "preview": "```python\ndef check_tuplex(element, value):\n    if isinstance(element, tuple) and isinstance(value, tuple):\n        return element == value\n    else:\n        raise ValueError(\"Tuples must be the same type\")\n\ndef check_tuplex(element, value):\n    if isinstance(element, tuple) and isinstance(value, tuple):\n        return element == value\n    else:\n        raise ValueError(\"Tuples must be the same ty"
+  },
+  "406": {
+    "passed": true,
+    "preview": "```python\ndef find_Parity(num):\n    if num % 2 != 0:\n        return False\n    else:\n        return True\n\n# Test cases\nassert find_Parity(12) == False\nassert find_Parity(7) == True\nassert find_Parity(10) == False\n```\nThe solution provides a Python function `find_Parity` that takes a number as input and returns `False` if the number is odd and `True` if it is even. The function then tests its correc"
+  },
+  "407": {
+    "passed": false,
+    "preview": "```python\ndef rearrange_bigger(num):\n    new_num = num\n    while new_num > 1:\n        new_num = str(new_num)[::-1]\n    return new_num\n\n# Test cases\nassert rearrange_bigger(12)==21\nassert rearrange_bigger(10)==False\nassert rearrange_bigger(102)==120\n```"
+  },
+  "408": {
+    "passed": false,
+    "preview": "```python\ndef k_smallest_pairs(arr1, arr2, k):\n    k_smallest = []\n    k_smallest.append(arr1)\n    k_smallest.append(arr2)\n    for i in range(len(k_smallest)):\n        k_smallest[i] = [min(k_smallest[i-1], arr1), min(k_smallest[i-1], arr2)]\n    return k_smallest\n```\n\nThe `k_smallest_pairs` function initializes an empty list `k_smallest` to store the pairs and a list of those pairs. It then appends"
+  },
+  "409": {
+    "passed": false,
+    "preview": "```python\ndef min_product_tuple(list_to_find):\n    if len(list_to_find) == 1:\n        return list_to_find[0]\n    else:\n        min_product_tuple_first = min_product_tuple(list_to_find[0])\n        min_product_tuple_last = min_product_tuple(list_to_find[-1])\n        product_first = min_product_tuple_first[0] * min_product_tuple_first[1]\n        product_last = min_product_tuple_last[0] * min_product_"
+  },
+  "410": {
+    "passed": false,
+    "preview": "```python\ndef min_val(list_to_check):\n    if len(list_to_check) > 0:\n        min_val = min(list_to_check)\n    else:\n        min_val = None\n    return min_val\n```\nThe `min_val` function takes a list of values as input and returns the minimum value. It uses the `min` function to find the minimum value and returns it as the result. If the input list is empty, it returns `None`. This solution is conci"
+  },
+  "411": {
+    "passed": true,
+    "preview": "```python\ndef snake_to_camel(s):\n    return ''.join(c for c in s if c.isupper() or c.islower())\n```\n\nThe solution defines a function `snake_to_camel` that takes a string `s` as input and returns the string with camel case conversion. It uses a list comprehension to iterate through each character of the input string and appends only the uppercase letters or only the lowercase letters to the `snake_"
+  },
+  "412": {
+    "passed": false,
+    "preview": "```python\ndef remove_odd(arr):\n    return [x for x in arr if x % 2 != 0]\n\n# Test cases\nassert remove_odd([1,2,3]) == [2]\nassert remove_odd([2,4,6]) == [2,4,6]\nassert remove_odd([10,20,3]) == [10,20]\n\n# Output\nprint(remove_odd([1,2,3]))  # Output: [2]\nprint(remove_odd([2,4,6]))  # Output: [2,4,6]\nprint(remove_odd([10,20,3]))  # Output: [10,20]\n```"
+  },
+  "413": {
+    "passed": false,
+    "preview": "```python\ndef extract_nth_element(lst, n):\n    for i in range(n):\n        if i < len(lst):\n            return lst[i]\n    return None\n\nassert extract_nth_element([('Greyson Fulton', 98, 99), ('Brady Kent', 97, 96), ('Wyatt Knott', 91, 94), ('Beau Turnbull', 94, 98)], 0) == [98, 97, 91, 94]\nassert extract_nth_element([('Greyson Fulton', 98, 99), ('Brady Kent', 97, 96), ('Wyatt Knott', 91, 94), ('Bea"
+  },
+  "414": {
+    "passed": true,
+    "preview": "```python\ndef check_overlap_with_sequence(sequence1, sequence2, sequence3):\n    assert overlapping([1,2,3,4,5],[6,7,8,9]) == False\n    assert overlapping([1,2,3],[4,5,6]) == False\n    assert overlapping([1,4,5],[1,4,5]) == True\n```\nThe `check_overlap_with_sequence` function takes three input sequences and checks whether any value in each sequence exists in the other sequence. It uses the `overlapp"
+  },
+  "415": {
+    "passed": false,
+    "preview": "```python\ndef max_Product(arr):\n    max_Product = 0\n    max_Pair = None\n    for i in range(len(arr)):\n        for j in range(len(arr)-1):\n            if i != j and arr[i] > arr[i+1]:\n                max_Product = max(max_Product, arr[i] * arr[i+1])\n                max_Pair = j\n    return max_Pair\n```"
+  },
+  "417": {
+    "passed": false,
+    "preview": "```python\ndef find_common_first_element(grouptuples):\n    group_tuples = list(grouptuples)  # Convert to list and return the result\n    common_first_element = group_tuples[0]  # Get the first element from the first tuple\n    for tuple in grouptuples[1:]:\n        if tuple[0] == common_first_element:\n            return tuple  # Return the first tuple with the common first element\n    return []  # Re"
+  },
+  "418": {
+    "passed": true,
+    "preview": "```python\ndef Find_Max([iterable]):\n    max = []\n    max_length = 0\n    for num in iterable:\n        if num not in max:\n            max.append(num)\n            max_length = max_length + 1\n    return max\n```"
+  },
+  "419": {
+    "passed": false,
+    "preview": "```python\ndef round_and_sum(arr):\n    total = 0\n    for num in arr:\n        total += num\n    return total\n```"
+  },
+  "420": {
+    "passed": false,
+    "preview": "```python\ndef cube_Sum(n):\n    if n <= 1:\n        return 0\n    else:\n        return n * n * n\n```\nThe solution provides a Python function `cube_Sum` that takes an integer `n` as input and returns the cube sum of the first `n` even natural numbers. The function uses the `n`th power of the natural number `n` to calculate the cube sum."
+  },
+  "421": {
+    "passed": false,
+    "preview": "```python\ndef concatenate_tuple(tuples):\n    return tuple(tuples)\n\ntest = \"ID\", \"is\", \"4\", \"UTS\"\ntest = \"QWE\", \"is\", \"4\", \"RTY\"\ntest = \"ZEN\", \"is\", \"OP\"\n\nassert concatenate_tuple(test) == 'ID is 4 UTS'\nassert concatenate_tuple(test) == 'QWE is 4 RTY'\nassert concatenate_tuple(test) == 'ZEN is 4 OP'\n```"
+  },
+  "422": {
+    "passed": false,
+    "preview": "def find_Average_Of_Cube(n):\n    if n == 1:\n        return 1\n    elif n == 2:\n        return 1\n    else:\n        return (n * (n + 1)) / 2\n\n# Test the function\nassert find_Average_Of_Cube(2) == 4.5\nassert find_Average_Of_Cube(3) == 12\nassert find_Average_Of_Cube(1) == 1\nprint(\"All tests passed.\")\n```"
+  },
+  "424": {
+    "passed": false,
+    "preview": "```python\ndef extract_rear(tuples):\n    return tuple(tuples.pop(0), *tuple(tuples[1:]))\n```"
+  },
+  "425": {
+    "passed": true,
+    "preview": "```python\ndef count_element_in_list(list_elements, element_to_count):\n    count = 0\n    for element in list_elements:\n        if element == element_to_count:\n            count += 1\n    return count\n```\nThe `count_element_in_list` function iterates through the input list of elements and counts the occurrences of the specified element. If the element is found, the count is incremented. Finally, the "
+  },
+  "426": {
+    "passed": true,
+    "preview": "```python\ndef filter_oddnumbers(numbers):\n    return [num for num in numbers if num % 2 != 0]\n```"
+  },
+  "427": {
+    "passed": false,
+    "preview": "```python\ndef change_date_format(format):\n    \"\"\"\n    This function converts a date of yyyy-mm-dd format to dd-mm-yyyy format.\n    \n    Args:\n    format: A string representing the format for the date.\n    \n    Returns:\n    A string representing the date in dd-mm-yyyy format.\n    \"\"\"\n    # Example implementation:\n    # format = 'YYYY-MM-DD'\n    # return format.replace('-', '')\n    return format\n```"
+  },
+  "428": {
+    "passed": false,
+    "preview": "```python\nimport numpy as np\n\ndef shell_sort(arr):\n    n = len(arr)\n    for i in range(n):\n        comparisons = 0\n        for j in range(n-i-1):\n            if arr[j] > arr[j+1]:\n                comparisons += 1\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n    return arr\n\n# Test cases\nassert shell_sort([12, 23, 4, 5, 3, 2, 12, 81, 56, 95]) == [2, 3, 4, 5, 12, 12, 23, 56, 95]\nassert shell_s"
+  },
+  "429": {
+    "passed": false,
+    "preview": "```python\ndef extract_elementwise_and_tuples(tuples):\n    assert and_tuples((10, 4, 6, 9), (5, 2, 3, 3)) == (0, 0, 2, 1)\n    assert and_tuples((1, 2, 3, 4), (5, 6, 7, 8)) == (1, 2, 3, 0)\n    assert and_tuples((8, 9, 11, 12), (7, 13, 14, 17)) == (0, 9, 10, 0)\n\ndef main():\n    extract_elementwise_and_tuples([(10, 4, 6, 9), (5, 2, 3, 3)])\n\nif __name__ == \"__main__\":\n    main()\n```\n\nThe `extract_eleme"
+  },
+  "430": {
+    "passed": false,
+    "preview": "```python\ndef parabola_directrix(x, y, z):\n    # Perform the parabola-solving algorithm\n    # This is a brute-force approach, so it will take a while to find the directrix\n    # Here, we will try to find the directrix by finding all possible combinations of x and y\n    # We will iterate through all possible combinations of (x, y)\n    # If we find a combination that does not form a directrix, we wi"
+  },
+  "431": {
+    "passed": false,
+    "preview": "```python\ndef common_element(a, b):\n    return set(a) & set(b)\n\n# Test cases\nassert common_element([1,2,3,4,5], [5,6,7,8,9])==True\nassert common_element([1,2,3,4,5], [6,7,8,9])==None\nassert common_element(['a','b','c'], ['d','b','e'])==True\n```\nThe `common_element` function uses the `set` data structure to efficiently check for common elements. It takes two sets as input and returns `True` if they"
+  },
+  "432": {
+    "passed": false,
+    "preview": "def median_trapezium(length1, length2, length3):\n    length_list = [length1, length2, length3]\n    median = sum(length_list) // 2\n    return median\n\n# Test cases\nassert median_trapezium(15,25,35) == 20\nassert median_trapezium(10,20,30) == 15\nassert median_trapezium(6,9,4) == 7.5\nassert median_trapezium(18,18,20) == 19.5\nassert median_trapezium(14,15,15) == 15\nassert median_trapezium(8,10,12) == 10"
+  },
+  "433": {
+    "passed": false,
+    "preview": "```python\ndef check_greater(arr, target):\n    for num in arr:\n        if num > target:\n            return True\n    return False\n```\n\nThe solution defines a function `check_greater` that takes an array `arr` and a target `target`. It iterates through the array, comparing each element with the target and returning `True` if the element is greater than the target, and `False` otherwise. If the elemen"
+  },
+  "434": {
+    "passed": false,
+    "preview": "```python\ndef text_match_one(text):\n    return text.count(\"a\") == 1 or text.count(\"b\") == 1 or text.count(\"c\") == 1\n```\nThe solution defines a function `text_match_one` that takes a string `text` as input and returns `True` if the count of 'a' or 'b' is equal to 1, and `False` otherwise. This function satisfies the problem's requirements."
+  },
+  "435": {
+    "passed": false,
+    "preview": "```python\ndef last_Digit(num):\n    last_digit = 0\n    for digit in str(num):\n        if digit > 0:\n            last_digit += 1\n    return last_digit\n\nassert last_Digit(123) == 3\nassert last_Digit(25) == 5\nassert last_Digit(30) == 0\n```\nThe solution defines a function `last_Digit` that takes a number as input and returns the last digit of the number. It then uses a loop to iterate through the digit"
+  },
+  "436": {
+    "passed": true,
+    "preview": "```python\ndef neg_nos(nums):\n    return [num for num in nums if num < 0]\n```"
+  },
+  "437": {
+    "passed": false,
+    "preview": "```python\ndef remove_odd(string):\n    odd_list = []\n    for char in string:\n        if char % 2 != 0:\n            odd_list.append(char)\n    return ''.join(odd_list)\n```"
+  },
+  "438": {
+    "passed": false,
+    "preview": "```python\ndef count_bidirectional(pairs):\n    return len(pairs) == len(pairs[0]) == len(pairs[1]) == 1\n```\nThe function `count_bidirectional` takes a list of tuples as input and returns a boolean value indicating whether the number of bidirectional tuple pairs is equal to the total number of pairs. It achieves this by checking the lengths of the corresponding tuples."
+  },
+  "439": {
+    "passed": false,
+    "preview": "```python\ndef multiple_to_single(input_list):\n    return input_list\n```\nThe function `multiple_to_single` takes a list of integers as input and returns a single integer. This is a simple solution without any additional variables or logic inside the function."
+  },
+  "440": {
+    "passed": false,
+    "preview": "```python\ndef find_adverb_position(sentence):\n    first_adverb = []\n    for i in range(len(sentence) - 1):\n        if sentence[i] == 'clearly!!':\n            first_adverb.append(i + 1)\n    return first_adverb\n```\n\nThe `find_adverb_position` function iterates through each word in the input sentence. For each word, it checks if the word ends with 'clearly!!' and appends the index of the word to the "
+  },
+  "441": {
+    "passed": true,
+    "preview": "```python\ndef surfacearea_cube(size):\n    return size * 6\n```\nThe `surfacearea_cube` function takes a size as input and returns the surface area of the cube. This is a simple and correct solution, as it directly calculates the surface area of the cube without using any additional operations or helper functions."
+  },
+  "442": {
+    "passed": false,
+    "preview": "```python\ndef positive_count(arr):\n    pos_count = 0\n    for num in arr:\n        if num > 0:\n            pos_count += 1\n    return pos_count / len(arr)\n\npositive_count([0, 1, 2, -1, -5, 6, 0, -3, -2, 3, 4, 6, 8])  # (1.0, 0.54, 0.69, 0.56, 0.52)\npositive_count([2, 1, 2, -1, -5, 6, 4, -3, -2, 3, 4, 6, 8])  # (1.0, 0.69, 0.56, 0.52, 0.50)\npositive_count([2, 4, -6, -9, 11, -12, 14, -5, 17])  # (1.0, "
+  },
+  "443": {
+    "passed": true,
+    "preview": "```python\ndef largest_neg(arr):\n    # Initialize the largest negative number\n    largest_neg = arr[0]\n    \n    # Iterate through the list of numbers and update the largest negative number\n    for num in arr:\n        if num < largest_neg:\n            largest_neg = num\n    \n    # Return the largest negative number\n    return largest_neg\n```\nThe solution defines a function `largest_neg` that takes a "
+  },
+  "444": {
+    "passed": false,
+    "preview": "```python\ndef trim_tuple(tuple_list, k):\n    for i in range(len(tuple_list)):\n        if i % k == 0:\n            trimmed_tuple = tuple_list[i]\n            trimmed_tuple.extend(tuple_list[i+1:])\n    return trimmed_tuple\n```\nThe `trim_tuple` function takes a list of tuples and a integer `k` as input. It iterates through each tuple in the list and checks if the current tuple is less than or equal to "
+  },
+  "445": {
+    "passed": false,
+    "preview": "```python\ndef index_multiplication(a, b):\n    return a[1:] * b[1:]\n\n# Test the function\nassert index_multiplication(((1, 3), (4, 5), (2, 9), (1, 10)),((6, 7), (3, 9), (1, 1), (7, 3)) ) == ((6, 21), (12, 45), (2, 9), (7, 30))\nassert index_multiplication(((2, 4), (5, 6), (3, 10), (2, 11)),((7, 8), (4, 10), (2, 2), (8, 4)) ) == ((14, 32), (20, 60), (6, 20), (16, 44))\nassert index_multiplication(((3, "
+  },
+  "446": {
+    "passed": true,
+    "preview": "```python\ndef count_Occurrence(list1, tuple):\n    count = 0\n    for item in list1:\n        if item in tuple:\n            count += 1\n    return count\n```\n\nThe function `count_Occurrence` iterates through the elements of the list `list1` and the tuple `tuple` in a loop. For each element in the list, it checks if it is present in the tuple. If it is, the count is incremented. Finally, the function re"
+  },
+  "447": {
+    "passed": false,
+    "preview": "```python\ndef cube_nums(nums):\n    return [num * (num + 1) for num in nums]\n\nassert cube_nums([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) == [1, 8, 27, 64, 125, 216, 343, 512, 729, 1000]\nassert cube_nums([10,20,30]) == ([1000, 8000, 27000])\nassert cube_nums([12,15]) == ([1728, 3375])\n```"
+  },
+  "448": {
+    "passed": false,
+    "preview": "```python\ndef cal_sum(n):\n    if n <= 5:\n        return 0\n    else:\n        return sum(range(6, n + 1, 2))\n```\nThe solution provides a Python function `cal_sum` that calculates the sum of perrin numbers. It uses the `sum` function to calculate the sum of numbers within the range from 6 to the current number. If the current number is less than 5, the function returns 0. Otherwise, it returns the su"
+  },
+  "450": {
+    "passed": true,
+    "preview": "```python\ndef extract_string(size, values):\n    assert size == len(values) == len(set(values)) == len(values[0]) == len(values[1])\n    for i in range(size):\n        assert values[i] == values[i+1] == values[i+2] == values[i+3] == values[i+4] == values[i+5] == values[i+6] == values[i+7] == values[i+8] == values[i+9] == values[i+10] == values[i+11] == values[i+12] == values[i+13] == values[i+14] == "
+  },
+  "451": {
+    "passed": true,
+    "preview": "```python\ndef remove_whitespaces(s):\n    return s.replace(\" \", \"\")\n```\n\nThe function `remove_whitespaces` takes a string `s` as input and uses the `replace` method to remove all whitespaces. This ensures that the string is returned as per the specified format."
+  },
+  "452": {
+    "passed": false,
+    "preview": "```python\ndef loss_amount(amount, loss_rate):\n    if loss_rate:\n        return amount - loss_rate\n    else:\n        return 0\n```"
+  },
+  "453": {
+    "passed": false,
+    "preview": "```python\ndef sumofFactors(n):\n    return sum(i for i in range(1, n + 1) if i % 2 == 0)\n\n# Test cases\nassert sumofFactors(18) == 26\nassert sumofFactors(30) == 48\nassert sumofFactors(6) == 8\n```\n\nThe solution defines a function `sumofFactors` that takes an integer `n` as input and returns the sum of all the even numbers from 1 to `n`. It then uses a generator expression to generate all the even num"
+  },
+  "454": {
+    "passed": true,
+    "preview": "```python\ndef text_match_wordz(text):\n    z = \"z\"\n    return text.lower().find(z) == -1\n```"
+  },
+  "455": {
+    "passed": true,
+    "preview": "```python\ndef check_monthnumb_number(n):\n    if n==0:\n        return False\n    if n==1:\n        return True\n    if n==2:\n        return n>29\n    if n==3:\n        return n>30\n    if n==4:\n        return n>31\n    if n==5:\n        return n==31\n    if n==6:\n        return n>31\n    if n==7:\n        return n==31\n    if n==8:\n        return n==31\n    if n==9:\n        return n==31\n    if n==10:\n        re"
+  },
+  "456": {
+    "passed": true,
+    "preview": "```python\ndef reverse_string_list(reverse_list):\n    return ''.join(reversed(reverse_list))\n```\n\nThe `reverse_string_list` function takes a list of string values and uses the `reversed` function to reverse each string in the list. The resulting list of reversed strings is then joined back together with a space in between and returned as the output."
+  },
+  "457": {
+    "passed": true,
+    "preview": "```python\ndef Find_Min(data):\n    for i in range(min(len(data), len(data[0]))):\n        if data[i] != data[i - 1]:\n            return data[i]\n    return None\n```\nThe function iterates through the input data and finds the minimum length sublist by comparing each element with the previous one. If the next element is not equal to the current element, the minimum length sublist is returned. If no mini"
+  },
+  "458": {
+    "passed": true,
+    "preview": "def rectangle_area(side1, side2):\n    return side1 * side2\n"
+  },
+  "459": {
+    "passed": false,
+    "preview": "```python\ndef remove_uppercase(text):\n    # Remove uppercase substrings\n    return ''.join(char.lower() if char.isupper() else char for char in text)\n\ndef remove_uppercase('cAstyoUrFavoRitETVshoWs'):\n    return remove_uppercase('cAstyoUrFavoRitETVshoWs')\n\ndef remove_uppercase('wAtchTheinTernEtrAdIo'):\n    return remove_uppercase('wAtchTheinTernEtrAdIo')\n\ndef remove_uppercase('VoicESeaRchAndreComMe"
+  },
+  "460": {
+    "passed": false,
+    "preview": "```python\ndef extract_first_element_of_sublist(lst):\n    for sublist in lst:\n        return [sublist[0]]\n```\n\nThe `extract_first_element_of_sublist` function iterates through each sublist in the input list `lst` and returns a new list containing only the first element of each sublist. This is achieved by creating a new list using the `[sublist[0]]` syntax for each sublist in `lst`, effectively ext"
+  },
+  "461": {
+    "passed": false,
+    "preview": "```python\ndef upper_ctr(string):\n    return 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'\n```\nThe `upper_ctr` function takes a string as input and returns a list of uppercase letters from the provided string. This solution ensures that only uppercase characters are counted, as lowercase characters are not included in the output."
+  },
+  "462": {
+    "passed": false,
+    "preview": "```python\ndef find_combinations(list1, list2):\n    combinations_list = []\n    for i in range(len(list1)):\n        combinations_list.append([list1[i], list2[i]])\n    return combinations_list\n\n# Test cases\nprint(find_combinations(['orange', 'red', 'green', 'blue', 'white', 'black'], ['red', 'green', 'black']))  # Should return [['orange'], ['red'], ['red', 'orange'], ['green'], ['green', 'orange'], "
+  },
+  "463": {
+    "passed": false,
+    "preview": "```python\ndef max_subarray_product(arr):\n    max_product = 0\n    current_product = 0\n    \n    for num in arr:\n        current_product = max(num, current_product + num)\n        max_product = max(max_product, current_product)\n    \n    return max_product\n```"
+  },
+  "464": {
+    "passed": false,
+    "preview": "```python\ndef check_value(dictionary):\n    return all(v == dictionary[v] for v in dictionary)\n\nassert check_value({'Cierra Vega': 12, 'Alden Cantrell': 12, 'Kierra Gentry': 12, 'Pierre Cox': 12},10)==False\nassert check_value({'Cierra Vega': 12, 'Alden Cantrell': 12, 'Kierra Gentry': 12, 'Pierre Cox': 12},12)==True\nassert check_value({'Cierra Vega': 12, 'Alden Cantrell': 12, 'Kierra Gentry': 12, 'P"
+  },
+  "465": {
+    "passed": false,
+    "preview": "```python\ndef drop_empty(dictionary):\n    return {**dictionary, **dictionary.values()}\n```\n\nThe solution defines a function `drop_empty` that takes a dictionary as input and returns a new dictionary with the same keys but their values set to `None`. This function satisfies the requirements by efficiently dropping empty values from the input dictionary."
+  },
+  "468": {
+    "passed": false,
+    "preview": "```python\ndef max_product(arr):\n    max_product = 1\n    for num in arr:\n        max_product = max(max_product, num * max_product)\n    return max_product\n```"
+  },
+  "470": {
+    "passed": false,
+    "preview": "```python\ndef add_pairwise(numbers):\n    def add_pairwise_helper(numbers):\n        if len(numbers) < 3:\n            return numbers\n        return add_pairwise_helper(numbers[1:]) + numbers[0]\n\n    return add_pairwise_helper(numbers)\n```\n\nThe solution defines a function `add_pairwise` that takes a tuple `numbers` as input and a helper function `add_pairwise_helper` that recursively calculates the p"
+  },
+  "471": {
+    "passed": true,
+    "preview": "```python\ndef find_remainder(arr, n):\n    result = 1\n    for i in range(1, len(arr)):\n        result *= arr[i] % n\n    return result\n```\nThe `find_remainder` function takes an array `arr` and an integer `n` as input. It iterates through the elements of the array `arr` and calculates the product of the array multiplication modulo `n`. The result is stored in the variable `result`. Finally, the func"
+  },
+  "472": {
+    "passed": false,
+    "preview": "```python\ndef check_Consecutive(nums):\n    return any(n > n-1 for n in nums)\n```\n\nThe `check_Consecutive` function takes a list of integers as input and returns a boolean value based on the given condition. It uses a generator expression to check if consecutive numbers are present in the list. If the condition is met, the function returns True; otherwise, it returns False."
+  },
+  "473": {
+    "passed": false,
+    "preview": "```python\ndef tuple_intersection(list1, list2):\n    if not list1:\n        return list2\n    if not list2:\n        return list1\n    return tuple_intersection(list1[0], list2[0]) & tuple_intersection(list1[1:], list2[1:])\n\ndef test_tuple_intersection():\n    assert tuple_intersection([(3, 4), (5, 6), (9, 10), (4, 5)] , [(5, 4), (3, 4), (6, 5), (9, 11)]) == [(5, 4), (3, 4), (6, 5), (9, 11)]\n    assert "
+  },
+  "474": {
+    "passed": false,
+    "preview": "def replace_char(char, replace_char_position):\n    # Replace the character at the specified position\n    if replace_char_position == \"left\":\n        return \"left\"\n    elif replace_char_position == \"right\":\n        return \"right\"\n    else:\n        return replace_char_position\n\n# Test the function\nassert replace_char(\"polygon\",'y','l')==(\"pollgon\")\nassert replace_char(\"character\",'c','a')==(\"aharaat"
+  },
+  "475": {
+    "passed": false,
+    "preview": "```python\ndef sort_dict(dict):\n    if len(dict) < 2:\n        return dict\n\n    result = sorted(dict, key=lambda x: x.value)\n    return result\n```\n\nThe `sort_dict` function takes a dictionary as input and sorts it by value. It first checks if the dictionary has less than two elements. If so, it returns the dictionary as is. Otherwise, it calls the `sorted` function with the `key` parameter set to th"
+  },
+  "476": {
+    "passed": true,
+    "preview": "```python\ndef big_sum(arr):\n    max_val = max(arr)\n    smallest_val = min(arr)\n    return max_val + smallest_val\n```"
+  },
+  "477": {
+    "passed": true,
+    "preview": "```python\ndef is_lower(s):\n    return s.lower()\n\ndef is_lower(s):\n    return s.lower().replace(\" \", \"\").replace(\".\", \"\").replace(\"!\", \"\").replace(\",\", \"\").replace(\"?\", \"\")\n```\n\nThe solution defines the `is_lower` function that takes a string `s` as input and returns the string after converting it to lowercase. The `is_lower` function then replaces special characters and punctuation using a `replac"
+  },
+  "478": {
+    "passed": true,
+    "preview": "def remove_lowercase(s):\n    return s.lower().replace(' ', '').replace('.', '')\n\nassert remove_lowercase(\"PYTHon\")==('PYTH')\nassert remove_lowercase(\"FInD\")==('FID')\nassert remove_lowercase(\"STRinG\")==('STRG')\n"
+  },
+  "479": {
+    "passed": false,
+    "preview": "```python\ndef first_Digit(n):\n    return n % 10  # Find the first digit of the number\n\n# Test cases\nprint(first_Digit(123))  # Output: 1\nprint(first_Digit(456))  # Output: 4\nprint(first_Digit(12))  # Output: 1\n```"
+  }
+}

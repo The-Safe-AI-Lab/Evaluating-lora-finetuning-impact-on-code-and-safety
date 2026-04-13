@@ -1,0 +1,1030 @@
+{
+  "11": {
+    "passed": false,
+    "preview": "Write a Python function to print the following output:\n\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a python function to print the following output:\n\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a python function to print the following output:\n\nOutput only the Python function — no explanation, no markdown fences.\n\nP"
+  },
+  "12": {
+    "passed": false,
+    "preview": "Write a function to print the even numbers between 0 and 10. The function must pass these tests:\nassert even_number(even_number(even_number(even_number(even_number(even_number(even_number(even_number(even_number(even_number(even_number(even_number(even_number(even_number(even_number(even_number(even_number(even_number(even_number(even_number(even_number(even_number(even_number(even_number(even_num"
+  },
+  "14": {
+    "passed": false,
+    "preview": "Write a Python function to find the volume of a right circular cone.\n\nThe function must pass these tests:\nassert find_Volume(10,8,6) == 240\nassert find_Volume(3,2,2) == 6\nassert find_Volume(1,2,1) == 1\n### Assistant:\nWrite a Python function to find the volume of a right circular cone.\n\nThe function must pass these tests:\nassert find_Volume(10,8,6) == 240\nassert find_Volume(3,2,2) == 6\nassert find_"
+  },
+  "16": {
+    "passed": false,
+    "preview": "Write a Python function to return the user's full name. This is not possible in Python 2. Python 3 requires the user's input to be an integer.\n\n### Assistant:\nWrite a Python function that returns True if all lowercase characters in a string are identical to another string, and False otherwise.\nThe function must pass these tests:\nassert all lowercase_characters(\"abc\",1)!=True\nassert all lowercase_c"
+  },
+  "17": {
+    "passed": false,
+    "preview": "Write a Python function to return a string representing the\ndistance between two adjacent vertices of a triangle.\n\nThe function must pass these tests:\nassert triangle_vertices_distance(1,2)==3\nassert triangle_vertices_distance(0,4)==3\nassert triangle_vertices_distance(3,0)==2\n### Assistant:\nWrite a Python function to compute the area of a circle given the diameter of the circle as input.\n\nThe func"
+  },
+  "18": {
+    "passed": false,
+    "preview": "Write a Python function to find the minimum value in a given sequence.\n\nThe function must pass these tests:\nassert minimum_value_in_sequence(n, k, min=2, max=10) == 2\nassert minimum_value_in_sequence(n, k, min=1, max=10) == 10\n\nProblem: Write a function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to solve the foll"
+  },
+  "19": {
+    "passed": false,
+    "preview": "Write a Python function to check if a given list of integers contains any duplicate elements.\n\nThe function must pass these tests:\nassert test_duplicate([1,2,3,4,5,6])==False\nassert test_duplicate([1,2,3,4, 5, 6, 7, 8])==True\nassert test_duplicate([1,2,3,4,5, 6, 7, 8, 9])==True\n### Assistant:\nWrite a Python function to print all the numbers in a given list of integers.\nNote: The list must contain "
+  },
+  "20": {
+    "passed": false,
+    "preview": "Write a Python function to print the number of the given number (number, and length of the given number).\nFor example:\nnumber = 17\nlength = 3\n\n### 200 number\nnumber = 17\nlength = 3\n\n### 17, 3\nnumber = 17\nlength = 3\n\n### Output: 3\nNumber is woodball\n\n### 200 number\nnumber = 17\nlength = 3\n\n### 17, 3\nnumber = 17\nlength = 3\n\n### Output: 3\nNumber is woodball\n\n### 200 number\nnumber = 17\nlength = 3\n\n### "
+  },
+  "56": {
+    "passed": false,
+    "preview": "Write a Python function to calculate the sum of all the numbers in a list, where each element is a number.\n\nThe function must pass these tests:\nassert sum(seq, key) == 30\nassert sum(seq, key) == 50\nassert sum(seq, key) == 90\n### Assistant:\nWrite a Python function to display the name of all the objects in a list, where each element is a string.\n\nThe function must pass these tests:\nassert name(objec"
+  },
+  "57": {
+    "passed": false,
+    "preview": "Write a Python function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a python function to find the largest number that can be formed with the given list of digits.\n\nThe function must pass these tests:\nassert find_Max_Num([1,2,3,4]) == 4\nassert find_Max_Num([4,5,6,1]) == 20\nassert find_Max_Num([1,2,3,9]) == 919\n### Assistant:\n"
+  },
+  "58": {
+    "passed": false,
+    "preview": "Write a python function to solve the following problem.\n\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a python function to check whether the given two integers have opposite sign or not.\n\nThe function must pass these tests:\nassert opposite_Signs(1,-2) == True\nassert opposite_Signs(3,2) == False\nassert opposite_Signs(-10,-10) == False\nassert opposite_Signs(-"
+  },
+  "59": {
+    "passed": false,
+    "preview": "Write a Python function to calculate the sum of all the elements in the set of elements.\nThe function must pass these tests:\nassert is_octagonal(5) == 65\nassert is_octagonal(10) == 280\nassert is_octagonal(15) == 645\n### Assistant:\nWrite a Python function to find the difference between the sum of all the elements in a set and the sum of all the elements of that set.\nThe function must pass these tes"
+  },
+  "61": {
+    "passed": false,
+    "preview": "Write a Python function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a python function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\nWrite a program to calculate the sum of all the digits in a given string.\nWrite a program to print all the digits of a given number and di"
+  },
+  "62": {
+    "passed": false,
+    "preview": "Write a python function to find the maximum number in a list.\n\nThe function must pass these tests:\nassert max(list([5, 6, 7, 8])) == 7\nassert max(list([2, 3, 4])) == 3\nassert max(list([5, 6, 7, 8])) == 8\n### Assistant:\nWrite a python function to find the smallest number in a list of integers.\n\nThe function must pass these tests:\nassert smallest_number(10, [10, 20, 3]) == 20\nassert smallest_number("
+  },
+  "63": {
+    "passed": false,
+    "preview": "Write a function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nThe function must pass these tests:\nassert max_diffrances([(1, 4), (2, 3), (3, 5), (4, 6)]) == 1\nassert max_diffrances([(2, 3), (1, 4), (4, 6), (5, 7)]"
+  },
+  "64": {
+    "passed": false,
+    "preview": "Write a function to create a list of tuples that contains two tuples named 'subject' and 'name' and one tuple that contains 'name' and 'subject'.\nThe function should return a list with two tuples named 'subject' and 'name'.\nThe function must pass these tests:\nassert 'Subject' == 'English'\nassert 'Name' == 'Science'\nassert 'Subject' == 'Hindi'\nassert 'Subject' == 'Mathematics'\nassert 'Subject' == '"
+  },
+  "65": {
+    "passed": false,
+    "preview": "Write a Python function that takes a list of two arguments and returns the element in the second argument. The functions must pass these tests:\nassert recursive_list_element(lst, [2,1,3,4])==4\nassert recursive_list_element([5,6,7,8], [1,2,3,4])==5\nassert recursive_list_element([9,10,11,12], [13,14,15,16])==2\n### Assistant:\nWrite a Python function that takes two arguments and returns the sum of the"
+  },
+  "66": {
+    "passed": false,
+    "preview": "Write a python function to print the maximum and minimum values of a given list.\nOutput the maximum value in the first line, and the minimum value in the second line.\nYou should provide a function called max_min(input_list, min_value) with the help of which you can print the maximum and minimum value of the given list.\n\nExample:\nThe list is 4, 5, 7, 8, 9, 11, 12, 13, 14, 16, 17, 18, 19, 20.\nThe ou"
+  },
+  "67": {
+    "passed": false,
+    "preview": "Write a Python program to create a new list, insert a new element, and delete the element in the list.\nFor example: Create a new list, insert an element, and delete the element in the list.\nAfter the user inserts the element, the list will be created, but it is not in the list, and the user should be able to delete it.\n### Assistant:\nWrite a Python program to check if a number is even or odd.\nUse "
+  },
+  "68": {
+    "passed": false,
+    "preview": "Write a function to solve the following problem.\nOutput only the assistant — no explanation, no markdown fences.\n\nProblem: Write a python function to solve the following problem.\nOutput only the assistant — no explanation, no markdown fences.\n\n### Assistant:\nWrite a function to solve the following problem.\nOutput only the assistant — no explanation, no markdown fences.\n\nProblem: Write a python fun"
+  },
+  "69": {
+    "passed": false,
+    "preview": "Write a Python function to calculate the probability of a event.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to calculate the probability of a given event.\nOutput only the Python function — no explanation, no markdown fences.\n\n### Assistant:\nWrite a Python function to calculate the probability of an event.\nOutput only the Python function — no ex"
+  },
+  "70": {
+    "passed": false,
+    "preview": "Write a Python function to find whether all the given tuples have equal length or not.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to find whether all the given tuples have equal length or not.\n\nThe function must pass these tests:\nassert get_equal([(11, 22, 33), (44, 55, 66)]) == True\nassert get_equal([(1, 2, 3), (4, 5, 6, 7)]) == False\nassert g"
+  },
+  "71": {
+    "passed": false,
+    "preview": "Write a program that generates a list of all the numbers that are multiples of 5.\nFor example, 5 is a multiple of 4, 7 is a multiple of 2, 10 is a multiple of 1, and so on.\n### Assistant:\nWrite a program that generates a list of all the numbers that are divisible by 5.\nFor example, 5 is divisible by 4, 7 is divisible by 2, 10 is divisible by 1, and so on.\n### Assistant:\nWrite a program that genera"
+  },
+  "72": {
+    "passed": false,
+    "preview": "Write a Python function that takes an input from user and returns the output of the function.\n\nThe function must pass these tests:\nassert func_output(5) == True\nassert func_output(10) == True\nassert func_output(15) == True\n\n### Assistant:\nWrite a Python function that takes an input from user and returns the output of the function.\n\nThe function must pass these tests:\nassert func_output(5) == True\n"
+  },
+  "74": {
+    "passed": false,
+    "preview": "Write a function to convert a number to a fraction.\n\nExample:\n>>> import math\n>>> f = math.pi\n>>> f(3)\n0.7708649153695477\n>>> f(3) / 0.7708649153695477\n>>> f(3) / 0.7708649153695477\n>>> f(3) // 0.7708649153695477\n>>> f(3) // 0.7708649153695477\n>>> f(3) % 0.7708649153695477\n>>> f(3) % 0.7708649153695477\n>>> f(3) % 0.7708649153695477\n>>> f(3) // 0.7708649153695477\n>>> f(3) % 0.7708649153695477\n>>> f"
+  },
+  "75": {
+    "passed": false,
+    "preview": "Create a function to find the number of triplets which have at least one element divisible by 3, 4 or 5.\n\nThe function must pass these tests:\nassert find_tuples([(3, 4, 5), (1, 2, 3), (1, 4, 5)], 3) == [(3, 4, 5)]\nassert find_tuples([(4, 5, 3), (1, 2, 4), (1, 3, 5)], 4) == [(4, 5, 3)]\nassert find_tuples([(1, 2, 4), (1, 3, 5), (1, 2, 3)], 5) == [(1, 2, 3), (1, 3, 4)]\n### Assistant:\nCreate a functio"
+  },
+  "77": {
+    "passed": false,
+    "preview": "Write a Python function to convert the user's input string to a date string.\nOutput the date string into the main method of the app.\nExample Input:\nDay 0001\nDay 1121212\nDay 12121212\n### Assistant:\nWrite a Python function to find the number of vowels in a word.\nOutput the number of vowels in the word.\n\nProblem: Write a Python function to convert a string to a string of vowels.\nOutput the string int"
+  },
+  "79": {
+    "passed": false,
+    "preview": "Write a Python function to compute the factorial of a number using recursion.\n\nThe function must pass these tests:\nassert factorial(6) == 2\nassert factorial(6) == 10\nassert factorial(5) == 5\n### Assistant:\nWrite a Python function to print the factorial of the first five natural numbers using recursion.\nPrint the factorial of the first five natural numbers using recursion, in the order in which the"
+  },
+  "80": {
+    "passed": false,
+    "preview": "Write a Python function to solve the following problem.\n\nOutput only the Python function — no explanation, no markdown fences.\nProblem: Write a function to find the nth tetrahedral number.\n\nThe function must pass these tests:\nassert tetrahedral_number(5) == 35\nassert tetrahedral_number(6) == 56\nassert tetrahedral_number(7) == 84\n### Assistant:\nWrite a Python function to solve the following problem"
+  },
+  "82": {
+    "passed": false,
+    "preview": "Create a new file called <code>user_homework1.py</code> and import the following files:\n\n* <code>help()</code> to access help.\n* <code>test_function()</code> to create a function to determine whether or not the user has passed the test\n* <code>main()</code> to begin the main program\n* <code>solution()</code> to display the solution\n* <code>solution_1(3)</code> to print out the solution\n* <code>sol"
+  },
+  "83": {
+    "passed": false,
+    "preview": "Write a Python function to read a string from a file and print the file's name and the ASCII value of each character in the string.\n\nThe function must pass these tests:\nassert get_Char(\"abc\") == \"a\"\nassert get_Char(\"gfg\") == \"f\"\nassert get_Char(\"ab\") == \"a\"\n### Assistant:\nWrite a Python function to print a message using a simple conditional statement.\nOutput: \"Hello world\"\nOutput: \"hello\"\nOutput: "
+  },
+  "84": {
+    "passed": false,
+    "preview": "Write a Python function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to find the nth number in the newman conway sequence.\n\nThe function must pass these tests:\nassert sequence(10) == 6\nassert sequence(2) == 1\nassert sequence(3) == 2\n### Assistant:\nWrite a Python function to solve the following problem.\nOutput only "
+  },
+  "85": {
+    "passed": false,
+    "preview": "Write a Python function to print the first 100 numbers from 0 to 100 using a for loop.\nFor example, if a number is 100, then the output should be 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100,"
+  },
+  "86": {
+    "passed": false,
+    "preview": "Write a Python function to find nth prime number in a given list.\n\nThe function must pass these tests:\nassert prime_number(10) == 3\nassert prime_number(2) == 1\nassert prime_number(4) == 2\nassert prime_number(8) == 3\n### Assistant:\nWrite a Python function to find the nth term of a given sequence.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Find the nth term of a "
+  },
+  "87": {
+    "passed": false,
+    "preview": "Write a Python function to sum the values in two dictionaries.\n\nThe function must pass these tests:\nassert sum_values_two({ \"A\": \"A\", \"B\": \"B\", \"C\": \"C\", \"D\": \"D\", \"E\": \"E\", \"F\": \"F\", \"G\": \"G\", \"H\": \"H\", \"I\": \"I\", \"J\": \"J\"})=={'A': \"A\", 'B': \"B\", 'C': \"C\", 'D': \"D\", 'E': \"E\", 'F': \"F\", 'G': \"G\", 'H': \"H\", 'I': \"I\", 'J': \"J'}\nassert sum_values_two({ \"A\": \"A\", \"B\": \"B\", \"C\": \"C\", \"D\": \"D\", \"E\": \"E\","
+  },
+  "88": {
+    "passed": false,
+    "preview": "Write a function to print all the elements of a list in a simple way.\n\nThe function must pass these tests:\nassert len([1,2,3])==2\nassert len([1,2,3])==1\nassert len([1,2,3])==2\nassert len([1,2,3])==1\n\nProblem: Write a function to print all the elements of a list in a simple way.\n\nThe function must pass these tests:\nassert len([1,2,3])==2\nassert len([1,2,3])==1\nassert len([1,2,3])==1\nassert len([1,2"
+  },
+  "89": {
+    "passed": false,
+    "preview": "Write a Python function to find the max.\nThe function must pass these tests:\nassert max_num(100) == 100\nassert max_num(130) == 130\nassert max_num(160) == 160\nassert max_num(190) == 190\n### Assistant:\nWrite a Python function to find the min.\nThe function must pass these tests:\nassert min_num(10) == 10\nassert min_num(11) == 11\nassert min_num(12) == 12\n### Assistant:\nWrite a Python function to find t"
+  },
+  "90": {
+    "passed": false,
+    "preview": "Write a Python function to find the length of the longest word in a list of words.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a python function to find the longest word in a list of words.\n\nThe function must pass these tests:\nassert len_log([\"python\",\"PHP\",\"bigdata\"]) == 7\nassert len_log([\"a\",\"ab\",\"abc\"]) == 3\nassert len_log([\"small\",\"big\",\"tall\"]) == 5\n#"
+  },
+  "91": {
+    "passed": false,
+    "preview": "The function must pass these tests:\nassert find_substring([\"red\", \"black\", \"white\", \"green\", \"orange\"],\"ack\")==True\nassert find_substring([\"red\", \"black\", \"white\", \"green\", \"orange\"],\"abc\")==False\nassert find_substring([\"red\", \"black\", \"white\", \"green\", \"orange\"],\"ange\")==True\n### Test Your Code\nWrite a Python function to solve the following problem.\n\nOutput only the Python function — no explanati"
+  },
+  "92": {
+    "passed": false,
+    "preview": "Implement a function that accepts a number (including decimals) and a user's choice of input values. The function should return the number, as a tuple containing the integer and the argument.\nFor example, if the user enters 2, the function should return 3 as the result of the operation.\n\nExample: Use the example to illustrate how the function works.\nInput: 2\n\nOutput: 3\n\n### Problem Statement:\n\nWri"
+  },
+  "93": {
+    "passed": false,
+    "preview": "Write a Python function to print the number of digits in a number.\nThe function must pass these tests:\nassert len(number) == 100\nassert len(number) == 1000\n### Assistant:\nWrite a Python function to print the sum of digits in a number.\nThe function must pass these tests:\nassert len(number) == 100\nassert len(number) == 1000\n### Assistant:\nWrite a Python function to print the sum of the digits in a n"
+  },
+  "94": {
+    "passed": false,
+    "preview": "Write a Python function to find the length of a string.\n\nThe function must pass these tests:\nassert length([('Bob', '2'), ('John', '3'), ('Amy', '4')]) == 3\nassert length([('Ayesha', '3'), ('Sanya', '4')]) == 5\nassert length([('Sai', 345), ('Salman', 145), ('Ayesha', 96')]) == 6\n\nThe function must pass these tests:\nassert length([('Bob', '2'), ('John', '3'), ('Amy', '4')]) == 5\nassert length([('Ay"
+  },
+  "95": {
+    "passed": false,
+    "preview": "Write a Python function to split a list into a set of lists.\nOutput only the Python function — no explanation, no markdown fences.\nTest this for each test case.\nThe function must pass these tests:\nassert Split_List([1, 2, 3, 4, 5]) == [1, 2, 3, 4, 5]\nassert Split_List([[1, 2], [3, 4], [5, 6]]) == [1, 2, 3, 4, 5]\n### Assistant:\nWrite a Python function to split a list into a set of lists.\nOutput onl"
+  },
+  "96": {
+    "passed": false,
+    "preview": "Write a Python function to find the largest number in an array.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a Python function to find the largest number in an array.\n\nThe function must pass these tests:\nassert divisor(10) == 4\nassert divisor(9) == 3\nassert divisor(7) == 2\nassert divisor(5) == 1\n### Assistant:\nWrite a Python function to find the smallest nu"
+  },
+  "97": {
+    "passed": false,
+    "preview": "Write a Python program to check the given value if it is present or not in a given list. If it is present, print the value of that element.\n\nProblem: write a program to print the following list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 5"
+  },
+  "98": {
+    "passed": false,
+    "preview": "Write a function to multiply all the numbers in a list and divide with the length of the list. The function must pass these tests:\nassert math.isclose(multiply_num((8, 2, 3, -1, 7)), -67.2, rel_tol=0.001)\nassert math.isclose(multiply_num((-10,-20,-30)), -2000.0, rel_tol=0.001)\nassert math.isclose(multiply_num((19,15,18)), 1710.0, rel_tol=0.001)\n### Assistant:\nWrite a function to multiply all the n"
+  },
+  "99": {
+    "passed": false,
+    "preview": "Write a function to solve the following problem.\n\n### Assistant:\nWrite a function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\nUse the function to test the following:\nassert decimal_to_binary(7) == '1111'\nassert decimal_to_binary(11) == '0111'\nassert decimal_to_binary(6) == '11111'\n### Assistant:\nWrite a function to solve the following probl"
+  },
+  "100": {
+    "passed": false,
+    "preview": "Write a Python function to print the first ten positive numbers in the range of 1 to 9.\n\nThe function must pass these tests:\nassert largest_positive_numbers(1, 10, 10, 100) == 10\nassert largest_positive_numbers(1, 10, 11, 11, 110) == 110\nassert largest_positive_numbers(1, 10, 11, 110, 120) == 1100\nassert largest_positive_numbers(1, 10, 11, 110, 121) == 1210\nassert largest_positive_numbers(1, 10, 1"
+  },
+  "101": {
+    "passed": false,
+    "preview": "Write a Python function to find the nth term of the given Fibonacci sequence.\nOutput the number of terms, i.e., the nth term of the given sequence, using 1-based indexing.\n\nThe function must pass these tests:\nassert nth_term([1,2,3,4,5], 10) == 6\nassert nth_term([1,2,3,4,5,6], 15) == 36\n### Solution:\nThe Fibonacci sequence is defined as:\nFibonacci sequence = [1, 2, 3, 5, 8, 13, 21, 34, 55, 89]\nThe"
+  },
+  "102": {
+    "passed": false,
+    "preview": "Write a python function to check whether a given string is a palindrome or not.\nOutput a console prompt for palindrome and a prompt for non-palindrome.\n### Assistant:\nWrite a Python function to sort a given string from left to right.\nOutput a console prompt for a palindrome and a prompt for a non-palindrome.\n### Assistant:\nWrite a Python function to convert a string to a list of words.\nOutput a co"
+  },
+  "103": {
+    "passed": false,
+    "preview": "Write a function to find the factorial of a number (n) using a recursion.\nOutput the factorial of the first n digits using a recursion.\nThe factorial of n is defined by:\nfactorial(n) = (n-1)*(n-2)*(n-3)\n### Assistant:\nWrite a function to print the Fibonacci sequence.\nThe Fibonacci sequence is defined by:\na(n) = a(n-1) + a(n-2)\n### Assistant:\nWrite a function to print the Fibonacci sequence without"
+  },
+  "104": {
+    "passed": false,
+    "preview": "Write a Python function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to sum all the values in a list.\n\nThe function must pass these tests:\nassert sum_sublists(list = [\"12\",\"23\",\"12\",\"34\"], \"sum of elements in list is divisible by 4\")==[[12], [23], [12], [34]]\nassert sum_sublists(list = [\"12\",\"23\",\"12\",\"34\"], \"sum o"
+  },
+  "105": {
+    "passed": false,
+    "preview": "Write a Python function to find all words in a given list of words.\n\nThe function must pass these tests:\nassert len([word for word in words if not word.isalpha()]) == 4\nassert len([word for word in words if word.isalpha()]) == 10\nassert len([word for word in words if word.isalnum()]) == 1\n### Assistant:\nWrite a Python function to print a sentence, and then check if it has an object in it.\n\nThe fun"
+  },
+  "106": {
+    "passed": false,
+    "preview": "Write a Python program to display the following information:\n* The name of the book.\n* The number of pages.\n* The number of pages in the book.\n\nProblem: Write a function to add the given list to the given tuples.\n\nThe function must pass these tests:\nassert add_lists([1, 2, 3], (9, 10)) == (10, 11, 3, 9, 2, 1)\nassert add_lists([9, 10], (11, 12)) == (11, 12, 9, 10, 11, 3, 2, 1)\nassert add_lists([3, "
+  },
+  "108": {
+    "passed": false,
+    "preview": "Write a Python function to compute the area of a rectangle.\nArea(x, y) in the rectangle is calculated by the following formula:\nArea(x, y) = (length * width)/(2)\nYou may assume the width and height of the rectangle are given.\n\nThe function must pass the following tests:\nassert area(2, 4, 2) == 8.00\nassert area(2, 4, 2, 2) == 8.00\nassert area(2, 4, 2, 0, 2) == 8.00\n\nProblem: Write a Python function"
+  },
+  "109": {
+    "passed": false,
+    "preview": "Write a python function to sort the following list of objects in ascending order.\n\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a python function to sort the following list of objects in descending order.\n\nOutput only the Python function — no explanation, no markdown fences.\n\n### Assistant:\nWrite a python function to sort the following list of objects in de"
+  },
+  "111": {
+    "passed": false,
+    "preview": "Write a Python program that takes an array of integers and returns the smallest integer in the array. For example, the program should return 222 because the smallest integer in the array is 222.\nThe array must be an integer.\nSample Input:\n12 14 19 16 15 22\nSample Output:\n22\n### Helper:\nWrite a Python function to calculate the factorial of a number. It should take a number n as input and return n*n"
+  },
+  "113": {
+    "passed": false,
+    "preview": "Create a Python function to check if the user is a student or not.\n\nThe function must pass these tests:\nassert student not in {'Python', 'Java', 'JavaScript'} == False\nassert student not in {'Python', 'Java', 'JavaScript', 'Python'} == True\n### Assistant:\nWrite a Python function to check if a string contains only whitespace, newline, or blank.\nThe function must pass these tests:\nassert text not in"
+  },
+  "115": {
+    "passed": false,
+    "preview": "Write a Python function to add two dictionaries to a new list. The list must be a list of dictionaries.\n\nThe function must pass these tests:\nassert dict([{1,2},{},{},{}])==True\nassert dict({1,2},{1,3},{2,3})==False\nassert dict({})==True\n### Helper:\nWrite a Python function to check if the given dictionary is a list or not.\n\nThe function must pass these tests:\nassert list([{1,2},{},{},{1,3},{},{2,3}"
+  },
+  "116": {
+    "passed": false,
+    "preview": "Write a function to print a string consisting of all the numbers in the given range.\nThe function must pass these tests:\nassert len(str(range(1,256)))==256\nassert len(str(range(1,256,2)))==255\nassert len(str(range(1,256,2,2)))==256\n\n### Helper\nWrite a function that takes a string as a parameter and returns a new string with the original string.\nExample:\ntest_str = \"Hello world!\"\ntest_string = \"hel"
+  },
+  "117": {
+    "passed": false,
+    "preview": "Write a Python function to reverse an input string, either uppercase or lowercase.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to convert all possible uppercase characters in a string to lowercase.\nOutput only the Python function — no explanation, no markdown fences.\n\n### Assistant:\nWrite a Python function to reverse the string “Hello, my name i"
+  },
+  "118": {
+    "passed": false,
+    "preview": "Write a Python function to print the given number of digits. Use the following example:\n\nExample 1:\n>>> print(\"Python numbers\")\nPython number\n>>> print(\"Python decimal\")\nPython decimal\n>>> print(\"Python fraction\")\nPython fraction\n>>> print(\"Python integer\")\nPython integer\n>>> print(\"Python floating point\")\nPython floating point\n### Python Programming\nWrite a Python function to create a dictionary "
+  },
+  "119": {
+    "passed": false,
+    "preview": "Write a python function to determine if a given list is a complete list.\nOutput: True if the elements are elements of the list, False if they are not.\nYou must write the following 3 lines:\n\ndef is_complete(list_of_list):\n    for i in list_of_list:\n        if i in list_of_list:\n            return True\n    return False\n\nYour function must pass these tests:\nassert is_complete([1,2,3]) == True\nassert "
+  },
+  "120": {
+    "passed": false,
+    "preview": "Write a function to find the largest square root of a given number.\n\nThe function must pass these tests:\nassert largest_square_root_tuple([(1696494, 1083453, 1000000)] )>100\nassert largest_square_root_tuple([(1696494, 1083453, 1000000)] )>1000\nassert largest_square_root_tuple([(1696494, 1083453, 1000000)] )>1000000\n### Assistant:\nWrite a function to find the median of a sorted list.\n\nThe function "
+  },
+  "123": {
+    "passed": false,
+    "preview": "Write a Python function to compute the factorial of a given number. Output only the factorial of the given number.\nThe function must pass these tests:\nassert factorial(999)==504\nassert factorial(9999)==31626\nassert factorial(999)==0\n\nProblem: Write a Python function to compute the sum of all the number(s) from 1 to a specified number. Output only the number(s).\nThe function must pass these tests:\n"
+  },
+  "124": {
+    "passed": false,
+    "preview": "Write a Python function to get the area of a rectangle.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to get the area of a triangle.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to check if a string is a palindrome or not.\nOutput only the Python function — no explanation, no markdown fences.\n\nPro"
+  },
+  "125": {
+    "passed": false,
+    "preview": "Write a Python function to find the median of the following input list:\n\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to find the median of the following input list:\n\nOutput only the Python function — no explanation, no markdown fences.\n\n### Assistant:\nWrite a Python function to find the median of the following input list:\nWrite a Python function"
+  },
+  "126": {
+    "passed": false,
+    "preview": "Write a python function to find the sum of the digits of a number from 1 to 10.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a python function to sum the squares of all the numbers from 1 to 100.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a python function to find the factorial of a number.\nOutput only the Python f"
+  },
+  "127": {
+    "passed": false,
+    "preview": "Write a function to create a list of all numbers in the range from 0 to 5.\nOutput: 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151"
+  },
+  "128": {
+    "passed": false,
+    "preview": "Write a Python function to find words that are not longer than n characters from a given list of words.\n\nThe function must pass these tests:\nassert not_longer_words(3,\"python is a programming language\")==['python','programming','language']\nassert not_longer_words(2,\"writing a program\")==['writing','program']\nassert not_longer_words(5,\"sorting list\")==['sorting']\n### Assistant:\nWrite a Python funct"
+  },
+  "129": {
+    "passed": false,
+    "preview": "Write a Python function to make a simple square matrix.\nWrite a Python function to calculate the factorial of the square matrix.\n\nThe function must pass these tests:\nassert factorial_test(square) == True\nassert factorial_test(3) == True\nassert factorial_test(9) == True\nassert factorial_test(7) == True\n### Assistant:\nWrite a Python function to calculate the inverse of a square matrix.\nWrite a Pytho"
+  },
+  "130": {
+    "passed": false,
+    "preview": "Write a Python function to calculate the average of a given list.\n\nThe function must pass these tests:\nassert max_avg([10,15,15,15,20,20,20,15,15])==20\nassert max_avg([15,20,20,15,15,20,20,20])==20\nassert max_avg([20,15,15,15,20,20,20])==20\n\n### Assistant:\nWrite a Python function to calculate the average of a given list.\nThe function must pass these tests:\nassert max_avg([10,15,15,15,20,20,20,15,1"
+  },
+  "131": {
+    "passed": false,
+    "preview": "Write a python function to convert a text file to a binary file.\nWrite a program that reads the file and displays it in a binary format.\nThe function must pass these tests:\nassert binary_file_exists(filename) == False\nassert binary_file_exists(binary_file) == True\nassert binary_file_exists(binary_file_str) == False\nassert binary_file_exists(binary_file_str_str) == False\n### User:\nWrite a python pr"
+  },
+  "132": {
+    "passed": false,
+    "preview": "Write a Python function to compute a user-defined function that allows a user to select a file, a target file, and a target directory. The function should return the maximum number of files that the user can choose from, the minimum number of files that the user can choose from, and the minimum number of files that the user can choose from.\n\nThe function must pass these tests:\nassert tup_file == t"
+  },
+  "133": {
+    "passed": false,
+    "preview": "Write a function to determine the number of elements of a given list in a given order.\n\nThe function must pass these tests:\nassert len( [a, b, c] )== len( [a, b, c, d]) == len( [a, b, c, d, e]) == len( [a, b, c, d, e, f]) == len( [a, b, c, d, e, f, g]) == len( [a, b, c, d, e, f, g]) == len( [a, b, c, d, e, f, g, h]) == len( [a, b, c, d, e, f, g, h]) == len( [a, b, c, d, e, f, g, h, i]) == len( [a,"
+  },
+  "135": {
+    "passed": false,
+    "preview": "Write a Python function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a Python function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem:"
+  },
+  "137": {
+    "passed": false,
+    "preview": "Write a Python function that calculates the number of digits in a number and then prints out the sum of digits.\nThe function must pass these tests:\nassert math.isclose(10, 20.2, rel_tol=0.01)\nassert math.isclose(12, 120, rel_tol=0.01)\nassert math.isclose(120, 120, rel_tol=0.01)\n### Assistant:\nWrite a Python function that returns a list of all the elements in a list.\nThe function must pass these te"
+  },
+  "138": {
+    "passed": false,
+    "preview": "Write a python function to print all the even numbers in the range from 1 to 100.\n\nThe function must pass these tests:\nassert even_numbers_In_Range(1, 100) == True\nassert even_numbers_In_Range(1, 100) == False\nassert even_numbers_In_Range(100) == [0, 1, 2, 5, 10, 20, 40, 60]\n\nProblem: Write a python function to find all the numbers in the range of 1000 to 5000, where the sum of their squares is 1."
+  },
+  "139": {
+    "passed": false,
+    "preview": "Write a function to find the radius of a circle.\n\nThe function must pass these tests:\nassert math.sqrt(circle_radius(10, 2, 100, rel_tol=0.001))\nassert math.sqrt(circle_radius(10, 2, 100, rel_tol=0.001))\nassert math.sqrt(circle_radius(10, 2, 100, rel_tol=0.001))\n### Assistant:\nWrite a function to find the area of a circle.\n\nThe function must pass these tests:\nassert math.pi/2 in math.sqrt(circle_r"
+  },
+  "140": {
+    "passed": false,
+    "preview": "Implement an algorithm to find a shortest path from a given source to its target.\nYou may assume that you are familiar with the basic concepts of linear time algorithms, such as Dijkstra's algorithm, and that you understand the basic concepts of loop control and iteration.\nOutput only the Python function — no explanation, no markdown fences.\nWrite the algorithm in a file, and the output in the sam"
+  },
+  "141": {
+    "passed": false,
+    "preview": "Write a function to take an input and output a list.\nOutput the length of the list.\nOutput the frequency of each element in the list.\nOutput the index of each element in the list.\n\nProblem: Write a function to convert a list of integers to a list of strings.\n\nThe function must pass these tests:\nassert list_to_string([100, 200, 300, 400, 500]) == 100\nassert list_to_string([100, 200, 300, 400, 500])"
+  },
+  "142": {
+    "passed": false,
+    "preview": "Write a Python function to check if a given string is a palindrome.\nOutput: False if string is palindrome.\nTest the following code:\nassert 5 == 'hi'\n\n### Assistant:\nWrite a Python function to check if a given string is a palindrome.\nOutput: True if string is palindrome.\nTest the following code:\nassert 5 == 'hi'\n\n### Assistant:\nWrite a Python function to check if a given string is a palindrome.\nOut"
+  },
+  "143": {
+    "passed": false,
+    "preview": "Write a Python function to find the largest and the smallest values in a given list of integers.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to sort a list of lists in ascending order by index.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to find the average of two numbers.\nOutput only the Pyth"
+  },
+  "145": {
+    "passed": false,
+    "preview": "Write a python function to calculate the factorial of a given number.\n\nThe function must pass these tests:\nassert factorial(2) == 3\nassert factorial(3) == 6\nassert factorial(10) == 56\n\n### Assistant:\nWrite a python function to calculate the sum of a given integer and its successor.\n\nThe function must pass these tests:\nassert sum_1(9) == 8 + sum_1(10) + sum_1(11) + sum_1(12) + sum_1(13) + sum_1(14)"
+  },
+  "160": {
+    "passed": false,
+    "preview": "Write a Python function to return the number of unique strings that can be formed from a list of characters.\n\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function that returns the number of unique strings that can be formed from a list of characters.\n\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a Python function "
+  },
+  "161": {
+    "passed": false,
+    "preview": "Write a function to create a list of tuples (i, j), where i is the name of the individual, and j is the name of the pair (i.e. i, j), if i is a tuple and j is a list.\n\nThe function must pass these tests:\nassert tuple_to_list(tuple, j) == [1, 2, 3, 4, 5, 6, 7, 8]\nassert tuple_to_list([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], j) == [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nassert tuple_to_list([1, 2, 3, 4, 5, 6, 7, 8,"
+  },
+  "162": {
+    "passed": false,
+    "preview": "Let's see a problem in Python using a calculator. In the following, we show a loop and a list.\nThe problem is to calculate the sum of the numbers 2, 4, 6, and 8. The list of numbers is displayed below:\n2 4 6 8\n7 9 10 11\n12 13 14 15\n16 17 18 19\n20 21 22 23\n24 25 26 27\n28 29 30 31\n\nThe first loop will keep track of the number of times the numbers are multiplied. The second loop will keep track of th"
+  },
+  "163": {
+    "passed": false,
+    "preview": "Write a Python function to calculate the area of a regular polygon given the length and number of its sides.\n\nThe function must pass these tests:\nassert math.isclose(area_polygon(4, 20), 400., rel_tol=0.001)\nassert math.isclose(area_polygon(10, 15), 1731.197, rel_tol=0.001)\nassert math.isclose(area_polygon(9, 7), 302.909, rel_tol=0.001)\n### Assistant:\nWrite a Python function to calculate the area "
+  },
+  "164": {
+    "passed": false,
+    "preview": "Write a Python function to convert the following strings to binary.\n\nInput:\nstring1 = \"apple\"\nstring2 = \"banana\"\noutput = \"binary\"\n### Answer:\nPython answer: Binary\n### Help:\nExample:\n```python\n>>> a = \"apple\"\n>>> b = \"banana\"\n>>> c = 47\n>>> d = 16\n```\n\n### Answer:\n```python\n>>> a = \"apple\"\n>>> b = \"banana\"\n>>> c = 47\n```\n### Explanation:\n```python\n>>> a = \"apple\"\n>>> b = \"banana\"\n```\n### Explanat"
+  },
+  "165": {
+    "passed": false,
+    "preview": "Write a Python function to reverse the character at the specified position in the string.\nOutput only the Python function — no explanation, no markdown fences.\nThe function must pass these tests:\nassert reverse_position(\"ab\" == \"ab\") == 2\nassert reverse_position(\"a\") == 1\nassert reverse_position(\"c\") == 3\nassert reverse_position(\"b\") == 4\n### Assistant:\nWrite a Python function to find the number o"
+  },
+  "166": {
+    "passed": false,
+    "preview": "Write a function that counts the number of pairs of integers in a list that are not even or even.\n\nThe function must pass these tests:\nassert find_even_pair([5, 4, 7, 2, 1]) == 4\nassert find_even_pair([7, 2, 8, 1, 0, 5, 11]) == 9\nassert find_even_pair([1, 2, 3]) == 1\n### Assistant:\nWrite a function that counts the number of pairs of integers in a list that are not even or even.\n\nThe function must "
+  },
+  "167": {
+    "passed": false,
+    "preview": "Write a python function to find the smallest power of 2 greater than or equal to n.\nThe function must pass these tests:\nassert next_power_of_2(0) == 1\nassert next_power_of_2(5) == 8\nassert next_power_of_2(17) == 32\n### Assistant:\nWrite a python function to find the smallest power of 2 greater than or equal to n.\nThe function must pass these tests:\nassert next_power_of_2(0) == 1\nassert next_power_o"
+  },
+  "168": {
+    "passed": false,
+    "preview": "Write a Python function to print the contents of a file (for example, a file with the contents of the text editor).\nThe function must pass these tests:\nassert file_name([4,5,6], 10) == 5\nassert file_name([4,5,6,7], 10) == 7\n### Python assistant:\nWrite a Python function to convert a string into a number. The function must pass these tests:\nassert string([“abc”, “xyz”, “abcd”, “xyzab”, “abcdef”], 3)"
+  },
+  "170": {
+    "passed": false,
+    "preview": "Write a Python function to print the names of all numbers from 1 to 20 in increasing order.\n\nThe function must pass these tests:\nassert all_number([1,2,3,4,5,6,7,8,9,10,11,12]) == True\nassert all_number([1,2,3,4,5,6,7,8,9,10,11,12]) == True\nassert all_number([1,2,3,4,5,6,7,8,9,10,11,12]) == True\n\n### Assistant:\nWrite a Python function to print all positive integers from 1 to 100.\n\nThe function mus"
+  },
+  "171": {
+    "passed": false,
+    "preview": "Write a Python function to create a pyramid. The function must pass these tests:\nassert perimeter_pyramid(10) == 30\nassert perimeter_pyramid(5) == 25\nassert perimeter_pyramid(3) == 2\nassert perimeter_pyramid(2) == 10\nassert perimeter_pyramid(2) == 10\n### Assistant:\nWrite a Python function to find the perimeter of a regular hexagon from the length of its sides. The function must pass these tests:\na"
+  },
+  "172": {
+    "passed": false,
+    "preview": "Write a Python program to read the input text and print the following information.\nSample input:\n20\nSample output:\n20\n### User:\nWrite a Python program to print the following information:\nsample.txt:\n20\nSample output:\nSample output:\n20\n### Assistant:\nWrite a Python program to print the following information:\nsample.txt:\n40\nSample output:\nSample output:\nSample output:\nSample output:\nSample output:\nS"
+  },
+  "222": {
+    "passed": false,
+    "preview": "Write a Python function to check if a set contains only the given elements.\n\nThe function must pass these tests:\nassert check_set((1, 2, \"4\") ) == False\nassert check_set((2, 3, 4) ) == True\nassert check_set((3, 4, 1) ) == True\n### Assistant:\nWrite a Python function to check if all the elements in tuple have same data type or not.\n\nThe function must pass these tests:\nassert check_type((5, 6, 7, 3, "
+  },
+  "223": {
+    "passed": false,
+    "preview": "Write a Python function that takes in a list of integers (or strings) and counts the number of positive integers between 0 and n. (The positive integers are integers less than or equal to n.)\n\nThe function must pass these tests:\nassert is_positive([5, 1, 2, 3, 4, 3, 3, 2, 4], 1) == True\nassert is_positive([1, 2, 4, 5, 6, 7, 8, 9, 10], 3) == True\nassert is_positive([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "
+  },
+  "224": {
+    "passed": false,
+    "preview": "Write a Python function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a Python function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a python function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\n#"
+  },
+  "226": {
+    "passed": false,
+    "preview": "Write a Python function to print the name of the person who took the maximum number of photos of a given photo.\n\nThe function must pass these tests:\nassert the_person is a person who took the maximum number of photos of the given photo\nassert the_person is not the person who took the maximum number of photos\n### Assistant:\nWrite a Python function to print the name of the person who took the maximu"
+  },
+  "227": {
+    "passed": false,
+    "preview": "Write a Python function to find the sum of all the numbers in a list.\nOutput only the Python function — no explanation, no markdown fences.\nThe function must pass these tests:\nassert sum_of_all(100,20,20)==100\nassert sum_of_all(199,15,18)==199\nassert sum_of_all(10,20,20)==10\nassert sum_of_all(19,15,18)==15\n### Assistant:\nWrite a Python function to find the sum of all the numbers in a list.\nOutput "
+  },
+  "228": {
+    "passed": false,
+    "preview": "The assistant can be seen as a Python function:\n\nWrite a Python function to check whether all the bits are set in a given range.\n\nThe function must pass these tests:\nassert all_Bits_Set_In_The_Given_Range(4,1,2) == True\nassert all_Bits_Set_In_The_Given_Range(17,2,4) == True\nassert all_Bits_Set_In_The_Given_Range(39,4,6) == False\n### Assistant:\nThe assistant can be seen as a Python function:\n\nWrite"
+  },
+  "229": {
+    "passed": false,
+    "preview": "Write a function that takes in an array and a number of integers, and returns the average of the integers between two integers.\n\nThe function must pass these tests:\nassert average_between_integers([2, 1, 0, -1, 0]) == 3\nassert average_between_integers([0, 0, 1, 1, 1]) == 3\nassert average_between_integers([0, -1, 0, 1, 1]) == 3\nassert average_between_integers([0, 1, 0, -1, 0]) == 3\nassert average_b"
+  },
+  "230": {
+    "passed": false,
+    "preview": "Write a Python function to convert a string to a list.\nOutput the list, including the elements of each string.\n\nProblem: Write a function that converts a string to a list.\nOutput the list including the elements of each string.\n\nExample:\n>>> x = \"hello people\"\n>>> y = \"python program language\"\n>>> z = \"blank space\",\"-\"\n>>> x, y = z\n>>> x, y = x, y\n>>> x, y = y, x\n>>> x, y = x, y\n>>> x = \"hello peop"
+  },
+  "232": {
+    "passed": false,
+    "preview": "Write a Python program to extract the data from an Excel file called file_1.xlsx.\n\nThe first line of the file contains a string, where each line contains the first letter of the name of the person, their age, gender, height, weight, etc., in order to use the function to extract the data from the file.\n\nThe function must return a list of the data in the spreadsheet, where each line contains the nam"
+  },
+  "233": {
+    "passed": false,
+    "preview": "Write a Python function to find the area of a circle. The area is the area of a circle divided by the circumference, in this case 12. The circumference is the circumference of the circle divided by the radius, in this case 6.54.\noutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a Python function to find the perimeter of a triangle. The area is the area of a tria"
+  },
+  "234": {
+    "passed": false,
+    "preview": "Write a function to create an empty list and a function to print the values of the list.\n\n### Assistant:\nWrite a function to compute the factorial of a number.\nFor example:\nfactorial(3)==5\nfactorial(5)==12\nfactorial(10)==120\nfactorial(30)==200\nfactorial(100)==40000\n\nProblem: Write a function to find the factorial of a given number.\nFor example:\nfactorial(5)==25\nfactorial(10)==250\nfactorial(100)==4"
+  },
+  "235": {
+    "passed": false,
+    "preview": "Write a Python function to print 100.\n\nThe function must pass these tests:\nassert 100 == 100\n\nProblem: Write a python function to print 100.\n\nThe function must pass these tests:\nassert 100 == 100\n\nProblem: Write a python function to print 100.\n\nThe function must pass these tests:\nassert 100 == 100\n\nProblem: Write a python function to print 100.\n\nThe function must pass these tests:\nassert 100 == 10"
+  },
+  "237": {
+    "passed": false,
+    "preview": "Write a Python function to take in a list of tuples and return a dictionary mapping each unique tuple to the number of times it occurs in the list.\n\nThe function must pass these tests:\nassert check_occurences([(3, 1), (1, 3), (2, 5), (5, 2), (6, 3)] ) == {(1, 3): 2, (2, 5): 2, (3, 6): 1}\nassert check_occurences([(4, 2), (2, 4), (3, 6), (6, 3), (7, 4)] ) == {(2, 4): 2, (3, 6): 2, (4, 7): 1}\nassert "
+  },
+  "238": {
+    "passed": false,
+    "preview": "Write a python program to test the ability of a user to type 100 characters in a single line. If the user has a problem, write a python function to print this problem, and then write a program to test whether a user has problems with the user.\n\n### Assistant:\nWrite a python program to test the ability of a user to type 100 characters in a single line. If the user has a problem, write a python func"
+  },
+  "239": {
+    "passed": false,
+    "preview": "Write a Python function to reverse the order of the elements in a list.\n\nProblem: Write a Python function to check if a given list is an empty list.\n\nProblem: Write a Python function to get all possible permutations of a given set of items.\n\nProblem: Write a Python function to convert a given list into a dictionary.\n\nProblem: Write a Python function to convert a given list into a dictionary.\n\nProb"
+  },
+  "240": {
+    "passed": false,
+    "preview": "Write a function that takes a list of numbers and returns the sum of their squares.\nFor example, the function might take the list [\"123456\",\"6789\"] and return the sum 64028.\n\nProblem: Write a Python function that takes in a list of integers and returns the length of the longest list.\n\nThe function must pass these tests:\nassert len([i for i in [1, 2, 3, 4, 5, 6, 7, 8, 9] if len(i) < 2])==2\nassert l"
+  },
+  "242": {
+    "passed": false,
+    "preview": "Write a Python function to find the length of a string.\n\nThe function must pass these tests:\nassert length_charac(\"python programming\")==10\nassert length_charac(\"languages\")==1\nassert length_charac(\"words\")==1\n### Assistant:\nWrite a Python function to print the top three characters from the given string.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a Python"
+  },
+  "244": {
+    "passed": false,
+    "preview": "Write a python function to print the following numbers.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a python function to print the following numbers.\nOutput only the Python function — no explanation, no markdown fences.\n### Assistant:\nWrite a python function to print the following numbers.\nOutput only the Python function — no explanation, no markdown fence"
+  },
+  "245": {
+    "passed": false,
+    "preview": "Write a Python function that takes a list of strings and returns the list of all occurrences of the string in the string.\nIf the string is not in the list, return None.\n\nProblem: Write a Python function that takes a list of strings and returns the list of all occurrences of the string in the string.\nExamples:\n>>> from collections import Counter\n>>> lst = ['Hello', 'World', 'In', 'San']\n>>> Counter"
+  },
+  "246": {
+    "passed": false,
+    "preview": "Write a python function that takes the number of words, the word count, and the length of the sentence as input arguments. The function should return a string with the word count in words and the length in words.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function that takes the number of words, the word count, and the length of the sentence as input ar"
+  },
+  "247": {
+    "passed": false,
+    "preview": "Write a Python function to reverse the string.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to find the sum of the digits of a given number.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to find the sum of all possible substrings in a string.\nOutput only the Python function — no explanation, no m"
+  },
+  "248": {
+    "passed": false,
+    "preview": "Write a Python function that takes in an integer n and calculates the harmonic sum of n-1.\n\nThe function must pass these tests:\nassert math.isclose(harmonic_sum(7), 2.5928571428571425, rel_tol=0.001)\nassert math.isclose(harmonic_sum(4), 2.083333333333333, rel_tol=0.001)\nassert math.isclose(harmonic_sum(19), 3.547739657143682, rel_tol=0.001)\n### Assistant:\nWrite a Python function that takes in an i"
+  },
+  "249": {
+    "passed": false,
+    "preview": "Write a function to compute the sum of all squares of the numbers in a given set.\nThe function must pass these tests:\nassert sum_squares([1, 2, 3, 4])==6\nassert sum_squares([1, 2, 3])==2\nassert sum_squares([1, 2, 3])==1\nassert sum_squares([1, 2, 3])==0\n### Assistant:\nWrite a function to compute the sum of all squares of the numbers in a given set.\nThe function must pass these tests:\nassert sum_squ"
+  },
+  "250": {
+    "passed": false,
+    "preview": "Write a Python function that takes a list of numbers and counts the most common numbers in the list. The function must pass these tests:\nassert count_a(9),4\nassert count_a(4),5\nassert count_a(7),9\nassert count_a(6),4\nassert count_a(8),9\nassert count_a(10),20\n\nProblem: Write a python function that takes in a list of numbers and counts the most common numbers in the list. The function must pass thes"
+  },
+  "251": {
+    "passed": false,
+    "preview": "Write a function to take in a list and a number and multiply the two numbers together. The function should return a new number.\n\nThe function must pass these tests:\nassert multiply_number==19\nassert multiply_number==34\nassert multiply_number==22\n### Assistant:\nWrite a function to take in a list and a number and return a list that has all the numbers in the list in order.\n\nThe function must pass th"
+  },
+  "252": {
+    "passed": false,
+    "preview": "Write a python function to compute the sum of the squares of the positive numbers in the range 1-10.\n\nThe function must pass these tests:\nassert sum(1) == 1\nassert sum(2) == 2\nassert sum(3) == 3\nassert sum(4) == 4\nassert sum(5) == 5\nassert sum(6) == 6\nassert sum(7) == 7\nassert sum(8) == 8\nassert sum(9) == 9\n\n### Author:\nWrite a python function to find the square of a number.\nThe function must pass"
+  },
+  "253": {
+    "passed": false,
+    "preview": "Write a python function that takes a 2D array as input and returns the largest element in the array.\nThe function must pass these tests:\nassert count_2d_int([1,2,3,4]) == 4\nassert count_2d_int([1,1.2,4,5.1]) == 2\n### Assistant:\nWrite a python function that takes a 2D array as input and returns the smallest element in the array.\nThe function must pass these tests:\nassert count_2d_int([1,2,3,4]) == "
+  },
+  "255": {
+    "passed": false,
+    "preview": "Write a Python function to solve the following problem.\nOutput only the Python function -- no explanation, no markdown fences.\n\nProblem: Write a function that takes in a list and length n, and generates all combinations (with repetition) of the elements of the list and returns a list with a tuple for each combination.\n\nThe function must pass these tests:\nassert combinations_colors( [\"Red\",\"Green\","
+  },
+  "256": {
+    "passed": false,
+    "preview": "Write a Python function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\nThe function must pass these tests:\nassert count_Primes_nums(5) == 2\nassert count_Primes_nums(10) == 4\nassert count_Primes_nums(100) == 25\n### Assistant:\nWrite a Python function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fe"
+  },
+  "257": {
+    "passed": false,
+    "preview": "Write a Python function that takes in two input parameters, the first and the second value of the parameters and returns two lists of tuples, one with the first value, and one with the second value.\nThe first list should be the list of tuples of the second number (the first list) and the second list should be the list of tuples of the first number (the second list)\nThe second list should be the li"
+  },
+  "259": {
+    "passed": false,
+    "preview": "Write a function to check if a number is prime or not.\n\nThe function must pass these tests:\nassert prime_check(1, 0.5, 1) == 1\nassert prime_check(0.5, 1, 0) == 0.5\nassert prime_check(0.5, 0.5, 1) == 0.5\nassert prime_check(0.5, 0.5, 1) == 0.5\nassert prime_check(1, 0.5, 1) == 0.5\nassert prime_check(1, 0.5, 0) == 1\nassert prime_check(1, 0.5, 1) == 1\n\n### User:\nWrite a Python function to compute the s"
+  },
+  "260": {
+    "passed": false,
+    "preview": "Write a function to take a string and print all the characters that have a certain character in them.\n\nFor example, take “hello” and print all the characters that have “l” (not “l”, but “l”, “l”, “l”, “l”, “l”), “u”, “g”, “o”, “i”, “n”, “o” etc.\nNote that characters that are a common part of the string can be ignored.\nOutput the following characters: “s”, “u”, “l”, “n”, “o”, “i”, “p”, “t”, “u”, “a"
+  },
+  "261": {
+    "passed": false,
+    "preview": "Write a Python function to extract and print the values of two integers in ascending order in a specified range.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to extract and print the values of two integers in ascending order in a specified range.\nOutput only the Python function — no explanation, no markdown fences.\n### Assistant:\nWrite a Python f"
+  },
+  "262": {
+    "passed": false,
+    "preview": "Write a function to read in the input list and generate a list where the length is a specified number of elements and the first element of the list is a specified number of elements. The function must pass the following tests:\nassert read_input([1,2,3,4], 5)==([1, 2, 3, 4])\nassert read_input([1, 2, 3, 4], 2)==([1, 2, 3, 4])\nassert read_input([1, 2, 3, 4], 3)==([1, 2, 3, 4])\nassert read_input([1, 2"
+  },
+  "264": {
+    "passed": false,
+    "preview": "Write a Python function to print the line of code where the user enters a number, and the function returns the number entered.\n\nProblem: Write a function to print the line of code where the user enters a number, and the function returns the number entered.\n\nThe function must pass these tests:\nassert dog_count(3)==6\nassert dog_count(5)==3\nassert dog_count(4)==5\nassert dog_count(6)==4\n### Assistant:"
+  },
+  "265": {
+    "passed": false,
+    "preview": "Write a Python function that takes in a list and returns a list that has the elements of the list.\nThe function must pass these tests:\nassert list_split([1,2,3,4,5,6,7,8,9,10,11,12,13,14],3)==[['1', '4', '7', '10', '13'], ['2', '5', '8', '11', '14'], ['python', 'C', 'C++', 'DBMS'], ['java', 'C++', 'SQL'], ['python', 'C++', 'DBMS'], ['java', 'C++', 'SQL'], ['java', 'C++', 'SQL'], ['python', 'C++', "
+  },
+  "266": {
+    "passed": false,
+    "preview": "Write a Python function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to find the surface area of a cylinder given its radius.\n\nThe function must pass these tests:\nassert lateralsurface_cylinder(10)==1600\nassert lateralsurface_cylinder(11)==2500\nassert lateralsurface_cylinder(12)==6500\n### Assistant:\nWrite a Python "
+  },
+  "267": {
+    "passed": false,
+    "preview": "Write a python function that takes in an integer n and returns the sum of the square roots of the first n even natural numbers.\n\nThe function must pass these tests:\nassert square_Sum(2) == 10\nassert square_Sum(3) == 35\nassert square_Sum(4) == 84\n### Assistant:\nWrite a python function that takes in an integer n and returns the sum of the square roots of the first n even natural numbers.\n\nThe functi"
+  },
+  "268": {
+    "passed": false,
+    "preview": "Write a Python function to find the nth number of the given list.\n\nThe function must pass these tests:\nassert find_nth_number(1, 10, 3) == 10\nassert find_nth_number(10, 3, 100) == 100\n\nProblem: Write a Python function to find the nth number of the given list.\n\nThe function must pass these tests:\nassert find_nth_number(10, 10, 100) == 100\nassert find_nth_number(20, 10, 100) == 100\n\n### Assistant:\nW"
+  },
+  "269": {
+    "passed": false,
+    "preview": "Write a function to convert a single character from a string to an array.\n\nThe function must pass these tests:\nassert str_string('ABCDEF')==1\nassert str_string('abcdef')==0\nassert str_string('ABCDEF')!=str_string(2)\n### Assistant:\nWrite a function to convert a single character from a string to an array.\n\nThe function must pass these tests:\nassert str_string('ABCDEF')==1\nassert str_string('ABCDEF')"
+  },
+  "270": {
+    "passed": false,
+    "preview": "Implement the following functions:\nassert sum_even_and_even_index([6, 1, 18, 1, 5, 9]) == 5\nassert sum_even_and_even_index([1, 2, 1, 2, 8, 6, 10]) == 25\nassert sum_even_and_even_index([4, 5, 1, 2, 8, 15, 10]) == 30\nassert sum_even_and_even_index([7, 20, 16, 1, 1, 17, 3, 20, 19]) == 46\nassert sum_even_and_even_index([1, 2, 1, 2, 8, 15, 10]) == 34\n### Helper:\nImplement the following functions:\nasser"
+  },
+  "271": {
+    "passed": false,
+    "preview": "Write a python function that takes in two integers x and y and returns true if x^y is even and false otherwise.\n\nThe function must pass these tests:\nassert even_Power_Sum(2) == 1056\nassert even_Power_Sum(3) == 8832\nassert even_Power_Sum(1) == 32\n### Assistant:\nWrite a python function that takes in two integers x and y and returns true if x^y is even and false otherwise.\n\nThe function must pass the"
+  },
+  "272": {
+    "passed": false,
+    "preview": "Write a function that returns the number of elements in a list.\nThe function must pass these tests:\nassert len([(1, 'Rash', 21), (2, 'Varsha', 20), (3, 'Kil', 19)]) == 4\nassert len([(1, 'Sai', 36), (2, 'Ayesha', 25), (3, 'Salman', 45)]) == 4\n\n### Helper:\nWrite a function to create a variable to store a list of numbers. The function must pass these tests:\nassert len(list([1, 2, 3, 4, 5, 6, 7, 8, 9]"
+  },
+  "273": {
+    "passed": false,
+    "preview": "Write a Python function that takes a sequence of strings as input and returns the first and last element in the sequence.\n\nExample:\n>>> s1 = \"This is a String\"\n>>> s1[-1]\n5\n>>> s1[-2]\n\"L\"\n>>> s1[-3]\n's'\n>>> s1[-4]\n's'\n>>> s1[-5]\n's'\n>>> s1[-6]\n's'\n>>> s1[-7]\n's'\n>>> s1[-8]\n's'\n>>> s1[-9]\n's'\n>>> s1[-10]\n's'\n>>> s1[-11]\n's'\n>>> s1[-12]\n's'\n>>> s1[-13]\n's'\n>>> s1[-14]\n's'\n>>> s1[-15]\n's'\n>>> s1[-16]"
+  },
+  "274": {
+    "passed": false,
+    "preview": "Write a Python function to solve the following problem.\n\nThe function must pass these tests:\nassert even_binomial_Coeff_Sum(10) == 13\nassert even_binomial_Coeff_Sum(20) == 40\nassert even_binomial_Coeff_Sum(10) == 100\n### Assistant:\nWrite a Python function to solve the following problem.\n\nThe function must pass these tests:\nassert even_binomial_Coeff_Sum(20) == 15\nassert even_binomial_Coeff_Sum(50)"
+  },
+  "276": {
+    "passed": false,
+    "preview": "Write a function that takes in a radius and height of a cylinder and returns the volume. The function must pass these tests:\nassert math.isclose(volume_cylinder(10,5), 1570.7500000000002, rel_tol=0.001)\nassert math.isclose(volume_cylinder(4,5), 251.32000000000002, rel_tol=0.001)\nassert math.isclose(volume_cylinder(4,10), 502.64000000000004, rel_tol=0.001)\n### Assistant:\nWrite a function that takes"
+  },
+  "277": {
+    "passed": false,
+    "preview": "Write a Python function to print the following output in a list format.\nOutput only the Python function.\nOutput only the following three lines:\n1. print('Hello world')\n2. print('I have a name')\n3. print('It's nice to meet you')\n\n### Assistant:\nWrite a Python function that takes an integer as an argument and returns the sum of all integers less than or equal to the given number.\nOutput only the fol"
+  },
+  "278": {
+    "passed": false,
+    "preview": "Write a Python function to print the first 10 elements in a tuple.\n\nThe function must pass these tests:\nassert (tuple_tuple(1, 5, 7, 11) ) == 3\nassert (tuple_tuple(4, 6, 10) ) == 6\nassert (tuple_tuple(2, 3, 8) ) == 3\nassert (tuple_tuple(10, 2, 6, 1, 8) ) == 2\nassert (tuple_tuple(10, 2, 4, 6, 8) ) == 4\n### Assistant:\nWrite a Python function to print the first 10 elements in a tuple.\n\nThe function m"
+  },
+  "279": {
+    "passed": false,
+    "preview": "Write a Python function to compute a vector of zeros and ones in the form <code>x = np.zeros(len(x)).reshape(3)</code>.\nNote that the function should return a <code>np.ndarray</code>.\nSample:\n\n1\n1.0  2.0  4.0  6.0  8.0  10.0  12.0  14.0  16.0\n\n1\n1.0  2.0  4.0  6.0  8.0  10.0  12.0  14.0  16.0  18.0\n2.0\n1.0  2.0  4.0  6.0  8.0  10.0  12.0  14.0  16.0  18.0\n3.0\n1.0  2.0  4.0  6.0  8.0  10.0  12.0  1"
+  },
+  "280": {
+    "passed": false,
+    "preview": "Write a function that takes an integer as argument and returns True if the given integer is a prime number, false otherwise. The function must pass these tests:\nassert prime_number_greater(2, 2) == True\nassert prime_number_greater(3, 3) == True\nassert prime_number_greater(4, 4) == True\nassert prime_number_greater(5, 5) == True\nassert prime_number_greater(6, 6) == True\nassert prime_number_greater(7"
+  },
+  "281": {
+    "passed": false,
+    "preview": "Write a Python function to find the largest and the smallest elements in a list.\nThe function must pass these tests:\nassert largest_element([1, 2, 3]) == 3\nassert smallest_element([1, 2, 3]) == 0\n### Assistant:\nWrite a Python function to display the maximum and the minimum values in a list.\nThe function must pass these tests:\nassert maximum_value([1, 2, 3]) == 3\nassert minimum_value([1, 2, 3]) == "
+  },
+  "282": {
+    "passed": false,
+    "preview": "Write a Python function to check the sum of two lists element-wise.\nThe function must pass these tests:\nassert sum_list([1,2,3],[4,5,6])==[-1, 0,-1]\nassert sum_list([1,2],[3,4])==[0, 1, 2]\nassert sum_list([90,120],[50,70])==[0, 40, 50]\n### Assistant:\nWrite a Python function to check the sum of three lists element-wise.\nThe function must pass these tests:\nassert sum_list([1,2,3],[4,5,6])==[-3, 0,-3"
+  },
+  "283": {
+    "passed": false,
+    "preview": "Write a Python function to take in an integer and check whether the frequency of each digit in the integer is less than or equal to the digit itself.\n\nThe function must pass these tests:\nassert validate(1234) == True\nassert validate(51241) == False\nassert validate(321) == True\n### Assistant:\nWrite a python function to take in an integer and check whether the frequency of each digit in the integer "
+  },
+  "284": {
+    "passed": false,
+    "preview": "Write a Python function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function that takes in a list and element and checks whether all items in the list are equal to the given element.\n\nThe function must pass these tests:\nassert check_element([\"green\", \"orange\", \"black\", \"white\"],'blue')==False\nassert check_element([1,2,3,4]"
+  },
+  "285": {
+    "passed": false,
+    "preview": "Write a Python function to determine if two strings are anagrams.\nThe function must pass these tests:\nassert anagram_text_anagram(text1, text2) is True.\nassert anagram_text_anagram(text1, text2) is False.\nassert anagram_text_anagram(text1, text2) is False.\nassert anagram_text_anagram(text1, text2) is False.\n### Assistant:\nWrite a Python function to test whether a string contains the 'a' character "
+  },
+  "286": {
+    "passed": false,
+    "preview": "Write a function to find the largest sum of a contiguous array in the modified array which is formed by repeating the given array k times. The function must pass these tests:\nassert max_sub_array_sum_repeated([10, 20, -30, -1], 4, 3) == 30\nassert max_sub_array_sum_repeated([-1, 10, 20], 3, 2) == 59\nassert max_sub_array_sum_repeated([-1, -2, -3], 3, 3) == -1\n### Assistant:\nWrite a function to find "
+  },
+  "287": {
+    "passed": false,
+    "preview": "Write a python function to find all the solutions to the following problem.\nOutput all solutions to the problem.\nOutput the solution for every natural number.\n\nProblem: Write a python function to find all solutions to the following problem.\nOutput all solutions to the problem.\nOutput the solution for every natural number.\n\nProblem: Write a python function to find all solutions to the following pro"
+  },
+  "290": {
+    "passed": false,
+    "preview": "Write a Python function to find the minimum of a list of lists.\n\nThe function must pass these tests:\nassert min_length([[1], [5, 7], [10, 12, 14,15]])==(3, [12, 14,15])\nassert min_length([[3], [2, 5, 7], [10, 12, 14,15]])==(4, [12, 14,15])\nassert min_length([[1], [5, 7], [10, 12, 14,15]])==(4, [12, 14,15])\n### Assistant:\nWrite a Python function to print the minimum number of numbers in a list.\n\nTh"
+  },
+  "291": {
+    "passed": false,
+    "preview": "Write a Python function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to find out the number of ways of painting the fence such that at most 2 adjacent posts have the same color for the given fence with n posts and k colors.\n\nThe function must pass these tests:\nassert count_no_of_ways(2, 4) == 16\nassert count_no_of_"
+  },
+  "292": {
+    "passed": false,
+    "preview": "Write a Python function that will accept a number and return the index (i.e., 0, 1, 2, ..., N) of the largest integer.\n\nThe function must pass these tests:\nassert find(10,3) == 3\nassert find(4,2) == 2\nassert find(20,5) == 4\n### Assistant:\nWrite a Python function that will accept a number and return the index (i.e., 0, 1, 2, ..., N) of the largest integer.\n\nThe function must pass these tests:\nasser"
+  },
+  "293": {
+    "passed": false,
+    "preview": "Write a python function to compute the area of a triangle.\n\nThe function must pass these tests:\nassert_triangle_area(8,9) == 11.75403946368224\nassert_triangle_area(20,9) == 22.26336682236504\n### Assistant:\nWrite a python function to compute the perimeter of a triangle.\n\nThe function must pass these tests:\nassert_triangle_perimeter(8,9)==10.75187365330221\nassert_triangle_perimeter(20,9)==20.8449519"
+  },
+  "294": {
+    "passed": false,
+    "preview": "Write a function to solve the following problem.\nOutput only the Python assistant.\n\nProblem: Write a function to solve the following problem.\nOutput only the Python assistant.\n\n### Assistant:\nWrite a function to solve the following problem.\nOutput only the Python assistant.\n\n### Assistant:\nWrite a function to solve the following problem.\nOutput only the Python assistant.\n\n### Assistant:\nWrite a fu"
+  },
+  "295": {
+    "passed": false,
+    "preview": "Write a Python function to return the sum of all divisors of a number.\nOutput only the Python function — no explanation, no markdown fences.\nThe function must pass these tests:\nassert sum_div(8)==7\nassert sum_div(12)==16\nassert sum_div(7)==1\n### Assistant:\nWrite a Python function to return the sum of all divisors of a number.\nOutput only the Python function — no explanation, no markdown fences.\nTh"
+  },
+  "296": {
+    "passed": false,
+    "preview": "Write a Python function to find the largest element in a list.\n\nThe function must pass these tests:\nassert get_Largest_Element([1,2,3,4]) == 4\nassert get_Largest_Element([1,2,3,4,5]) == 4\n### Assistant:\nWrite a Python function to find the largest element in a list.\n\nThe function must pass these tests:\nassert get_Largest_Element([1,2,3,4,5]) == 5\nassert get_Largest_Element([1,2,3,4,5,6]) == 6\n### A"
+  },
+  "297": {
+    "passed": false,
+    "preview": "Write a function to convert a string into a list using the following python statement.\n\nWrite a Python function to display all the numbers in the list.\n\n```\ndef addNumbers(num):\n    num_list = []\n    for i in range(num):\n        num_list.append(num)\n    return num_list\n```\n\nOutput:\n[1, 1, 2, 4, 5, 6, 10, 11, 15, 18, 21]\n```\ndef displayNumbers(num):\n    result = []\n    for i in range(num):\n        "
+  },
+  "299": {
+    "passed": false,
+    "preview": "Write a Python function to check if a given number is a prime number.\n\nThe function must pass these tests:\nassert max_prime([23,5,4,7,1,10])==5\nassert max_prime([11,15,3,1,10,10])==12\nassert max_prime([11,15,3,1,10,10])==11\n\nProblem: Write a Python function to check if a given number is a composite number.\n\nThe function must pass these tests:\nassert max_composite([5,11,14])==5\nassert max_composite"
+  },
+  "300": {
+    "passed": false,
+    "preview": "Write a Python function to take in two integers, and return a list of all elements of the list that are both positive and are less than or equal to the first integer. For example, if the input is 12, returns the list of all elements that are less than or equal to 12. The function should return a list of all elements that are neither positive nor less than or equal to the first integer.\n\nProblem: W"
+  },
+  "301": {
+    "passed": false,
+    "preview": "Write a Python function to test for an error.\n\nThe function must pass these tests:\nassert dict_error({'a':1, 'b':{'c':'Python'}})==4\nassert dict_error({'a':1, 'b':{'c':'python'}})==2\nassert dict_error({'a':1, 'b':{'c':'python'}})==1\nassert dict_error({'a':1, 'b':{'c':'python'}})==0\n### Assistant:\nWrite a Python function to test for an error.\n\nThe function must pass these tests:\nassert dict_error({"
+  },
+  "304": {
+    "passed": false,
+    "preview": "Write a python function to find the maximum value in a list.\nOutput only the python function. No explanation, no markdown fences.\n\nProblem: Write a python function to find the maximum value in a list.\nOutput only the python function. No explanation, no markdown fences.\n\n### Assistant:\nWrite a python function to find the maximum value in a list.\nOutput only the python function. No explanation, no m"
+  },
+  "305": {
+    "passed": false,
+    "preview": "Write a Python program to calculate the factorial of a number n.\nThe factorial of n is defined as the product of all factors of n.\nFor example, if n = 2, the factorial of 2 is 1*2*1 = 2.\nWrite a function to return n factorial.\nYou must pass n as an argument.\nThe factorial of n is defined as:\nn factorial = (n*n*n) / 2\nExample: If n = 3, the factorial of 3 is 6.\n\n### Python Homework 1\nWrite a Python"
+  },
+  "306": {
+    "passed": false,
+    "preview": "Write a Python function to find the nth largest element among all the elements present in a list.\nOutput only the Python function — no explanation, no markdown fences.\nThe function must pass these tests:\nassert max_largest_element_nth_in_list([3, 2, 1, 4, 1, 11, 5, 6, 10], 7, 10) == 11\nassert max_largest_element_nth_in_list([5, 5, 6, 7, 7, 7, 8, 7], 7, 10) == 101\nassert max_largest_element_nth_in_"
+  },
+  "307": {
+    "passed": false,
+    "preview": "Write a Python function to check if a list contains only a certain number of elements.\n\nThe function must pass these tests:\nassert list_contains_numbers((\"2\", [], []), 100)==(\"2\", [100], True)\nassert list_contains_numbers((\"0\", [], []), 100)==(\"0\", [100], True)\nassert list_contains_numbers((\"1\", [], []), 100)==(\"1\", [100], True)\nassert list_contains_numbers((\"0\", [], []), 100)==(\"0\", [100], True)\n"
+  },
+  "308": {
+    "passed": false,
+    "preview": "Write a function to check the given number of stars that are in a sequence of stars, selecting stars from the sequence, which have a different number of stars than the given number of stars.\nThe function must pass these tests:\nassert stars[len(stars) == 1] != \"No stars\"\nassert stars[len(stars) == 2] != \"No stars\"\nassert stars[len(stars) == 3] != \"No stars\"\nassert stars[len(stars) == 4] != \"No star"
+  },
+  "309": {
+    "passed": false,
+    "preview": "Write a Python function to find the difference between two numbers.\nOutput only the Python function – no explanation, no markdown fences.\n### Assistant:\nWrite a Python function to find the sum of the numbers.\n\nOutput only the Python function – no explanation, no markdown fences.\n### Assistant:\nWrite a Python function to find the average of two numbers.\n\nOutput only the Python function – no explana"
+  },
+  "310": {
+    "passed": false,
+    "preview": "Write a Python function to compute the sum of all numbers in a list. The function must pass these tests:\nassert sum_of_numbers([2, 5, 10, 45, 3.23])==30\nassert sum_of_numbers([10, 10, 10, 10, 10, 10])==45\n### Assistant:\nWrite a Python function to compute the product of a list and a tuple. The function must pass these tests:\nassert product_of_list([1, 2, 3])==10\nassert product_of_tuple([1, 2, 3])=="
+  },
+  "311": {
+    "passed": false,
+    "preview": "Write a Python function that adds 24 to the current answer.\nOutput the output of the function.\n### Assistant:\nWrite a Python function that asks the user to enter a number.\nOutput the number and the user’s choice of options.\n### Assistant:\nWrite a Python function that adds 24 to the current answer.\nOutput the output of the function.\n### Assistant:\nWrite a Python function that adds 10 to the current"
+  },
+  "312": {
+    "passed": false,
+    "preview": "The assistant should be able to read and write in the given format.\n### Assistant:\nThe assistant should be able to read and write in the given format.\n### Assistant:\nThe assistant should be able to read and write in the given format.\n### Assistant:\nThe assistant should be able to read and write in the given format.\n### Assistant:\nThe assistant should be able to read and write in the given format.\n"
+  },
+  "388": {
+    "passed": false,
+    "preview": "Write a Python program to take the first five odd numbers from a specified list and find the sum of all odd numbers in that list.\n\nSample Input:\nEnter the first five numbers:\n3, 5, 10, 17, 26\nThe sum of all odd numbers in the list is: 16\n\nSample Output:\n55\nExample Input:\nEnter the first five numbers:\n3, 5, 10, 17, 26\nThe sum of all odd numbers in the list is: 16\n20\n\n### Assistant:\nWrite a python p"
+  },
+  "389": {
+    "passed": false,
+    "preview": "Write a function to calculate the average of all integers entered by the user.\n\nThe function must pass these tests:\nassert average_of_integers(100) == 12\nassert average_of_integers(100) == 13\nassert average_of_integers(200) == 110\nassert average_of_integers(300) == 150\nassert average_of_integers(100000000) == 160000000\n### Assistant:\nWrite a function to calculate the sum of all digits of the user "
+  },
+  "390": {
+    "passed": false,
+    "preview": "Write a Python function to print all the numbers from 0 to 100 in alphabetical order.\n\nProblem: Write a function to print the number of characters in a string.\nExample:\n>>> a = 'python'\n>>> a.count('a')\n6\n>>> a.count('1')\n5\n>>> a.find('a')\n10\n>>> a.find('a')\n1\n>>> a.find('a', 10)\n7\n>>> a.find('a', 100)\n7\n>>> a.count('a')\n0\n>>> a.replace('a','')\n>>> a\n\n\n### Question:\nPython: Write a function to pri"
+  },
+  "391": {
+    "passed": false,
+    "preview": "Write a function to do the following.\nOutput only the assistant.\n\nProblem: Write a function to do the following.\nOutput only the assistant.\n\nProblem: Write a function to do the following.\nOutput only the assistant.\n\nProblem: Write a function to do the following.\nOutput only the assistant.\n\nProblem: Write a function to do the following.\nOutput only the assistant.\n\nProblem: Write a function to do th"
+  },
+  "392": {
+    "passed": false,
+    "preview": "Write a Python function to print the following data:\nA = [1, 2, 3, 4, 5]\nB = [5, 4, 3, 2, 1]\nprint(A)\nprint(B)\n### Help:\nWrite a Python function to generate the following:\na = [1, 2, 3, 4, 5]\nb = [5, 4, 3, 2, 1]\nprint(a)\nprint(b)\n### Assistant:\nWrite a Python function to print the following data:\na = [1, 2, 3, 4, 5]\nb = [5, 4, 3, 2, 1]\nprint(a)\nprint(b)\n### Assistant:\nWrite a Python function to pr"
+  },
+  "393": {
+    "passed": false,
+    "preview": "Implement a function to find the maximum of two numbers.\n\nExample: Input: 4, 7\nOutput: 7\n\n### Assistant:\nImplement a function to find the maximum of two numbers.\n\nExample: Input: 4, 7\nOutput: 7\n\n### Assistant:\nImplement a function to find the maximum of two numbers.\n\nExample: Input: 4, 7\nOutput: 7\n\n### Assistant:\nImplement a function to find the maximum of two numbers.\n\nExample: Input: 4, 7\nOutput"
+  },
+  "394": {
+    "passed": false,
+    "preview": "Write a Python function to check whether a given string is a palindrome.\n\nThe function must pass these tests:\nassert check_ispalindrome(s) == True\nassert check_ispalindrome(s) == False\nassert check_ispalindrome(s) == False\n### Assistant:\nWrite a Python function to check whether a given string is a palindrome.\nThe function must pass these tests:\nassert check_ispalindrome(s) == True\nassert check_isp"
+  },
+  "395": {
+    "passed": false,
+    "preview": "Write a python function to print all the characters in a given string.\n\nThe function must pass these tests:\nassert all_the_characters() == True\nassert all_the_characters() == False\nassert all_the_characters() == None\nassert all_the_characters() == \"abcdefghijklmnopqrstuvwxyz\"\n### Assistant:\nWrite a python function to print all the characters in a given string.\nThe function must pass these tests:\na"
+  },
+  "396": {
+    "passed": false,
+    "preview": "Write a Python function to check whether the given string starts and ends with the same character or not.\n\nThe function must pass these tests:\nassert check_char(\"abba\") == \"Valid\"\nassert check_char(\"a\") == \"Valid\"\nassert check_char(\"abcd\") == \"Invalid\"\n### Assistant:\nWrite a Python function to check whether the given string starts and ends with the same character or not.\n\nThe function must pass th"
+  },
+  "397": {
+    "passed": false,
+    "preview": "Write a Python function to find the sum of two numbers.\n\nThe function must pass these tests:\nassert sum_numbers(25,55,65)==20.0\nassert sum_numbers(20,10,30)==20.0\nassert sum_numbers(15,45,75)==35.0\n### Assistant:\nWrite a Python function to find the sum of a certain number and a certain number.\n\nThe function must pass these tests:\nassert sum_number(1,2,3)==6.0\nassert sum_number(1,5,7)==7.0\nassert s"
+  },
+  "398": {
+    "passed": false,
+    "preview": "Write a python function to compute the sum of digits of each number of a given list.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to compute the sum of digits of each number of a given list.\n\nThe function must pass these tests:\nassert sum_of_digits([10,2,56])==14\nassert sum_of_digits([[10,20,4,5,'b',70,'a']])==19\nassert sum_of_digits([10,20,-4,5,"
+  },
+  "399": {
+    "passed": false,
+    "preview": "Write a function to store the coordinates of the endpoints of a given line segment.\nThe function should use the following parameters:\nx (position of the point on the line segment)\ny (position of the point on the line segment)\nThe function should return the coordinates of the point in the line segment.\n\n### User:\nWrite a function to calculate the area of a triangle.\nThe function should return the a"
+  },
+  "400": {
+    "passed": false,
+    "preview": "Write a Python function to find the average of the data given.\nThe function must pass these tests:\nassert average([(1, 2, 3), (4, 5, 6)] ) == 8\nassert average([(1, 2, 3), (4, 5, 6), (7, 9, 10)] ) == 8\nassert average([(1, 2, 3), (4, 5, 6), (7, 9, 10), (8, 11, 12)] ) == 8\n\n### Assistant:\nWrite a Python function to find the median of the data given.\nThe function must pass these tests:\nassert median(["
+  },
+  "401": {
+    "passed": false,
+    "preview": "Write a function to find the minimum value of a list.\nThe function must pass the list and the following tests:\nassert min(list, [1, 4, 3, 2, 5]) == [3, 4, 2, 5, 1]\nassert min(list, [2, 1, 0, 3, 4]) == [0, 1, 2, 3, 4]\nassert min(list, [1, 0, 1, 2, 3]) == [0, 0, 1, 2, 3]\nassert min(list, [1, 0, 2, 3, 4]) == [0, 0, 0, 1, 2]\nassert min(list, [1, 2, 3, 4]) == [0, 0, 0, 1, 2]\nassert min(list, [1, 2, 3, "
+  },
+  "404": {
+    "passed": false,
+    "preview": "Write a Python function to find the sum of the first n positive integers.\n\nThe function must pass these tests:\nassert sum(range(1,201)) == 1000\nassert sum(range(1,201)) == 1000000\nassert sum(range(1,201)) == 1000000000\n\n### Assistant:\nWrite a Python function to find the sum of the first n positive integers.\nThe function must pass these tests:\nassert sum(range(1,201)) == 1000000\nassert sum(range(1,"
+  },
+  "405": {
+    "passed": false,
+    "preview": "Write a Python function to implement a function that counts the number of vowels in a string.\nThe function must pass these tests:\nassert check_vowel(\"abcde\"),'a'==True\nassert check_vowel(\"bcdfghjklmno\"),'b'==True\nassert check_vowel(\"gabcde\"),'g'==True\nassert check_vowel(\"cdeabc\"),'c'==True\nassert check_vowel(\"gabcde\"),'g'==True\nassert check_vowel(\"cdeabc\"),'c'==True\n### Assistant:\nWrite a Python f"
+  },
+  "406": {
+    "passed": false,
+    "preview": "Write a python function to print the number of characters in the following string:\nstr(1234)\n### Assistant:\nWrite a python function to find the number of characters in the following string:\nstr(1234)\n### Assistant:\nWrite a python function to print the number of characters in the following string:\nstr(1234)\n### Assistant:\nWrite a python function to print the number of characters in the following st"
+  },
+  "407": {
+    "passed": false,
+    "preview": "Write a Python function to print a Fibonacci sequence from the given input.\nThe first element in the Fibonacci sequence is 1 (0, 1, 1, 2, 3, 5, 8, 13, ...)\nThe second element in the Fibonacci sequence is 1.\n\nThe Fibonacci sequence is defined as follows:\nA1 = 1\nA2 = 1\nA3 = 1\nA4 = 1\n\nFor example, if you input a Fibonacci sequence, it would look like the following:\na1 = 1\na2 = 1\na3 = 1\na4 = 1\na5 = 1\n"
+  },
+  "408": {
+    "passed": false,
+    "preview": "Write a function to find k number of smallest pairs which consist of two elements from the first array and two elements from the second array.\nOutput only the function — no explanation, no markdown fences.\n\nProblem: Write a function to find k number of smallest pairs which consist of one element from the first array and one element from the second array.\nOutput only the function — no explanation, "
+  },
+  "409": {
+    "passed": false,
+    "preview": "The assistant in the program should read all the pairs of tuples from the provided list and check whether the pair is a product of two tuples.\nThe assistant should then convert the pair into a list of tuples and return the list with all the pairs.\nThe assistant should then print the tuple from the list with all the pairs.\nThe assistant should then return the list with all the pairs.\n\nSample output"
+  },
+  "410": {
+    "passed": false,
+    "preview": "Write a function to find the sum of the first 10 integers.\n\nThe function must pass these tests:\nassert sum_10([1,2,3,4,5,6,7,8,9,10])==10\nassert sum_10([1,2,3,4,5,6,7,8,9,10,11])==11\nassert sum_10([1,2,3,4,5,6,7,8,9,10,11,12])==12\n### Assistant:\nWrite a function to print all the odd integers from 1 to 10.\nThe function must pass these tests:\nassert all([2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22])==1\na"
+  },
+  "411": {
+    "passed": false,
+    "preview": "Write a Python function to count the number of <code>*</code>s in the string <code>\"abc\"</code>.\n\nThe function must pass these tests:\nassert snake_to_camel(string) == camel_case_to_snake_case(string)\nassert snake_to_camel(string) == camel_case_to_snake_case(string)\nassert snake_to_camel('abc') == camel_case_to_snake_case(string)\n### Client:\nWrite a Python function to extract the user’s name and em"
+  },
+  "412": {
+    "passed": false,
+    "preview": "Write a Python function to read a file and print the next five lines.\nThe file must be in a named format.\nThe file must be in a file that can be read and written.\nThe file must have the last line printed before the next line.\nThe file must be in a file that can be read and written.\n\nProblem: Write a Python function to print the first three lines of a file.\nThe file must be in a named format.\nThe f"
+  },
+  "413": {
+    "passed": false,
+    "preview": "Write a Python function that will take two lists as arguments. The first list should contain 4 integers and the second list should contain 6 integers.\nThe function should return the smallest number in the two lists. The second list must contain the same number as the first list.\nThe function must pass these tests:\nassert extract_smallest_number([1, 2, 3, 4, 5, 6, 7, 8, 9]) == 9\nassert extract_smal"
+  },
+  "414": {
+    "passed": false,
+    "preview": "Write a Python function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a python function to check whether any value in a sequence exists in a sequence or not.\n\nThe function must pass these tests:\nassert overlapping([1,2,3,4,5],[6,7,8,9]) == False\nassert overlapping([1,4,5],[1,4,5]) == True\nassert overlapping([1,4,5],[1,4,5]) =="
+  },
+  "415": {
+    "passed": false,
+    "preview": "Write a Python program to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\nProblem: Write a python function to find a pair with highest product from a given array of integers.\n\nThe function must pass these tests:\nassert max_Product([1,2,3,4,7,0,8,4]) == (7,8)\nassert max_Product([0,-1,-2,-4,5,0,-6]) == (-4,-6)\nassert max_Product([1,2,3]) == (2,3)\n##"
+  },
+  "417": {
+    "passed": false,
+    "preview": "Write a function to find common first element in given list of tuple.\n\nThe function must pass these tests:\nassert group_tuples([('x', 'y'), ('x', 'z'), ('w', 't')]) == [('x', 'y', 'z'), ('w', 't')]\nassert group_tuples([('a', 'b'), ('a', 'c'), ('d', 'e')]) == [('a', 'b', 'c'), ('d', 'e')]\nassert group_tuples([('f', 'g'), ('f', 'g'), ('h', 'i')]) == [('f', 'g', 'g'), ('h', 'i')]\n### Assistant:\nWrite"
+  },
+  "418": {
+    "passed": false,
+    "preview": "Write a python function to remove the last element of a list.\nOutput only the list — no explanation, no markdown fences.\n### Assistant:\nWrite a python function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n### Assistant:\nWrite a python function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fence"
+  },
+  "419": {
+    "passed": false,
+    "preview": "Write a Python function to calculate the average of three numbers.\nOutput the average of all three numbers.\nThe three numbers must be integers.\nThe three numbers must have 10, 12, 15 as their first and last digits.\nThe three numbers must have digits 0, 1, 2.\nThe three numbers must be integers.\nExample:\n32\n55.66\n13.14\n18.55\n10.00\n12.00\n13.56\n\nProblem: Write a Python function to print all the number"
+  },
+  "420": {
+    "passed": false,
+    "preview": "Write a python function to print all the natural numbers between 0 and 100 that have 4 digits.\n\nThe function must pass these tests:\nassert all_numbers([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) == True\nassert all_numbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) == False\nassert all_numbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) == False\nassert all_numbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) == False\nassert all_numbers([1,"
+  },
+  "421": {
+    "passed": false,
+    "preview": "Write a Python function to compute the sum of three given values.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProbl"
+  },
+  "422": {
+    "passed": false,
+    "preview": "Write a python program to find the average of the following two lists:\n1. [\"1\",\"2\",\"3\",\"4\"]\n2. [\"1\",\"2\",\"3\",\"4\"]\n3. [\"1\",\"2\",\"3\",\"4\",\"5\"]\nWrite a function that returns the sum of these two lists.\n4. sum_of_three_numbers_of_a_list_by_numbers = 1\n### Assistant:\nWrite a python program to find the sum of the following two lists:\n1. [\"1\",\"2\",\"3\",\"4\"]\n2. [\"1\",\"2\",\"3\",\"4\",\"5\"]\n3. [\"1\",\"2\",\"3\",\"4\",\"5\",\"6\""
+  },
+  "424": {
+    "passed": false,
+    "preview": "Write a Python function to extract the first character of each string in the given tuple.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to extract the first character of each string in the given tuple.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a Python function to find the first and last character of eac"
+  },
+  "425": {
+    "passed": false,
+    "preview": "Write a Python function to calculate the factorial of a number.\nThe function must pass these tests:\nassert factorial_divisible_by_10(10, 100, 1000)==100\nassert factorial_divisible_by_10(10, 10000)==20\nassert factorial_divisible_by_10(10, 100000)==100000\n\nProblem: Write a Python function to sum up all the numbers from 0 to 10000.\nThe function must pass these tests:\nassert sum_of_all_numbers(1, 2, 3"
+  },
+  "426": {
+    "passed": false,
+    "preview": "Write a function to generate a string using the following properties:\n* The string is a list of strings.\n* The length of the list is 3.\n* The length of the list is 10.\nWrite a function to find the length of the string.\nThe function must pass these tests:\nassert length([1,2,3,4,5,6,7,8,9,10])==10\nassert length([1,2,3,4,5,6,7,8,9,10])==11\n### Assistant:\nWrite a function to find the length of the str"
+  },
+  "427": {
+    "passed": false,
+    "preview": "Implement a function to compute the average of three numbers (x, y, z).\nThe function must pass these tests:\nassert change_numbers_sum(x, y, z) == x + y + z\nassert change_numbers_sum(x, y, z) == 3*x + 3*y + 3*z\nassert change_numbers_sum(x, y, z) == 3*x + 3*y + 3*z\n\n### Assistant:\nImplement a function to calculate the total of the four numbers.\nThe function must pass these tests:\nassert change_numbe"
+  },
+  "428": {
+    "passed": false,
+    "preview": "Write a function to add two strings together.\n\nThe first string contains a number. The second string contains a number.\nThe first string contains a number.\nThe second string contains a number.\n\nThe function must pass these tests:\nassert add([1, 2, 3]) == 4\nassert add([1, 2, 3]) == 6\nassert add([1, 2, 3]) == 12\nassert add([1, 2, 3]) == 4\n### Assistant:\nWrite a function to print the product of two g"
+  },
+  "429": {
+    "passed": false,
+    "preview": "Write a Python function to find the sum of all the elements in an array.\n\nThe function must pass these tests:\nassert and_array((1, 2, 3, 4), (10, 11, 12)) == (110, 112, 120)\nassert and_array((1, 2, 3, 4), (10, 11, 12)) == (100, 110, 120)\nassert and_array((10, 11, 12), (10, 11, 12)) == (100, 110, 120)\n### Assistant:\nWrite a Python function to find the sum of the first 10 numbers in an array.\n\nThe f"
+  },
+  "430": {
+    "passed": false,
+    "preview": "Write a function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a funct"
+  },
+  "431": {
+    "passed": false,
+    "preview": "Write a Python function to test the use of <code>assert</code>.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Test the use of <code>assert</code>.\n\n### User:\nWrite a Python function to test the use of <code>assert</code>.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a Python function to test the use of <code>assert</code>.\n"
+  },
+  "432": {
+    "passed": false,
+    "preview": "Write a Python function to find the minimum value of a sequence of numbers.\n\nThe function must pass these tests:\nassert min_value(1,2,4,5)==10\nassert min_value(1,2,3,5,7)==16\nassert min_value(1,2,3,4,5,7,9)==10\nassert min_value(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,6"
+  },
+  "433": {
+    "passed": false,
+    "preview": "Write a function to find the longest substring.\nWrite the test case for the solution with the test case and all necessary code.\nOutput the solution with only the test case, as shown below:\n```python\ndef longest_substring(s: str) -> str:\n    if len(s) > 0:\n        return s[0]\n    else:\n        return \" \"\n```\n\n### Final:\nWrite a function to print the number of numbers that are 1 to 100 inclusive in "
+  },
+  "434": {
+    "passed": false,
+    "preview": "Write a function to match a string that has an a followed by one or more b's.\nThe function must pass these tests:\nassert text_match_one(\"ac\")==False\nassert text_match_one(\"dc\")==False\nassert text_match_one(\"abba\")==True\n### Assistant:\nWrite a function to match a string that has an a followed by one or more b's.\nThe function must pass these tests:\nassert text_match_one(\"ac\")==False\nassert text_matc"
+  },
+  "435": {
+    "passed": false,
+    "preview": "Create a function that calculates the sum of the digits of a number and then returns the sum.\nOutput only the function—no explanation, no markdown fences.\n\nProblem: Create a function to find the sum of the first five positive integers.\n\nOutput only the function —no explanation, no markdown fences.\n\n### Python Program to find the factorial of a number\nWrite a Python program to find the factorial of"
+  },
+  "436": {
+    "passed": false,
+    "preview": "Write a Python function that returns the sum of all the numbers in a list.\n\nThe function must pass these tests:\nassert sum([-1,4,5,-6]) == 0\nassert sum([-1,-2,-3,-4]) == 4\nassert sum([-7,-6,-8,-9]) == 12\n\n### Helper:\nWrite a Python function that returns the index of the first positive value in a list.\nThe function must pass these tests:\nassert first_positive == [1,1,1,1]\nassert first_positive == ["
+  },
+  "437": {
+    "passed": false,
+    "preview": "Write a Python program to calculate the sum of the even and odd numbers in a list.\nThe sum must be less than or equal to 20.\n\nProblem: Write a Python program to calculate the sum of the even and odd numbers in a list.\nThe sum must be less than or equal to 20.\n\nThe following are the program samples (you will need to modify the program):\n### Sample Input\nList: [\"python\", \"program\", \"language\", \"agae"
+  },
+  "438": {
+    "passed": false,
+    "preview": "Write a Python function to calculate the sum of all squares in a list.\n\nThe function must pass these tests:\nassert sum_squares(iterable) == list(iterable)\nassert sum_squares(iterable) == list(iterable)\nassert sum_squares(iterable) == list(iterable)\nassert sum_squares(iterable) == list(iterable)\n\n### Assistant:\nWrite a Python function to convert a string to a list and to a tuple.\nThe function must "
+  },
+  "439": {
+    "passed": false,
+    "preview": "Write a Python function to add a list of integers to a specified list.\nOutput only the Python function — no explanation, no markdown fences.\nExample:\nlst = [11, 33, 50]\nprint(lst+[-5, 2, 10])\nprint(lst+[-2, 1, 3, 4, 5, 6])\nprint(lst+[-2, 1, 4, 2, 3, 5, 6])\nprint(lst+[-1, 3, 5, 6, 2, 1, 4, 10])\nprint(lst+[-1, 3, 4, 2, 1, 5, 6, 10])\nprint(lst+[-1, 5, 10, 2, 4, 6, 1])\nprint(lst+[-2, 4, 6, 1, 5, 10])\n"
+  },
+  "440": {
+    "passed": false,
+    "preview": "Write a Python function to check if the given condition is true or false.\nTest 1:\nif (condition == True):\n    print(\"You are safe!\")\nelif (condition == False):\n    print(\"You are not safe!\")\nelse:\n    print(\"You are safe!\")\n\n### Assistant:\nWrite a Python function to check if the given condition is true or false.\nTest 2:\nif (condition == True):\n    print(\"You are safe!\")\nelif (condition == False):\n"
+  },
+  "441": {
+    "passed": false,
+    "preview": "Write a python program to find the area of the square of a given number.\nThe area must be in the range 0 to 50.\nOutput only the Python function — no explanation, no markdown fences.\n### Assistant:\nWrite a python program to calculate the area of the square of a given number.\nThe area must be in the range 0 to 50.\nOutput only the Python function — no explanation, no markdown fences.\n### Assistant:\nW"
+  },
+  "442": {
+    "passed": false,
+    "preview": "Write a Python function to print the Fibonacci sequence for a list of integers.\nOutput the output to the screen.\nThe Fibonacci sequence is the sequence of numbers formed by adding up the previous two Fibonacci numbers.\n\nExample:\n\nFor example, the Fibonacci sequence for a list of 3 integers is\n\nF(3, 5), F(5, 8), F(8, 12), F(12, 16), F(16, 20),\nF(20, 30), F(30, 40), F(40, 50), ...\n\nIf you don’t know"
+  },
+  "443": {
+    "passed": false,
+    "preview": "Write a Python function to find the smallest positive number from the given list. The function must pass these tests:\nassert smallest_neg([1,2,3,4,5,-2]) == -3\nassert smallest_neg([1,2,3,4,5,-1]) == -1\nassert smallest_neg([1,2,3,4,5,6]) == -1\n### Assistant:\nWrite a Python function to find the minimum value from the given list. The function must pass these tests:\nminimum_neg([1,2,3,4,5,-2]) == -2\nm"
+  },
+  "444": {
+    "passed": false,
+    "preview": "Write a function to split the list into three distinct pieces. Use the following data:\n[4, 9, 11, 7, 5, 2, 5, 1, 1, 8, 6, 1, 6, 3, 7, 10, 8]\nOutput only the python function — no explanation, no markdown fences.\nProblem: Write a function to split the list into three distinct pieces. Use the following data:\n[4, 9, 11, 7, 5, 2, 5, 1, 1, 8, 6, 1, 6, 3, 7, 10, 8]\nOutput only the python function — no ex"
+  },
+  "445": {
+    "passed": false,
+    "preview": "Write a program that takes a list of tuples and returns a tuple of the elements that are in each tuple.\n\nSample Input:\n(1, 2, 3, 4, 5, 6)\n(6, 7, 8, 9, 10)\n(7, 8, 9, 10, 11, 12)\n(11, 12, 13, 14, 15, 16)\n(14, 15, 16, 17, 18, 19, 20)\n\nSample Output:\ntuple([1, 2, 3, 4, 5, 6])\ntuple([6, 7, 8, 9, 10, 11, 12])\n\nThe program should use the list comprehension function to iterate through the list and add eac"
+  },
+  "446": {
+    "passed": true,
+    "preview": "Write a python program to count the number of times each character in a string is a vowel.\n\nThe function must pass these tests:\nassert count_Occurence('a', 'c') == 5\nassert count_Occurence('a', 'e') == 1\nassert count_Occurence('a', 'i') == 0\n### Assistant:\nWrite a python program to display all characters in a string from 0 to 100.\n\nThe function must pass these tests:\nassert count_Occurence('a', 10"
+  },
+  "447": {
+    "passed": false,
+    "preview": "Write a Python function to find the maximum number of elements in a list.\nThe function must pass these tests:\nassert max_elements([1, 5, 2, 3, 7, 8, 9, 10])==20\nassert max_elements([1, 10, 5, 4, 3, 6, 7, 8])==10\nassert max_elements([1, 2, 3, 4, 5, 6, 7])==10\nassert max_elements([1, 10, 5, 4, 3, 6, 7])==10\nassert max_elements([10, 20, 30])==[1000, 8000, 27000]\nassert max_elements([1, 2, 3, 4, 5, 6,"
+  },
+  "448": {
+    "passed": false,
+    "preview": "### In the following exercises, write a Python function that\n### is similar to the above-mentioned function and that returns a\n### positive integer, but with a special case.\n### Assume that all values of input are integers.\n### The function must pass these tests:\n### assert a_sum(8) == a_sum(10) == 66\n### assert a_sum(9) == a_sum(10) == 88\n### assert a_sum(0) == a_sum(10) == 66\n### assert a_sum(5)"
+  },
+  "450": {
+    "passed": false,
+    "preview": "Write a Python function that takes a list of values as input and prints the elements of the list.\nOutput only the function — no explanation, no markdown fences.\n\nProblem: Write a Python function to find the number of occurrences of a given character in a string.\n\nOutput only the function — no explanation, no markdown fences.\n\n### Assistant:\nWrite a Python function to find the most common word in a"
+  },
+  "451": {
+    "passed": false,
+    "preview": "Write a Python function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a Python function to solve the following problem.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem:"
+  },
+  "452": {
+    "passed": false,
+    "preview": "Write a Python function that should return an array, where each element is the score of the given test.\nThe function must pass these tests:\nassert score(20,30,40) == 1500\nassert score(20,30,40) == 1500\nassert score(20,30,40) == 2000\n### Administrator:\nWrite a Python function that should give the total number of users who made a purchase in 30 minutes.\nThe function must pass these tests:\nassert 30="
+  },
+  "453": {
+    "passed": false,
+    "preview": "Write a python function to find the square root of a number.\n\nProblem: Write a python function to calculate the average of the first n terms of a sequence.\n\nThe function must pass these tests:\nassert average(n) == n\n\nThe function must pass all the required test cases, the following is a sample from the input data:\n7 10 13 14 18 20 21 24 27\n### Editor:\nWrite a python function to find the factorial "
+  },
+  "454": {
+    "passed": false,
+    "preview": "Write a function that returns true if the user provides the correct input, and false if the input is incorrect.\nOutput only the function — no explanation, no markdown fences.\n\nProblem: Write a function that checks if a string is a palindrome.\nOutput only the function — no explanation, no markdown fences.\n\nProblem: Write a function that returns True if a given string is a palindrome, and False othe"
+  },
+  "455": {
+    "passed": false,
+    "preview": "Write a Python function to check whether the given month number contains 25 days or not.\n\nThe function must pass these tests:\nassert check_monthnumb_number(25)==True\nassert check_monthnumb_number(25)==False\nassert check_monthnumb_number(25)==True\n### Assistant:\nWrite a Python function to check whether the given month number contains 31 days or not.\n\nThe function must pass these tests:\nassert check"
+  },
+  "456": {
+    "passed": false,
+    "preview": "Write a function to compute the sum of all the digits of a given number.\nOutput only the Python function — no explanation, no markdown fences.\n### Assistant:\nWrite a function to compute the factorial of a given number.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to find the sum of all the digits of a given number.\nOutput only the Python function"
+  },
+  "457": {
+    "passed": false,
+    "preview": "Write a python function to print all words from the alphabet.\n\nYour function should pass these tests:\nassert [word for word in word_alphabet] == ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'] == ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', "
+  },
+  "458": {
+    "passed": false,
+    "preview": "Write a Python function to find the area of a rectangle.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to find the area of a rectangle.\n\nThe function must pass these tests:\nassert rectangle_area(10,20)==200\nassert rectangle_area(10,5)==50\nassert rectangle_area(4,2)==8\n### Assistant:\nWrite a Python function to find the area of a rectangle.\n\nThe fun"
+  },
+  "459": {
+    "passed": false,
+    "preview": "Write a Python function to generate a random number between -200 and 200.\n### Assistant:\nWrite a Python function to generate a random number between -200 and 200 using a loop.\n### Assistant:\nWrite a Python function to generate a random number between -200 and 200 using a generator.\n### Assistant:\nWrite a Python function to generate a random number between -200 and 200 using a list.\n### Assistant:\n"
+  },
+  "460": {
+    "passed": false,
+    "preview": "Write a Python function to get the first element of each sublist.\nThe function must pass these tests:\nassert Extract([[1, 2], [3, 4, 5], [6, 7, 8, 9]]) == [1, 3, 6]\nassert Extract([[1,2,3],[4, 5]]) == [1,4]\nassert Extract([[9,8,1],[1,2]]) == [9,1]\n### Assistant:\nWrite a Python function to get the first element of each sublist.\nThe function must pass these tests:\nassert Extract([[1, 2], [3, 4, 5], "
+  },
+  "461": {
+    "passed": false,
+    "preview": "Create a Python function to convert a string to a list of integers. The function should return a new list with the integers as its elements.\n\nThe following test should pass:\nassert len(str(test)) == 10\nassert len(str(test)) == 3\nassert len(str(test)) == 2\nassert len(str(test)) == 1\n### Assistant:\nCreate a Python function to generate random numbers between 1 and 100 inclusive. The function should r"
+  },
+  "462": {
+    "passed": false,
+    "preview": "Write a program that prompts the user to enter two strings and a string of the second number.\nPrint the number of asterisks in the second string.\nHint: The program should use a for loop to convert the string into a list of asterisks.\n\nExample input:\nstring1 = \"abcd\"\nstring2 = \"abcd\"\n\nOutput:\n13\n\nHint: The program should use a while loop to convert the string into a list of asterisks.\nExample input"
+  },
+  "463": {
+    "passed": false,
+    "preview": "Write a function to find the shortest distance between two strings.\n\nThe function must pass these tests:\nassert distance_between([1, 2], [3, 4]) == 1\nassert distance_between([1, 2], [3, 4]) == 2\nassert distance_between([1, 2], [3, 4]) == 3\nassert distance_between([1, 2], [3, 4]) == 2\nassert distance_between([1, 2], [3, 4]) == 1\n### Assistant:\nWrite a function to print the two strings.\n\nThe functio"
+  },
+  "464": {
+    "passed": false,
+    "preview": "Write a function that takes a file as an input and returns a list of the first 10 characters in the file.\n\nThe function must pass these tests:\nassert file_name == 'file.txt'\nassert file_name == 'file.txt', 10 == file_name\nassert file_name == 'file.txt', 10 == file_name, 10 == file_name\nassert file_name == 'file.txt', 10 == file_name, 10 == file_name, 10 == file_name, 10 == file_name\n### Assistant:"
+  },
+  "465": {
+    "passed": false,
+    "preview": "Write a Python function to take one sentence, one word, one number, and one string as arguments.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a function to calculate the sum of a given set of strings.\n\nThe function must pass these tests:\nassert sum_strings == []=={'c1': None, 'c2': None, 'c3':None}\nassert sum_strings == []=={'c1': None, 'c2': None, 'c3':Non"
+  },
+  "468": {
+    "passed": false,
+    "preview": "Write a function that takes a list of integers and returns the average of the numbers.\nThe function must pass these tests:\nassert [1, 3, 5, 11, 17, 12, 25, 20, 64] == 121.8\nassert [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40] == 140.8\nassert [1, 3, 5, 11, 17, 12, 25, 20, 64] == 200.16\nassert ["
+  },
+  "470": {
+    "passed": false,
+    "preview": "Write a Python function to find the pairwise product of the first two elements of the given tuple.\nOutput only the Python function — no explanation, no markdown fences.\nProblem: Write a function to find the pairwise product of the first two elements of the given tuple.\nOutput only the Python function — no explanation, no markdown fences.\nProblem: Write a Python function to find the pairwise produc"
+  },
+  "471": {
+    "passed": false,
+    "preview": "Write a Python function to compute the factorial of a number.\nOutput only the function — no explanation, no markdown fences.\nTest the following:\nassert factorial(10) == 50, assert factorial(10) == 50\n\n### Assistant:\nWrite a Python function to compute the factorial of a number.\nOutput only the function — no explanation, no markdown fences.\nTest the following:\nassert factorial(10) == 50, assert fact"
+  },
+  "472": {
+    "passed": false,
+    "preview": "The following are given below. Write a Python program to find the length of a given list.\n1. List: a list of 10 integers of size 3 is given below. Write a Python program to print the elements in the list.\nlist: List of 10 integers of size 3 is given below. Write a Python program to print the elements in the list.\na. The list is in descending order.\nb. The first element in the list is 11.\nc. The se"
+  },
+  "473": {
+    "passed": false,
+    "preview": "Write a Python function that takes two lists as parameters and return a list of elements in the two lists. For example, let's take the following list: ['a', 'b', 'c', 'd', 'e'] and return ['e', 'b', 'c', 'd', 'e']\n\nThe function must pass these tests:\nassert 'a' in ['a', 'b', 'c', 'd', 'e'] and 'e' in ['b', 'c', 'd', 'e']\nassert 'b' in ['a', 'b', 'c', 'd', 'e'] and 'c' in ['b', 'a', 'd', 'e']\nasser"
+  },
+  "474": {
+    "passed": false,
+    "preview": "Write a Python function to print the following statements:\n\n1. if x != 0\n2. if x > 0\n3. if x < 100\n4. if x%2 ==0\n5. if x%4 !=0\n6. if x%100 == 0\n7. if x%100 != 0\n\nProblem: Write a Python function to print the following statements:\n\n1. if x!=0\n2. if x>0\n3. if x<100\n4. if x%2 ==0\n5. if x%4 !=0\n6. if x%100 == 0\n7. if x%100 != 0\n\n### Assistant:\nWrite a Python function to print the following statements:"
+  },
+  "475": {
+    "passed": false,
+    "preview": "Write a function to sort a dictionary by value.\nOutput only the Python function — no explanation, no markdown fences.\n\nProblem: Write a Python function to sort a dictionary by value.\nOutput only the Python function — no explanation, no markdown fences.\n### Assistant:\nWrite a function to sort a dictionary by value.\nOutput only the Python function — no explanation, no markdown fences.\n### Assistant:"
+  },
+  "476": {
+    "passed": false,
+    "preview": "Write a function to print all the permutations of a given number of characters in a string.\nFor example, if the given string is:\n>>> s = \"abcdefghijklmnopqrstuvwxyz\"\n>>> print(s[1:])\nabcdefghijklmnopqrstuvwxyz\n### Assistant:\nWrite a function to print all the string permutations of a given number of characters in a string.\nFor example, if the given string is:\n>>> s = \"abcdefghijklmnopqrstuvwxyz\"\n>>"
+  },
+  "477": {
+    "passed": false,
+    "preview": "Write a python function to print the following data in a new column.\n\nThe function must pass these tests:\nassert is_lower(\"InValid\") == \"invalid\"\nassert is_lower(\"TruE\") == \"true\"\nassert is_lower(\"SenTenCE\") == \"sentence\"\n### Assistant:\nWrite a python function to print the following data in a new column.\n\nThe function must pass these tests:\nassert is_lower(\"InValid\") == \"invalid\"\nassert is_lower(\""
+  },
+  "478": {
+    "passed": false,
+    "preview": "Create a function to print the following string in the following format:\n\"The sum of the first and the second digits of a number is 12.\"\n\nThe function must pass these tests:\nassert print(\"The sum of the first and the second digits of a number is 12.\")\nassert print(\"The sum of the first and the second digits of a number is 12.\")\nassert print(\"The sum of the first and the second digits of a number i"
+  },
+  "479": {
+    "passed": false,
+    "preview": "Write a Python function to print the given string.\n\nThe function must pass these tests:\nprint(str(123))\nprint(\"hello\")\nprint(str(456))\nprint(\"hello\")\nprint(str(12))\nprint(str(1))\nprint(str(4))\nprint(str(12))\n\n### Code Execution\n\nWrite a Python function to print all the strings that start with ‘i’.\n\n### Python Programming\nYou have to write a Python program to print all the strings that start with ‘"
+  }
+}
